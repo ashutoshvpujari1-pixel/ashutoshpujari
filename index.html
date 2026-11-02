@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ashutosh Pujari — Technical Architect, Java and J2EE specialist, Contact Center and IVR expert, freelancer, corporate trainer and technology mentor.">
+  <meta name="keywords" content="Ashutosh Pujari, Technical Architect, Java, J2EE, Spring Boot, Microservices, Contact Center, IVR, Corporate Training, Freelancer, Software Development">
+  <meta name="author" content="Ashutosh Pujari">
+  <meta property="og:title" content="Ashutosh Pujari | Technical Architect & Technology Consultant">
+  <meta property="og:description" content="20+ years of software engineering, architecture, delivery and production support experience.">
+  <meta property="og:type" content="website">
+  <title>Ashutosh Pujari | Technical Architect • Consultant • Trainer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{--navy:#101d35;--navy2:#172b4d;--blue:#2463eb;--cyan:#35c5d5;--ink:#172033;--muted:#62708a;--line:#e5eaf2;--paper:#f6f8fc;--white:#fff;--gold:#e7ad45;--shadow:0 18px 50px rgba(17,34,64,.10)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:88px}body{margin:0;font-family:"DM Sans",sans-serif;color:var(--ink);background:#fff;line-height:1.65}a{color:inherit;text-decoration:none}button,input,textarea{font:inherit}.container{width:min(1160px,92%);margin:auto}.topbar{background:#0b1426;color:#dce6f7;font-size:13px}.topbar .container{display:flex;justify-content:space-between;gap:15px;padding:9px 0;flex-wrap:wrap}.topbar a{color:#fff}.nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.94);backdrop-filter:blur(14px);border-bottom:1px solid rgba(220,228,240,.85)}.navinner{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font:800 19px Manrope,sans-serif;letter-spacing:-.6px;color:var(--navy)}.brand span{color:var(--blue)}.navlinks{display:flex;align-items:center;gap:23px;font-size:13px;font-weight:700;color:#42516a}.navlinks a:hover{color:var(--blue)}.navcta,.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:12px 18px;border-radius:10px;background:var(--blue);color:white;font-weight:700;border:1px solid var(--blue);transition:.2s;cursor:pointer}.navcta:hover,.btn:hover{transform:translateY(-2px);box-shadow:0 9px 22px #2463eb38}.menuBtn{display:none;border:0;background:#eef3ff;border-radius:9px;padding:9px 12px;font-size:20px}
+    .hero{position:relative;overflow:hidden;background:radial-gradient(circle at 80% 20%,#2d5794 0,transparent 30%),linear-gradient(120deg,#0c172c,#152c50 65%,#183d65);color:white;padding:78px 0 84px}.hero:after{content:"";position:absolute;width:480px;height:480px;border:1px solid #ffffff16;border-radius:50%;right:-120px;bottom:-270px;box-shadow:0 0 0 45px #ffffff08,0 0 0 90px #ffffff06}.heroGrid{display:grid;grid-template-columns:1.4fr .75fr;gap:60px;align-items:center;position:relative;z-index:1}.eyebrow{display:inline-flex;align-items:center;gap:9px;color:#a9d9ff;text-transform:uppercase;letter-spacing:2px;font-size:11px;font-weight:800}.pulse{width:8px;height:8px;border-radius:50%;background:#57e2bb;box-shadow:0 0 0 5px #57e2bb25}.hero h1{font:800 clamp(38px,5.4vw,65px)/1.1 Manrope,sans-serif;letter-spacing:-2.2px;margin:19px 0}.hero h1 em{font-style:normal;color:#65d6e4}.hero p{max-width:700px;color:#d1dced;font-size:17px;line-height:1.8}.heroActions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn.light{background:white;color:var(--navy);border-color:white}.btn.outline{background:transparent;border-color:#ffffff70;color:white}.heroFacts{display:flex;gap:27px;flex-wrap:wrap;margin-top:38px}.fact strong{display:block;font:800 26px Manrope;color:#fff}.fact span{font-size:12px;color:#b9c9df}.profileCard{justify-self:center;text-align:center;background:#ffffff0d;border:1px solid #ffffff25;border-radius:24px;padding:24px;width:min(300px,100%);backdrop-filter:blur(8px);box-shadow:0 20px 60px #0003}.profileRing{width:190px;height:190px;border-radius:50%;padding:6px;margin:auto;background:linear-gradient(135deg,#62dce8,#fff,#4e83ff)}.profileRing img{width:100%;height:100%;object-fit:cover;object-position:center 28%;border-radius:50%;border:4px solid #fff}.profileCard h3{font:800 20px Manrope;margin:17px 0 2px}.profileCard p{font-size:12px;margin:0;color:#c7d7ec}.socials{display:flex;justify-content:center;gap:9px;margin-top:15px}.socials a{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:#ffffff1a;font-size:12px;font-weight:800}
+    .trust{background:#fff;border-bottom:1px solid var(--line)}.trust .container{display:flex;align-items:center;justify-content:space-between;gap:15px;padding:20px 0;flex-wrap:wrap}.trust small{color:#8994a7;font-weight:700;text-transform:uppercase;letter-spacing:1.4px}.trust strong{font:800 15px Manrope;color:#50617b}
+    section{padding:82px 0}.sectionHead{max-width:720px;margin-bottom:38px}.kicker{color:var(--blue);font-size:11px;font-weight:800;letter-spacing:2px;text-transform:uppercase}.sectionHead h2{font:800 clamp(28px,3.4vw,40px)/1.2 Manrope;letter-spacing:-1px;margin:9px 0 12px;color:var(--navy)}.sectionHead p{color:var(--muted);margin:0}.aboutGrid{display:grid;grid-template-columns:1.05fr .95fr;gap:50px;align-items:start}.aboutText p{color:#5d6a80}.highlight{background:var(--paper);border-left:4px solid var(--blue);padding:18px 20px;border-radius:0 12px 12px 0;margin:24px 0;color:#394860}.skillGrid{display:grid;grid-template-columns:1fr 1fr;gap:13px}.skill{padding:18px;border:1px solid var(--line);border-radius:13px;background:white}.skill b{display:block;font:700 14px Manrope;color:var(--navy);margin-bottom:5px}.skill span{font-size:12px;color:var(--muted)}
+    .soft{background:var(--paper)}.serviceGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.service{background:white;border:1px solid var(--line);border-radius:16px;padding:25px;transition:.25s}.service:hover,.siteCard:hover,.project:hover{transform:translateY(-5px);box-shadow:var(--shadow)}.serviceIcon{width:45px;height:45px;border-radius:12px;background:#edf3ff;color:var(--blue);display:grid;place-items:center;font-size:21px;margin-bottom:16px}.service h3{font:800 17px Manrope;margin:0 0 8px;color:var(--navy)}.service p{font-size:13px;color:var(--muted);margin:0}.tagrow{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}.tag{font-size:11px;font-weight:700;color:#31538a;background:#edf3ff;padding:5px 9px;border-radius:30px}
+    .timeline{border-left:2px solid #dce6f7;margin-left:8px;padding-left:25px}.career{position:relative;margin:0 0 22px}.career:before{content:"";position:absolute;left:-33px;top:7px;width:13px;height:13px;border-radius:50%;background:var(--blue);border:3px solid white;box-shadow:0 0 0 2px #b9ccf2}.career strong{font:800 15px Manrope;color:var(--navy)}.career span{font-size:12px;color:var(--blue);font-weight:800;margin-left:8px}.career p{margin:3px 0;color:var(--muted);font-size:13px}
+    .sitesGrid{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.siteCard{background:#fff;border:1px solid var(--line);border-radius:14px;padding:19px;transition:.25s;display:flex;flex-direction:column;min-height:160px}.siteLogo{width:38px;height:38px;border-radius:10px;background:linear-gradient(135deg,#1f5eea,#42c9d4);color:white;display:grid;place-items:center;font-weight:900;margin-bottom:13px}.siteCard h3{font:800 14px Manrope;margin:0 0 5px;color:var(--navy)}.siteCard p{font-size:12px;color:var(--muted);margin:0 0 12px;flex:1}.siteCard a{font-size:12px;color:var(--blue);font-weight:800}
+    .resumeBox{background:linear-gradient(120deg,#142849,#1d4772);color:white;border-radius:22px;padding:34px;display:flex;align-items:center;justify-content:space-between;gap:25px}.resumeBox h2{font:800 27px Manrope;margin:0 0 8px}.resumeBox p{color:#d0dced;margin:0}.resumeActions{display:flex;gap:10px;flex-wrap:wrap}.resumeActions .btn{white-space:nowrap}.resumeActions .btn.light{color:var(--navy)}
+    .articleLayout{display:grid;grid-template-columns:.8fr 1.2fr;gap:25px;align-items:start}.editor,.articleList{background:white;border:1px solid var(--line);border-radius:16px;padding:23px;box-shadow:0 8px 25px #1a31500a}.editor h3,.articleList h3{font:800 17px Manrope;color:var(--navy);margin:0 0 15px}.field{margin-bottom:12px}.field label{display:block;font-size:12px;font-weight:800;color:#53627a;margin-bottom:5px}.field input,.field textarea{width:100%;border:1px solid #dce3ed;border-radius:9px;padding:11px 12px;outline:none;background:#fbfcff}.field input:focus,.field textarea:focus{border-color:var(--blue);box-shadow:0 0 0 3px #2463eb16}.field textarea{min-height:120px;resize:vertical}.editorNote{font-size:11px;color:#8994a7;margin:10px 0 0}.articleItem{padding:15px 0;border-bottom:1px solid var(--line)}.articleItem:last-child{border:0}.articleMeta{font-size:11px;color:var(--blue);font-weight:800}.articleItem h4{font:800 15px Manrope;margin:4px 0;color:var(--navy)}.articleItem p{font-size:13px;color:var(--muted);white-space:pre-wrap;margin:0}.articleTools{display:flex;gap:12px;margin-top:8px}.textBtn{border:0;background:none;padding:0;color:var(--blue);font-size:11px;font-weight:800;cursor:pointer}
+    .trendGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.trend{border:1px solid var(--line);border-radius:15px;padding:21px;background:#fff}.trend .trendNo{font-size:11px;color:var(--blue);font-weight:900;letter-spacing:1px}.trend h3{font:800 16px Manrope;color:var(--navy);margin:8px 0}.trend p{font-size:12px;color:var(--muted);margin:0 0 13px}.trend a{font-size:12px;font-weight:800;color:var(--blue)}
+    .contactGrid{display:grid;grid-template-columns:.9fr 1.1fr;gap:35px}.contactInfo{background:var(--navy);border-radius:18px;padding:28px;color:white}.contactInfo h3{font:800 21px Manrope;margin:0 0 10px}.contactInfo p{font-size:13px;color:#c5d2e4}.contactLine{padding:13px 0;border-bottom:1px solid #ffffff20;font-size:13px;overflow-wrap:anywhere}.contactLine b{display:block;color:#8ec8ff;font-size:11px;text-transform:uppercase;letter-spacing:1px}.contactForm{border:1px solid var(--line);border-radius:18px;padding:27px}.contactForm h3{font:800 20px Manrope;margin:0 0 15px;color:var(--navy)}.contactForm textarea{min-height:130px}
+    footer{background:#0b1426;color:#b9c5d8;padding:35px 0}.footerRow{display:flex;justify-content:space-between;gap:20px;align-items:center;flex-wrap:wrap}.footerBrand{font:800 18px Manrope;color:white}.footerLinks{display:flex;gap:17px;flex-wrap:wrap;font-size:12px}.copyright{font-size:11px;color:#8090a8;margin-top:18px;border-top:1px solid #ffffff18;padding-top:16px}
+    .toTop{position:fixed;right:20px;bottom:20px;background:var(--blue);color:#fff;border:0;border-radius:50%;width:43px;height:43px;font-size:19px;box-shadow:var(--shadow);cursor:pointer;display:none;z-index:20}.toast{position:fixed;bottom:75px;right:20px;background:#142849;color:#fff;padding:12px 17px;border-radius:10px;box-shadow:var(--shadow);font-size:13px;display:none;z-index:100}
+    @media(max-width:900px){.navlinks{display:none;position:absolute;top:76px;left:0;right:0;background:white;padding:18px 5%;border-bottom:1px solid var(--line);flex-direction:column;align-items:flex-start}.navlinks.open{display:flex}.menuBtn{display:block}.navcta{display:none}.heroGrid,.aboutGrid,.articleLayout,.contactGrid{grid-template-columns:1fr}.profileCard{grid-row:1;justify-self:start;width:100%;max-width:280px}.hero{padding:55px 0}.serviceGrid{grid-template-columns:repeat(2,1fr)}.sitesGrid{grid-template-columns:repeat(2,1fr)}.resumeBox{align-items:flex-start;flex-direction:column}.trendGrid{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:560px){section{padding:60px 0}.hero h1{letter-spacing:-1.4px}.heroFacts{gap:18px}.fact strong{font-size:22px}.serviceGrid,.sitesGrid,.skillGrid,.trendGrid{grid-template-columns:1fr}.trust .container{justify-content:flex-start}.resumeBox{padding:25px}.heroActions .btn{width:100%}.topbar .container{font-size:11px}}
+  </style>
+</head>
+<body>
+  <div class="topbar"><div class="container"><span>📍 Pune, India &nbsp; | &nbsp; Available for freelance & consulting engagements</span><span><a href="mailto:ashutoshvpujari@rediffmail.com">ashutoshvpujari@rediffmail.com</a> &nbsp; • &nbsp; <a href="tel:+919860985354">+91 98609 85354</a></span></div></div>
+  <nav class="nav"><div class="container navinner">
+    <a class="brand" href="#home">ASHUTOSH<span>PUJARI.</span></a>
+    <button class="menuBtn" id="menuBtn" aria-label="Open navigation">☰</button>
+    <div class="navlinks" id="navlinks">
+      <a href="#about">About</a><a href="#services">Services</a><a href="#experience">Experience</a><a href="#websites">My Websites</a><a href="#articles">Articles</a><a href="#trends">Latest Trends</a><a href="#contact">Contact</a>
+    </div>
+    <a class="navcta" href="#contact">Let's Connect ↗</a>
+  </div></nav>
+
+  <main>
+    <section class="hero" id="home"><div class="container heroGrid">
+      <div>
+        <div class="eyebrow"><span class="pulse"></span> Technical Architect · Freelancer · Mentor</div>
+        <h1>Building reliable software.<br><em>Sharing knowledge.</em></h1>
+        <p>I am Ashutosh Pujari — a technology professional with 20+ years of experience in software development, architecture, maintenance and production support. I help businesses and teams turn ideas into dependable software solutions through engineering, consulting and practical training.</p>
+        <div class="heroActions"><a class="btn light" href="#services">Explore My Services →</a><a class="btn outline" href="Ashutosh_Pujari_Resume.pdf" target="_blank" rel="noopener">View Resume ↗</a></div>
+        <div class="heroFacts"><div class="fact"><strong>20+</strong><span>Years IT experience</span></div><div class="fact"><strong>10+</strong><span>Years architecture focus</span></div><div class="fact"><strong>15</strong><span>Largest team led</span></div><div class="fact"><strong>25</strong><span>End-to-end delivery</span></div></div>
+      </div>
+      <div class="profileCard"><div class="profileRing"><img src="ashutosh-pujari.jpg" alt="Ashutosh Pujari profile photograph"></div><h3>Ashutosh Pujari</h3><p>Technical Architect | Java & Contact Center Specialist</p><div class="socials"><a href="https://www.linkedin.com/in/ashutosh-pujari-91303b34/" target="_blank" rel="noopener" aria-label="LinkedIn">in</a><a href="mailto:ashutoshvpujari@rediffmail.com" aria-label="Email">✉</a><a href="tel:+919860985354" aria-label="Phone">☎</a></div></div>
+    </div></section>
+
+    <div class="trust"><div class="container"><small>Experience across</small><strong>L&T Infotech</strong><strong>HSBC Global Technology</strong><strong>Avaya</strong><strong>Capgemini</strong><strong>Mphasis</strong><strong>Neurealm</strong></div></div>
+
+    <section id="about"><div class="container">
+      <div class="sectionHead"><div class="kicker">About Me</div><h2>Engineering experience with an ownership mindset.</h2><p>From architecture and hands-on development to releases and production support, I bring a practical, end-to-end perspective to technology delivery.</p></div>
+      <div class="aboutGrid"><div class="aboutText">
+        <p>My core background is in Java/J2EE technologies, enterprise application development and Contact Center / IVR platforms. Over the years, I have worked with teams and customers in banking, customer service, trading and enterprise technology environments.</p>
+        <p>I have contributed across the complete delivery lifecycle: requirements, estimation, solution architecture, HLD/LLD, coding, code reviews, testing, deployment, production support and stakeholder coordination. I have also led and mentored teams of up to 15 members.</p>
+        <div class="highlight"><b>My current focus:</b> helping organizations build and improve software, enabling developers through practical corporate training, and mentoring engineers and technology teams.</div>
+        <a class="btn" href="#contact">Discuss an Engagement →</a>
+      </div><div class="skillGrid">
+        <div class="skill"><b>Java & Enterprise</b><span>Java, J2EE, Spring, Spring Boot, Spring MVC, Hibernate, REST, SOAP, JMS</span></div>
+        <div class="skill"><b>Architecture</b><span>Solution architecture, HLD/LLD, UML, design patterns, microservices</span></div>
+        <div class="skill"><b>Contact Center & IVR</b><span>VXML, Avaya Aura, IVR, CTI, Agent Desktop, Nuance Speech Server</span></div>
+        <div class="skill"><b>Cloud & DevOps</b><span>AWS, Git, Jenkins, OpenShift, Docker, Kubernetes</span></div>
+        <div class="skill"><b>Modern Engineering</b><span>GitHub Copilot, Microsoft Copilot, Cursor AI, Claude, GenAI, Agentic AI</span></div>
+        <div class="skill"><b>Delivery & Leadership</b><span>Estimation, planning, code review, testing, releases, mentoring</span></div>
+      </div></div>
+    </div></section>
+
+    <section class="soft" id="services"><div class="container">
+      <div class="sectionHead"><div class="kicker">How I Can Help</div><h2>Services for businesses and technology professionals.</h2><p>Flexible engagement models — from a focused consultation to a complete development assignment or a customized learning program.</p></div>
+      <div class="serviceGrid">
+        <article class="service"><div class="serviceIcon">⌘</div><h3>Website & Application Development</h3><p>Professional websites, web applications, Java-based solutions, REST APIs, integrations and custom development tailored to business needs.</p><div class="tagrow"><span class="tag">Web Development</span><span class="tag">Java</span><span class="tag">APIs</span></div></article>
+        <article class="service"><div class="serviceIcon">🎓</div><h3>Corporate Technical Training</h3><p>Customized, practical sessions for corporate teams, with examples and exercises aligned to your technology stack and objectives.</p><div class="tagrow"><span class="tag">Java</span><span class="tag">Spring Boot</span><span class="tag">Microservices</span></div></article>
+        <article class="service"><div class="serviceIcon">◎</div><h3>Consulting & Architecture</h3><p>Architecture reviews, technical guidance, solution design, modernization planning and help resolving complex engineering challenges.</p><div class="tagrow"><span class="tag">HLD / LLD</span><span class="tag">Architecture</span></div></article>
+        <article class="service"><div class="serviceIcon">♧</div><h3>Mentoring & Career Guidance</h3><p>One-to-one or group mentoring for developers, leads and aspiring architects, focused on practical engineering and problem solving.</p><div class="tagrow"><span class="tag">Mentoring</span><span class="tag">Code Reviews</span></div></article>
+        <article class="service"><div class="serviceIcon">⚙</div><h3>Maintenance & Production Support</h3><p>Application maintenance, troubleshooting, production issue analysis, performance improvement and support-process enhancement.</p><div class="tagrow"><span class="tag">L3 / L4 Support</span><span class="tag">Reliability</span></div></article>
+        <article class="service"><div class="serviceIcon">✦</div><h3>Customized Learning Sessions</h3><p>Focused workshops designed around your team's needs — from fundamentals and hands-on labs to advanced enterprise use cases.</p><div class="tagrow"><span class="tag">Workshops</span><span class="tag">Team Enablement</span></div></article>
+      </div>
+    </div></section>
+
+    <section id="experience"><div class="container">
+      <div class="sectionHead"><div class="kicker">Career Journey</div><h2>Experience built across enterprise technology.</h2><p>Selected career timeline from my executive resume.</p></div>
+      <div class="timeline">
+        <div class="career"><strong>Freelancer — Technical Architect</strong><span>2026 – Present</span><p>Independent technology services, consulting, development and training.</p></div>
+        <div class="career"><strong>Neurealm (earlier GAVS-GSLab) — Associate Project Manager</strong><span>2024 – 2026</span><p>Avaya server products and L4 support leadership.</p></div>
+        <div class="career"><strong>Mphasis — Project Manager</strong><span>2021 – 2024</span><p>Charles Schwab trading application; design, coding, integration testing, deployment and release.</p></div>
+        <div class="career"><strong>Capgemini — Technical Manager</strong><span>2016 – 2021</span><p>One IVR / Skybranch for Barclays retail banking contact-center flows.</p></div>
+        <div class="career"><strong>Avaya (India) Ltd. — Software Architect</strong><span>2014 – 2015</span><p>IVR and Contact Center technology solutions.</p></div>
+        <div class="career"><strong>HSBC Global Technology — Senior Consultant Specialist</strong><span>2005 – 2013</span><p>Architected reusable VXML IVR platform and in-house HSBC Voice Framework.</p></div>
+        <div class="career"><strong>L&T Infotech — Project Leader</strong><span>2000 – 2005</span><p>Enterprise software engineering and project delivery.</p></div>
+      </div>
+      <div class="tagrow" style="margin-top:26px"><span class="tag">Motorola</span><span class="tag">HSBC</span><span class="tag">Barclays</span><span class="tag">Avaya</span><span class="tag">Charles Schwab</span><span class="tag">Ticketek</span></div>
+    </div></section>
+
+    <section class="soft" id="websites"><div class="container">
+      <div class="sectionHead"><div class="kicker">Independent Projects</div><h2>Websites I have designed and developed.</h2><p>A selection of my online projects focused on developer productivity, utilities, photo creativity and data formatting.</p></div>
+      <div class="sitesGrid">
+        <article class="siteCard"><div class="siteLogo">PS</div><h3>Photo Studio</h3><p>Online photo creativity, editing and gift-making tools.</p><a href="https://www.photo-studio.in/" target="_blank" rel="noopener">Visit photo-studio.in ↗</a></article>
+        <article class="siteCard"><div class="siteLogo">GS</div><h3>Generate Source Code</h3><p>Developer utilities and source-code generation tools.</p><a href="https://www.generatesourcecode.co.in/" target="_blank" rel="noopener">Visit generatesourcecode.co.in ↗</a></article>
+        <article class="siteCard"><div class="siteLogo">SU</div><h3>Software Utilities</h3><p>A collection of practical everyday software utilities.</p><a href="https://www.software-utilities.com/" target="_blank" rel="noopener">Visit software-utilities.com ↗</a></article>
+        <article class="siteCard"><div class="siteLogo">JSON</div><h3>JSON XML Formatter</h3><p>Tools to format, validate and convert structured data.</p><a href="https://www.jsonxmlformatter.com/" target="_blank" rel="noopener">Visit jsonxmlformatter.com ↗</a></article>
+      </div>
+    </div></section>
+
+    <section id="resume"><div class="container"><div class="resumeBox">
+      <div><div class="kicker" style="color:#8fd5ff">Professional Profile</div><h2>Want to know more about my experience?</h2><p>View or download my executive resume for career history, signature projects, technical capabilities and education.</p></div>
+      <div class="resumeActions"><a class="btn light" href="Ashutosh_Pujari_Resume.pdf" target="_blank" rel="noopener">View Resume ↗</a><a class="btn outline" href="Ashutosh_Pujari_Resume.pdf" download>⬇ Download PDF</a></div>
+    </div></div></section>
+
+    <section class="soft" id="articles"><div class="container">
+      <div class="sectionHead"><div class="kicker">Knowledge & Insights</div><h2>Articles, notes & newsletters.</h2><p>A space for day-to-day technical learnings, architecture notes, tutorials and perspectives. Add a draft below; it is saved in this browser on this device.</p></div>
+      <div class="articleLayout">
+        <form class="editor" id="articleForm"><h3>Write a new article</h3>
+          <div class="field"><label for="articleTitle">Article / newsletter title</label><input id="articleTitle" required maxlength="120" placeholder="e.g. Getting started with Spring Boot 4"></div>
+          <div class="field"><label for="articleCategory">Category</label><input id="articleCategory" maxlength="40" placeholder="Java, Architecture, GenAI..."></div>
+          <div class="field"><label for="articleBody">Your content</label><textarea id="articleBody" required placeholder="Write your article or newsletter here..."></textarea></div>
+          <button class="btn" type="submit">Save Article Locally ↗</button><p class="editorNote">Note: this is a browser-based personal editor, not a public publishing/CMS system. Saved articles are visible only in this browser unless you publish them separately.</p>
+        </form>
+        <div class="articleList"><h3>Recent articles & updates</h3><div id="articleItems"><p style="color:#8994a7;font-size:13px">Your saved articles will appear here. You can also add links to published articles in this section.</p></div></div>
+      </div>
+    </div></section>
+
+    <section id="trends"><div class="container">
+      <div class="sectionHead"><div class="kicker">Explore What's Next</div><h2>Latest technology trends & news.</h2><p>Quick links to current coverage and research across the areas I work with. Select a topic to explore the latest articles from trusted technology sources.</p></div>
+      <div class="trendGrid">
+        <article class="trend"><div class="trendNo">01 / ARTIFICIAL INTELLIGENCE</div><h3>Generative AI & AI Agents</h3><p>LLMs, agentic workflows, RAG, AI-assisted software engineering and enterprise adoption.</p><a target="_blank" rel="noopener" href="https://news.google.com/search?q=generative%20AI%20AI%20agents">Explore latest news ↗</a></article>
+        <article class="trend"><div class="trendNo">02 / JAVA ECOSYSTEM</div><h3>Java, Spring & JVM</h3><p>Java platform updates, Spring Boot, Spring AI, JVM performance and developer tooling.</p><a target="_blank" rel="noopener" href="https://news.google.com/search?q=Java%20Spring%20Boot%20technology">Explore latest news ↗</a></article>
+        <article class="trend"><div class="trendNo">03 / CLOUD NATIVE</div><h3>Microservices & Kubernetes</h3><p>Cloud-native architecture, containers, orchestration, observability and platform engineering.</p><a target="_blank" rel="noopener" href="https://news.google.com/search?q=microservices%20Kubernetes%20cloud%20native">Explore latest news ↗</a></article>
+        <article class="trend"><div class="trendNo">04 / CONTACT CENTER</div><h3>Contact Center & CX</h3><p>Conversational AI, voice automation, IVR modernization and customer experience platforms.</p><a target="_blank" rel="noopener" href="https://news.google.com/search?q=contact%20center%20AI%20IVR%20technology">Explore latest news ↗</a></article>
+        <article class="trend"><div class="trendNo">05 / SOFTWARE ENGINEERING</div><h3>Developer Tools & DevOps</h3><p>AI coding assistants, CI/CD, secure software delivery, testing and engineering productivity.</p><a target="_blank" rel="noopener" href="https://news.google.com/search?q=software%20engineering%20DevOps%20developer%20tools">Explore latest news ↗</a></article>
+        <article class="trend"><div class="trendNo">06 / CYBERSECURITY</div><h3>Application Security</h3><p>API security, identity, secure coding, cloud security and emerging enterprise risks.</p><a target="_blank" rel="noopener" href="https://news.google.com/search?q=application%20security%20API%20security">Explore latest news ↗</a></article>
+      </div>
+      <p style="font-size:11px;color:#8a96a8;margin-top:15px">These links open live news search results; headlines and publication dates are supplied by the linked publishers and are not cached on this website.</p>
+    </div></section>
+
+    <section class="soft" id="contact"><div class="container">
+      <div class="sectionHead"><div class="kicker">Let's Work Together</div><h2>Have a project, training requirement or idea?</h2><p>Reach out to discuss website development, technical consulting, corporate training, mentoring or a customized workshop.</p></div>
+      <div class="contactGrid">
+        <div class="contactInfo"><h3>Get in touch</h3><p>I would be happy to understand your requirement and explore how I can help.</p>
+          <div class="contactLine"><b>Email</b><a href="mailto:ashutoshvpujari@rediffmail.com">ashutoshvpujari@rediffmail.com</a></div>
+          <div class="contactLine"><b>Mobile / WhatsApp</b><a href="https://wa.me/919860985354" target="_blank" rel="noopener">+91 98609 85354</a></div>
+          <div class="contactLine"><b>LinkedIn</b><a href="https://www.linkedin.com/in/ashutosh-pujari-91303b34/" target="_blank" rel="noopener">linkedin.com/in/ashutosh-pujari-91303b34</a></div>
+          <div class="contactLine"><b>Location</b>Pune, India</div>
+        </div>
+        <form class="contactForm" id="contactForm"><h3>Send an enquiry</h3>
+          <div class="field"><label for="visitorName">Your name</label><input id="visitorName" required placeholder="Enter your name"></div>
+          <div class="field"><label for="visitorEmail">Your email</label><input id="visitorEmail" type="email" required placeholder="you@example.com"></div>
+          <div class="field"><label for="visitorSubject">I'm interested in</label><input id="visitorSubject" placeholder="Website development / Training / Consulting"></div>
+          <div class="field"><label for="visitorMessage">Message</label><textarea id="visitorMessage" required placeholder="Tell me briefly about your requirement..."></textarea></div>
+          <button class="btn" type="submit">Prepare Email ↗</button><p class="editorNote">This opens your email application with the enquiry details filled in. No form data is sent to this website.</p>
+        </form>
+      </div>
+    </div></section>
+  </main>
+
+  <footer><div class="container"><div class="footerRow"><a class="footerBrand" href="#home">ASHUTOSH PUJARI.</a><div class="footerLinks"><a href="#about">About</a><a href="#services">Services</a><a href="#articles">Articles</a><a href="#trends">Technology Trends</a><a href="#resume">Resume</a><a href="#contact">Contact</a></div></div><div class="copyright">© <span id="year"></span> Ashutosh Pujari. All rights reserved. &nbsp; | &nbsp; Built with a passion for technology and knowledge sharing.</div></div></footer>
+  <button class="toTop" id="toTop" aria-label="Back to top">↑</button><div class="toast" id="toast" role="status"></div>
+
+  <script>
+    const $ = id => document.getElementById(id);
+    $('year').textContent = new Date().getFullYear();
+
+    $('menuBtn').addEventListener('click', () => $('navlinks').classList.toggle('open'));
+    document.querySelectorAll('#navlinks a').forEach(a => a.addEventListener('click', () => $('navlinks').classList.remove('open')));
+
+    const topBtn = $('toTop');
+    window.addEventListener('scroll', () => { topBtn.style.display = window.scrollY > 500 ? 'block' : 'none'; });
+    topBtn.addEventListener('click', () => window.scrollTo({top:0,behavior:'smooth'}));
+
+    function toast(message) {
+      const el = $('toast'); el.textContent = message; el.style.display = 'block';
+      clearTimeout(window.__toastTimer); window.__toastTimer = setTimeout(() => el.style.display = 'none', 2800);
+    }
+
+    const STORAGE_KEY = 'ashutoshpujari_articles_v1';
+    function getArticles() {
+      try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]'); } catch(e) { return []; }
+    }
+    function renderArticles() {
+      const list = getArticles();
+      const host = $('articleItems');
+      if (!list.length) {
+        host.innerHTML = '<p style="color:#8994a7;font-size:13px">Your saved articles will appear here. You can also add links to published articles in this section.</p>';
+        return;
+      }
+      host.innerHTML = '';
+      list.forEach((article, index) => {
+        const item = document.createElement('article'); item.className = 'articleItem';
+        const meta = document.createElement('div'); meta.className = 'articleMeta';
+        meta.textContent = `${article.category || 'ARTICLE'} · ${article.date}`;
+        const title = document.createElement('h4'); title.textContent = article.title;
+        const body = document.createElement('p'); body.textContent = article.body;
+        const tools = document.createElement('div'); tools.className = 'articleTools';
+        const copy = document.createElement('button'); copy.className = 'textBtn'; copy.textContent = 'Copy';
+        copy.addEventListener('click', async () => {
+          const content = `${article.title}\n${article.category}\n\n${article.body}`;
+          try { await navigator.clipboard.writeText(content); toast('Article copied.'); }
+          catch(e) { toast('Clipboard access is not available in this browser.'); }
+        });
+        const remove = document.createElement('button'); remove.className = 'textBtn'; remove.textContent = 'Delete';
+        remove.addEventListener('click', () => {
+          const next = getArticles(); next.splice(index,1); localStorage.setItem(STORAGE_KEY, JSON.stringify(next)); renderArticles(); toast('Article deleted from this browser.');
+        });
+        tools.append(copy, remove); item.append(meta,title,body,tools); host.appendChild(item);
+      });
+    }
+    $('articleForm').addEventListener('submit', event => {
+      event.preventDefault();
+      const title = $('articleTitle').value.trim(), body = $('articleBody').value.trim();
+      if (!title || !body) return;
+      const article = {title, category:$('articleCategory').value.trim() || 'ARTICLE', body, date:new Date().toLocaleDateString()};
+      const list = getArticles(); list.unshift(article);
+      try { localStorage.setItem(STORAGE_KEY, JSON.stringify(list)); }
+      catch(e) { toast('Browser storage is full. Please remove older articles.'); return; }
+      $('articleForm').reset(); renderArticles(); toast('Article saved in this browser.');
+    });
+    renderArticles();
+
+    $('contactForm').addEventListener('submit', event => {
+      event.preventDefault();
+      const name = $('visitorName').value.trim(), email = $('visitorEmail').value.trim();
+      const subject = $('visitorSubject').value.trim() || 'Website enquiry';
+      const message = $('visitorMessage').value.trim();
+      const body = `Name: ${name}\nEmail: ${email}\nInterested in: ${subject}\n\nMessage:\n${message}`;
+      window.location.href = `mailto:ashutoshvpujari@rediffmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    });
+  </script>
+</body>
+</html>
