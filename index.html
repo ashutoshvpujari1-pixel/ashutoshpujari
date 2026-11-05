@@ -35,13 +35,21 @@
     .timeline{border-left:2px solid #dce6f7;margin-left:8px;padding-left:25px}.career{position:relative;margin:0 0 22px}.career:before{content:"";position:absolute;left:-33px;top:7px;width:13px;height:13px;border-radius:50%;background:var(--blue);border:3px solid white;box-shadow:0 0 0 2px #b9ccf2}.career strong{font:800 15px Manrope;color:var(--navy)}.career span{font-size:12px;color:var(--blue);font-weight:800;margin-left:8px}.career p{margin:3px 0;color:var(--muted);font-size:13px}
     .sitesGrid{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.siteCard{background:#fff;border:1px solid var(--line);border-radius:14px;padding:19px;transition:.25s;display:flex;flex-direction:column;min-height:160px}.siteLogo{width:38px;height:38px;border-radius:10px;background:linear-gradient(135deg,#1f5eea,#42c9d4);color:white;display:grid;place-items:center;font-weight:900;margin-bottom:13px}.siteCard h3{font:800 14px Manrope;margin:0 0 5px;color:var(--navy)}.siteCard p{font-size:12px;color:var(--muted);margin:0 0 12px;flex:1}.siteCard a{font-size:12px;color:var(--blue);font-weight:800}
     .resumeBox{background:linear-gradient(120deg,#142849,#1d4772);color:white;border-radius:22px;padding:34px;display:flex;align-items:center;justify-content:space-between;gap:25px}.resumeBox h2{font:800 27px Manrope;margin:0 0 8px}.resumeBox p{color:#d0dced;margin:0}.resumeActions{display:flex;gap:10px;flex-wrap:wrap}.resumeActions .btn{white-space:nowrap}.resumeActions .btn.light{color:var(--navy)}
-    .articleLayout{display:grid;grid-template-columns:.8fr 1.2fr;gap:25px;align-items:start}.editor,.articleList{background:white;border:1px solid var(--line);border-radius:16px;padding:23px;box-shadow:0 8px 25px #1a31500a}.editor h3,.articleList h3{font:800 17px Manrope;color:var(--navy);margin:0 0 15px}.field{margin-bottom:12px}.field label{display:block;font-size:12px;font-weight:800;color:#53627a;margin-bottom:5px}.field input,.field textarea{width:100%;border:1px solid #dce3ed;border-radius:9px;padding:11px 12px;outline:none;background:#fbfcff}.field input:focus,.field textarea:focus{border-color:var(--blue);box-shadow:0 0 0 3px #2463eb16}.field textarea{min-height:120px;resize:vertical}.editorNote{font-size:11px;color:#8994a7;margin:10px 0 0}.articleItem{padding:15px 0;border-bottom:1px solid var(--line)}.articleItem:last-child{border:0}.articleMeta{font-size:11px;color:var(--blue);font-weight:800}.articleItem h4{font:800 15px Manrope;margin:4px 0;color:var(--navy)}.articleItem p{font-size:13px;color:var(--muted);white-space:pre-wrap;margin:0}.articleTools{display:flex;gap:12px;margin-top:8px}.textBtn{border:0;background:none;padding:0;color:var(--blue);font-size:11px;font-weight:800;cursor:pointer}
+
+    .articleTopics{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+    .articleTopicLink{display:flex;align-items:center;gap:14px;min-width:0;padding:18px 19px;background:#fff;border:1px solid var(--line);border-radius:14px;transition:transform .22s,box-shadow .22s,border-color .22s}
+    .articleTopicLink:hover{transform:translateY(-3px);border-color:#b8ccf7;box-shadow:var(--shadow)}
+    .articleTopicIcon{width:43px;height:43px;flex:0 0 43px;display:grid;place-items:center;border-radius:12px;background:#edf3ff;font-size:21px}
+    .articleTopicLink strong{display:block;color:var(--navy);font:800 14px Manrope,sans-serif}
+    .articleTopicLink small{display:block;color:var(--muted);font-size:11px;line-height:1.5;margin-top:3px}
+    .articleTopicArrow{margin-left:auto;color:var(--blue);font-size:19px;font-weight:900}
+    
     .trendGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.trend{border:1px solid var(--line);border-radius:15px;padding:21px;background:#fff}.trend .trendNo{font-size:11px;color:var(--blue);font-weight:900;letter-spacing:1px}.trend h3{font:800 16px Manrope;color:var(--navy);margin:8px 0}.trend p{font-size:12px;color:var(--muted);margin:0 0 13px}.trend a{font-size:12px;font-weight:800;color:var(--blue)}
     .contactGrid{display:grid;grid-template-columns:.9fr 1.1fr;gap:35px}.contactInfo{background:var(--navy);border-radius:18px;padding:28px;color:white}.contactInfo h3{font:800 21px Manrope;margin:0 0 10px}.contactInfo p{font-size:13px;color:#c5d2e4}.contactLine{padding:13px 0;border-bottom:1px solid #ffffff20;font-size:13px;overflow-wrap:anywhere}.contactLine b{display:block;color:#8ec8ff;font-size:11px;text-transform:uppercase;letter-spacing:1px}.contactForm{border:1px solid var(--line);border-radius:18px;padding:27px}.contactForm h3{font:800 20px Manrope;margin:0 0 15px;color:var(--navy)}.contactForm textarea{min-height:130px}
     footer{background:#0b1426;color:#b9c5d8;padding:35px 0}.footerRow{display:flex;justify-content:space-between;gap:20px;align-items:center;flex-wrap:wrap}.footerBrand{font:800 18px Manrope;color:white}.footerLinks{display:flex;gap:17px;flex-wrap:wrap;font-size:12px}.copyright{font-size:11px;color:#8090a8;margin-top:18px;border-top:1px solid #ffffff18;padding-top:16px}
     .toTop{position:fixed;right:20px;bottom:20px;background:var(--blue);color:#fff;border:0;border-radius:50%;width:43px;height:43px;font-size:19px;box-shadow:var(--shadow);cursor:pointer;display:none;z-index:20}.toast{position:fixed;bottom:75px;right:20px;background:#142849;color:#fff;padding:12px 17px;border-radius:10px;box-shadow:var(--shadow);font-size:13px;display:none;z-index:100}
     @media(max-width:900px){.navActions{gap:7px!important}.myWebsitesLink{padding:9px 11px;font-size:12px}.navlinks{display:none;position:absolute;top:76px;left:0;right:0;background:white;padding:18px 5%;border-bottom:1px solid var(--line);flex-direction:column;align-items:flex-start}.navlinks.open{display:flex}.menuBtn{display:block}.navcta{display:none}.heroGrid,.aboutGrid,.articleLayout,.contactGrid{grid-template-columns:1fr}.profileCard{grid-row:1;justify-self:start;width:100%;max-width:280px}.hero{padding:55px 0}.serviceGrid{grid-template-columns:repeat(2,1fr)}.sitesGrid{grid-template-columns:repeat(2,1fr)}.resumeBox{align-items:flex-start;flex-direction:column}.trendGrid{grid-template-columns:repeat(2,1fr)}}
-    @media(max-width:560px){section{padding:60px 0}.hero h1{letter-spacing:-1.4px}.heroFacts{gap:18px}.fact strong{font-size:22px}.serviceGrid,.sitesGrid,.skillGrid,.trendGrid{grid-template-columns:1fr}.trust .container{justify-content:flex-start}.resumeBox{padding:25px}.heroActions .btn{width:100%}.topbar .container{font-size:11px}}
+    @media(max-width:900px){.articleTopics{grid-template-columns:1fr 1fr}}\n    @media(max-width:560px){.articleTopics{grid-template-columns:1fr}section{padding:60px 0}.hero h1{letter-spacing:-1.4px}.heroFacts{gap:18px}.fact strong{font-size:22px}.serviceGrid,.sitesGrid,.skillGrid,.trendGrid{grid-template-columns:1fr}.trust .container{justify-content:flex-start}.resumeBox{padding:25px}.heroActions .btn{width:100%}.topbar .container{font-size:11px}}
   </style>
 </head>
 <body>
@@ -133,15 +141,23 @@
     </div></div></section>
 
     <section class="soft" id="articles"><div class="container">
-      <div class="sectionHead"><div class="kicker">Knowledge & Insights</div><h2>Articles, notes & newsletters.</h2><p>A space for day-to-day technical learnings, architecture notes, tutorials and perspectives. Add a draft below; it is saved in this browser on this device.</p></div>
-      <div class="articleLayout">
-        <form class="editor" id="articleForm"><h3>Write a new article</h3>
-          <div class="field"><label for="articleTitle">Article / newsletter title</label><input id="articleTitle" required maxlength="120" placeholder="e.g. Getting started with Spring Boot 4"></div>
-          <div class="field"><label for="articleCategory">Category</label><input id="articleCategory" maxlength="40" placeholder="Java, Architecture, GenAI..."></div>
-          <div class="field"><label for="articleBody">Your content</label><textarea id="articleBody" required placeholder="Write your article or newsletter here..."></textarea></div>
-          <button class="btn" type="submit">Save Article Locally ↗</button><p class="editorNote">Note: this is a browser-based personal editor, not a public publishing/CMS system. Saved articles are visible only in this browser unless you publish them separately.</p>
-        </form>
-        <div class="articleList"><h3>Recent articles & updates</h3><div id="articleItems"><p style="color:#8994a7;font-size:13px">Your saved articles will appear here. You can also add links to published articles in this section.</p></div></div>
+      <div class="sectionHead">
+        <div class="kicker">Knowledge & Insights</div>
+        <h2>Articles, notes & newsletters.</h2>
+        <p>Explore technical articles, practical notes and learning resources across different technology topics. <b>WORK IN PROGRESS</b></p>
+      </div>
+      <div class="articleTopics">
+        <!-- Replace each href="#" with the URL of your article or topic page when ready. -->
+<!--
+        <a class="articleTopicLink" href="#" aria-label="Java articles and notes"><span class="articleTopicIcon">☕</span><span><strong>Java & J2EE</strong><small>Core Java, collections, multithreading and enterprise development</small></span><span class="articleTopicArrow">↗</span></a>
+        <a class="articleTopicLink" href="#" aria-label="Spring Boot articles and notes"><span class="articleTopicIcon">🌱</span><span><strong>Spring & Spring Boot</strong><small>Spring Framework, REST APIs, security and application development</small></span><span class="articleTopicArrow">↗</span></a>
+        <a class="articleTopicLink" href="#" aria-label="Microservices articles and notes"><span class="articleTopicIcon">🧩</span><span><strong>Microservices & APIs</strong><small>REST services, gateways, integrations and distributed systems</small></span><span class="articleTopicArrow">↗</span></a>
+        <a class="articleTopicLink" href="#" aria-label="Software architecture articles and notes"><span class="articleTopicIcon">🏗️</span><span><strong>Software Architecture</strong><small>Design patterns, HLD, LLD and solution design</small></span><span class="articleTopicArrow">↗</span></a>
+        <a class="articleTopicLink" href="#" aria-label="Artificial intelligence articles and notes"><span class="articleTopicIcon">🤖</span><span><strong>AI, GenAI & AI Agents</strong><small>AI-assisted development, LLMs, RAG and agentic applications</small></span><span class="articleTopicArrow">↗</span></a>
+        <a class="articleTopicLink" href="#" aria-label="Contact Center and IVR articles and notes"><span class="articleTopicIcon">🎧</span><span><strong>Contact Center & IVR</strong><small>IVR, VXML, CTI and conversational customer experiences</small></span><span class="articleTopicArrow">↗</span></a>
+        <a class="articleTopicLink" href="#" aria-label="Cloud and DevOps articles and notes"><span class="articleTopicIcon">☁️</span><span><strong>Cloud & DevOps</strong><small>Git, CI/CD, Docker, Kubernetes and deployment practices</small></span><span class="articleTopicArrow">↗</span></a>
+        <a class="articleTopicLink" href="#" aria-label="General software development articles and notes"><span class="articleTopicIcon">💻</span><span><strong>Software Development</strong><small>Engineering practices, troubleshooting, testing and productivity</small></span><span class="articleTopicArrow">↗</span></a>
+-->
       </div>
     </div></section>
 
@@ -196,50 +212,6 @@
       const el = $('toast'); el.textContent = message; el.style.display = 'block';
       clearTimeout(window.__toastTimer); window.__toastTimer = setTimeout(() => el.style.display = 'none', 2800);
     }
-
-    const STORAGE_KEY = 'ashutoshpujari_articles_v1';
-    function getArticles() {
-      try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]'); } catch(e) { return []; }
-    }
-    function renderArticles() {
-      const list = getArticles();
-      const host = $('articleItems');
-      if (!list.length) {
-        host.innerHTML = '<p style="color:#8994a7;font-size:13px">Your saved articles will appear here. You can also add links to published articles in this section.</p>';
-        return;
-      }
-      host.innerHTML = '';
-      list.forEach((article, index) => {
-        const item = document.createElement('article'); item.className = 'articleItem';
-        const meta = document.createElement('div'); meta.className = 'articleMeta';
-        meta.textContent = `${article.category || 'ARTICLE'} · ${article.date}`;
-        const title = document.createElement('h4'); title.textContent = article.title;
-        const body = document.createElement('p'); body.textContent = article.body;
-        const tools = document.createElement('div'); tools.className = 'articleTools';
-        const copy = document.createElement('button'); copy.className = 'textBtn'; copy.textContent = 'Copy';
-        copy.addEventListener('click', async () => {
-          const content = `${article.title}\n${article.category}\n\n${article.body}`;
-          try { await navigator.clipboard.writeText(content); toast('Article copied.'); }
-          catch(e) { toast('Clipboard access is not available in this browser.'); }
-        });
-        const remove = document.createElement('button'); remove.className = 'textBtn'; remove.textContent = 'Delete';
-        remove.addEventListener('click', () => {
-          const next = getArticles(); next.splice(index,1); localStorage.setItem(STORAGE_KEY, JSON.stringify(next)); renderArticles(); toast('Article deleted from this browser.');
-        });
-        tools.append(copy, remove); item.append(meta,title,body,tools); host.appendChild(item);
-      });
-    }
-    $('articleForm').addEventListener('submit', event => {
-      event.preventDefault();
-      const title = $('articleTitle').value.trim(), body = $('articleBody').value.trim();
-      if (!title || !body) return;
-      const article = {title, category:$('articleCategory').value.trim() || 'ARTICLE', body, date:new Date().toLocaleDateString()};
-      const list = getArticles(); list.unshift(article);
-      try { localStorage.setItem(STORAGE_KEY, JSON.stringify(list)); }
-      catch(e) { toast('Browser storage is full. Please remove older articles.'); return; }
-      $('articleForm').reset(); renderArticles(); toast('Article saved in this browser.');
-    });
-    renderArticles();
 
     $('contactForm').addEventListener('submit', event => {
       event.preventDefault();
