@@ -1,0 +1,3864 @@
+%PDF-1.4
+%ìåãû ReportLab Generated PDF document (opensource)
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R /F3 5 0 R /F4 6 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/Contents 442 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 441 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+5 0 obj
+<<
+/BaseFont /ZapfDingbats /Name /F3 /Subtype /Type1 /Type /Font
+>>
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica-BoldOblique /Encoding /WinAnsiEncoding /Name /F4 /Subtype /Type1 /Type /Font
+>>
+endobj
+7 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.microsoft.com/windows)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 709.9701 190.9973 718.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+8 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://learn.microsoft.com/windows/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 700.9701 215.1333 709.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+9 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.microsoft.com/windows-server)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 652.9701 212.7743 661.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+10 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://learn.microsoft.com/windows-server/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 643.9701 236.9103 652.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+11 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.kernel.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 595.9701 151.7203 604.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+12 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.kernel.org/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 586.9701 173.1333 595.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+13 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://ubuntu.com/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 538.9701 140.0653 547.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+14 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://help.ubuntu.com/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 529.9701 177.0323 538.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+15 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 481.9701 301.8843 490.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+16 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.redhat.com/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 472.9701 177.0253 481.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+17 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.debian.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 424.9701 153.6733 433.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+18 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.debian.org/doc/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 415.9701 188.6943 424.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+19 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://fedoraproject.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 367.9701 156.4033 376.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+20 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.fedoraproject.org/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 358.9701 194.9243 367.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+21 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.suse.com/products/server/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 310.9701 200.7343 319.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+22 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://documentation.suse.com/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 301.9701 203.0933 310.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+23 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.oracle.com/linux/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 253.9701 171.1663 262.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+24 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.oracle.com/en/operating-systems/oracle-linux/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 244.9701 282.8303 253.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+25 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.apple.com/macos/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 196.9701 175.4503 205.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+26 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://developer.apple.com/documentation/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 187.9701 238.1143 196.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+27 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.freebsd.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 139.9701 156.0043 148.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+28 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.freebsd.org/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 130.9701 177.4173 139.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+29 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.ibm.com/products/aix)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 82.97008 184.7813 91.37008 ] /Subtype /Link /Type /Annot
+>>
+endobj
+30 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.ibm.com/docs/en/aix)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 73.97008 204.2413 82.37008 ] /Subtype /Link /Type /Annot
+>>
+endobj
+31 0 obj
+<<
+/Annots [ 7 0 R 8 0 R 9 0 R 10 0 R 11 0 R 12 0 R 13 0 R 14 0 R 15 0 R 16 0 R 
+  17 0 R 18 0 R 19 0 R 20 0 R 21 0 R 22 0 R 23 0 R 24 0 R 25 0 R 26 0 R 
+  27 0 R 28 0 R 29 0 R 30 0 R ] /Contents 443 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 441 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+32 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.oracle.com/java/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 709.9701 169.6123 718.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+33 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.oracle.com/en/java/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 700.9701 200.7553 709.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+34 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.python.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 652.9701 153.6733 661.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+35 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.python.org/3/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 643.9701 180.9243 652.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+36 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 595.9701 257.5393 604.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+37 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 586.9701 279.3303 595.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+38 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.typescriptlang.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 538.9701 175.8423 547.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+39 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.typescriptlang.org/docs/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 529.9701 214.3633 538.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+40 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.open-std.org/jtc1/sc22/wg14/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 481.9701 208.1403 490.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+41 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://en.cppreference.com/w/c)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 472.9701 201.5323 481.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+42 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://isocpp.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 424.9701 135.7813 433.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+43 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://en.cppreference.com/w/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 415.9701 198.0323 424.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+44 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://learn.microsoft.com/dotnet/csharp/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 367.9701 208.9173 376.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+45 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://learn.microsoft.com/dotnet/csharp/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 358.9701 230.7083 367.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+46 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://go.dev/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 310.9701 124.5043 319.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+47 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://go.dev/doc/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 301.9701 159.5253 310.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+48 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.rust-lang.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 253.9701 159.8893 262.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+49 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://doc.rust-lang.org/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 244.9701 177.8023 253.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+50 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.php.net/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 196.9701 143.9503 205.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+51 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.php.net/docs.php)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 187.9701 194.1473 196.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+52 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.ruby-lang.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 139.9701 161.8353 148.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+53 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.ruby-lang.org/en/documentation/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 130.9701 241.2153 139.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+54 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://kotlinlang.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 82.97008 145.1193 91.37008 ] /Subtype /Link /Type /Annot
+>>
+endobj
+55 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://kotlinlang.org/docs/home.html)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 73.97008 216.3163 82.37008 ] /Subtype /Link /Type /Annot
+>>
+endobj
+56 0 obj
+<<
+/Annots [ 32 0 R 33 0 R 34 0 R 35 0 R 36 0 R 37 0 R 38 0 R 39 0 R 40 0 R 41 0 R 
+  42 0 R 43 0 R 44 0 R 45 0 R 46 0 R 47 0 R 48 0 R 49 0 R 50 0 R 51 0 R 
+  52 0 R 53 0 R 54 0 R 55 0 R ] /Contents 444 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 441 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+57 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.swift.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 750.9701 146.6593 759.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+58 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.swift.org/documentation/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 741.9701 216.3093 750.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+59 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.r-project.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 693.9701 158.3283 702.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+60 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://cran.r-project.org/manuals.html)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 684.9701 220.1943 693.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+61 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.scala-lang.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 636.9701 164.5583 645.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+62 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.scala-lang.org/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 627.9701 185.9713 636.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+63 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.perl.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 579.9701 144.3283 588.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+64 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://perldoc.perl.org/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 570.9701 173.9103 579.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+65 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://dart.dev/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 522.9701 128.7813 531.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+66 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://dart.dev/guides)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 513.9701 171.1943 522.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+67 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.ibm.com/products/cobol)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 465.9701 192.5653 474.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+68 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.ibm.com/docs/en/cobol-zos)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 456.9701 225.2483 465.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+69 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.oracle.com/database/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 349.6315 185.5723 358.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+70 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.oracle.com/en/database/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 340.6315 216.7153 349.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+71 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.microsoft.com/sql-server)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 292.6315 194.8823 301.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+72 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://learn.microsoft.com/sql/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 283.6315 197.2413 292.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+73 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.postgresql.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 235.6315 164.9503 244.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+74 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.postgresql.org/docs/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 226.6315 203.4713 235.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+75 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.mysql.com/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 178.6315 154.0443 187.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+76 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://dev.mysql.com/doc/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 169.6315 185.1873 178.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+77 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://mariadb.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 121.6315 140.8353 130.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+78 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://mariadb.com/kb/en/documentation/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 112.6315 232.6613 121.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+79 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.mongodb.com/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 64.6315 164.9503 73.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+80 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.mongodb.com/docs/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 55.6315 203.4713 64.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+81 0 obj
+<<
+/Annots [ 57 0 R 58 0 R 59 0 R 60 0 R 61 0 R 62 0 R 63 0 R 64 0 R 65 0 R 66 0 R 
+  67 0 R 68 0 R 69 0 R 70 0 R 71 0 R 72 0 R 73 0 R 74 0 R 75 0 R 76 0 R 
+  77 0 R 78 0 R 79 0 R 80 0 R ] /Contents 445 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 441 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+82 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://redis.io/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 750.9701 126.0513 759.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+83 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://redis.io/docs/latest/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 741.9701 183.2483 750.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+84 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://cassandra.apache.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 693.9701 172.7483 702.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+85 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://cassandra.apache.org/doc/latest/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 684.9701 226.4453 693.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+86 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.ibm.com/products/db2)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 636.9701 187.5113 645.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+87 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.ibm.com/docs/en/db2)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 627.9701 206.9713 636.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+88 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://sqlite.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 579.9701 131.8893 588.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+89 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://sqlite.org/docs.html)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 570.9701 183.6333 579.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+90 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://aws.amazon.com/dynamodb/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 522.9701 192.5793 531.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+91 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.aws.amazon.com/dynamodb/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 513.9701 231.1003 522.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+92 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.elastic.co/elasticsearch)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 465.9701 190.6193 474.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+93 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.elastic.co/guide/index.html)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 456.9701 222.5323 465.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+94 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://neo4j.com/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 408.9701 135.7813 417.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+95 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://neo4j.com/docs/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 399.9701 174.3023 408.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+96 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.snowflake.com/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 351.9701 166.8893 360.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+97 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.snowflake.com/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 342.9701 188.3023 351.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+98 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://clickhouse.com/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 294.9701 151.3353 303.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+99 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://clickhouse.com/docs)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 285.9701 187.9103 294.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+100 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.influxdata.com/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 237.9701 165.7273 246.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+101 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.influxdata.com/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 228.9701 187.1403 237.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+102 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.ibm.com/products/zos)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 121.6315 186.7273 130.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+103 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.ibm.com/docs/en/zos)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 112.6315 206.1873 121.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+104 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.ibm.com/products/zvm)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 64.6315 188.6663 73.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+105 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.ibm.com/docs/en/zvm)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 55.6315 208.1263 64.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+106 0 obj
+<<
+/Annots [ 82 0 R 83 0 R 84 0 R 85 0 R 86 0 R 87 0 R 88 0 R 89 0 R 90 0 R 91 0 R 
+  92 0 R 93 0 R 94 0 R 95 0 R 96 0 R 97 0 R 98 0 R 99 0 R 100 0 R 101 0 R 
+  102 0 R 103 0 R 104 0 R 105 0 R ] /Contents 446 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 441 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+107 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.ibm.com/products/ztpf)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 750.9701 187.1193 759.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+108 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.ibm.com/docs/en/ztpf)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 741.9701 206.5793 750.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+109 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.ibm.com/products/cics)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 693.9701 187.8893 702.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+110 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.ibm.com/docs/en/cics-ts)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 684.9701 215.1263 693.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+111 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.ibm.com/products/ims)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 636.9701 186.7203 645.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+112 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.ibm.com/docs/en/ims)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 627.9701 206.1803 636.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+113 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.ibm.com/products/db2)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 579.9701 187.5113 588.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+114 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.ibm.com/docs/en/db2-for-zos)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 570.9701 230.6943 579.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+115 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.ibm.com/docs/en/zos/3.1.0?topic=access-methods-vsam)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 522.9701 294.6883 531.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+116 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.ibm.com/products/cobol-compiler-zos)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 474.9701 234.5653 483.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+117 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.ibm.com/docs/en/cobol-zos)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 465.9701 225.2483 474.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+118 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.ibm.com/products/pli-compiler-zos)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 417.9701 224.8353 426.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+119 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.ibm.com/docs/en/pli-for-zos)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 408.9701 226.0183 417.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+120 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.ibm.com/docs/en/zos/3.1.0?topic= JES-job-control-language)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 360.9701 305.5943 369.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+121 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.ibm.com/products/resource-access-control-facility)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 312.9701 272.2953 321.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+122 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.ibm.com/docs/en/zos)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 303.9701 206.1873 312.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+123 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.broadcom.com/products/mainframe/application-development/endevor)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 255.9701 333.7903 264.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+124 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.bmc.com/it-solutions/ami-devx.html)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 207.9701 227.9503 216.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+125 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.rocketsoftware.com/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 159.9701 181.2813 168.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+126 0 obj
+<<
+/Annots [ 107 0 R 108 0 R 109 0 R 110 0 R 111 0 R 112 0 R 113 0 R 114 0 R 115 0 R 116 0 R 
+  117 0 R 118 0 R 119 0 R 120 0 R 121 0 R 122 0 R 123 0 R 124 0 R 125 0 R ] /Contents 447 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 441 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+127 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://html.spec.whatwg.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 750.9701 171.1803 759.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+128 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://developer.mozilla.org/en-US/docs/Web/HTML)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 741.9701 265.7083 750.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+129 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.w3.org/Style/CSS/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 693.9701 175.4503 702.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+130 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://developer.mozilla.org/en-US/docs/Web/CSS)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 684.9701 261.0463 693.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+131 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://developer.mozilla.org/en-US/docs/Web/API)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 636.9701 236.1473 645.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+132 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://react.dev/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 588.9701 132.2813 597.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+133 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://react.dev/learn)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 579.9701 169.6333 588.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+134 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://angular.dev/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 531.9701 140.0653 540.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+135 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://angular.dev/overview)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 522.9701 189.4713 531.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+136 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://vuejs.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 474.9701 131.8893 483.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+137 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://vuejs.org/guide/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 465.9701 172.7483 474.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+138 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://svelte.dev/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 417.9701 135.0043 426.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+139 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://svelte.dev/docs)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 408.9701 171.5793 417.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+140 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://nextjs.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 360.9701 133.8353 369.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+141 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://nextjs.org/docs)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 351.9701 170.4103 360.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+142 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://nodejs.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 303.9701 136.1733 312.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+143 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://nodejs.org/en/learn)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 294.9701 183.2553 303.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+144 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://expressjs.com/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 246.9701 148.2203 255.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+145 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://expressjs.com/en/guide/routing.html)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 237.9701 235.3773 246.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+146 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://jquery.com/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 189.9701 137.7203 198.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+147 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://api.jquery.com/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 180.9701 170.7953 189.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+148 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://getbootstrap.com/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 132.9701 157.5723 141.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+149 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://getbootstrap.com/docs/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 123.9701 196.0933 132.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+150 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://tailwindcss.com/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 75.97008 152.4973 84.37008 ] /Subtype /Link /Type /Annot
+>>
+endobj
+151 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://tailwindcss.com/docs)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 66.97008 189.0723 75.37008 ] /Subtype /Link /Type /Annot
+>>
+endobj
+152 0 obj
+<<
+/Annots [ 127 0 R 128 0 R 129 0 R 130 0 R 131 0 R 132 0 R 133 0 R 134 0 R 135 0 R 136 0 R 
+  137 0 R 138 0 R 139 0 R 140 0 R 141 0 R 142 0 R 143 0 R 144 0 R 145 0 R 146 0 R 
+  147 0 R 148 0 R 149 0 R 150 0 R 151 0 R ] /Contents 448 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 441 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+153 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://vite.dev/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 750.9701 127.6123 759.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+154 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://vite.dev/guide/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 741.9701 168.4713 750.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+155 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://spring.io/projects/spring-framework)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 634.6315 210.4573 643.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+156 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.spring.io/spring-framework/reference/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 625.6315 255.9853 634.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+157 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://spring.io/projects/spring-boot)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 577.6315 191.4103 586.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+158 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.spring.io/spring-boot/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 568.6315 205.4243 577.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+159 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://jakarta.ee/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 520.6315 134.2273 529.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+160 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://jakarta.ee/specifications/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 511.6315 199.9783 520.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+161 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://quarkus.io/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 463.6315 135.7813 472.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+162 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://quarkus.io/guides/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 454.6315 180.1403 463.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+163 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://micronaut.io/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 406.6315 141.6123 415.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+164 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.micronaut.io/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 397.6315 180.1333 406.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+165 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://dotnet.microsoft.com/apps/aspnet)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 349.6315 206.5933 358.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+166 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://learn.microsoft.com/aspnet/core/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 340.6315 224.8703 349.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+167 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.djangoproject.com/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 292.6315 177.7883 301.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+168 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.djangoproject.com/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 283.6315 199.2013 292.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+169 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://flask.palletsprojects.com/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 235.6315 179.7343 244.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+170 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://flask.palletsprojects.com/en/stable/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 226.6315 231.8773 235.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+171 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://fastapi.tiangolo.com/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 178.6315 165.7413 187.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+172 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://fastapi.tiangolo.com/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 169.6315 187.5323 178.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+173 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://laravel.com/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 121.6315 139.2743 130.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+174 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://laravel.com/docs)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 112.6315 175.8493 121.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+175 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://rubyonrails.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 64.6315 149.7813 73.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+176 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://guides.rubyonrails.org/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 55.6315 194.1403 64.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+177 0 obj
+<<
+/Annots [ 153 0 R 154 0 R 155 0 R 156 0 R 157 0 R 158 0 R 159 0 R 160 0 R 161 0 R 162 0 R 
+  163 0 R 164 0 R 165 0 R 166 0 R 167 0 R 168 0 R 169 0 R 170 0 R 171 0 R 172 0 R 
+  173 0 R 174 0 R 175 0 R 176 0 R ] /Contents 449 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 441 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+178 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://nestjs.com/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 750.9701 136.9433 759.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+179 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.nestjs.com/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 741.9701 175.4643 750.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+180 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://graphql.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 693.9701 138.8963 702.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+181 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://graphql.org/learn/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 684.9701 178.1943 693.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+182 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.openapis.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 636.9701 161.0653 645.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+183 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://spec.openapis.org/oas/latest.html)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 627.9701 227.6073 636.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+184 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://grpc.io/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 579.9701 124.4973 588.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+185 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://grpc.io/docs/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 570.9701 163.0183 579.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+186 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://aws.amazon.com/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 463.6315 157.9503 472.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+187 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.aws.amazon.com/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 454.6315 196.4713 463.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+188 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://azure.microsoft.com/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 406.6315 166.5043 415.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+189 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://learn.microsoft.com/azure/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 397.6315 205.8023 406.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+190 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://cloud.google.com/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 349.6315 158.3493 358.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+191 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.cloud.google.com/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 340.6315 196.8703 349.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+192 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.oracle.com/cloud/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 292.6315 173.5043 301.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+193 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.oracle.com/en-us/iaas/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 283.6315 210.4783 292.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+194 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.ibm.com/cloud)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 235.6315 163.7743 244.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+195 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://cloud.ibm.com/docs)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 226.6315 185.1873 235.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+196 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.alibabacloud.com/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 178.6315 175.0653 187.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+197 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.alibabacloud.com/help)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 169.6315 210.0863 178.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+198 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.digitalocean.com/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 121.6315 173.1193 130.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+199 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.digitalocean.com/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 112.6315 194.5323 121.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+200 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.cloudflare.com/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 64.6315 166.1123 73.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+201 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://developers.cloudflare.com/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 55.6315 206.9783 64.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+202 0 obj
+<<
+/Annots [ 178 0 R 179 0 R 180 0 R 181 0 R 182 0 R 183 0 R 184 0 R 185 0 R 186 0 R 187 0 R 
+  188 0 R 189 0 R 190 0 R 191 0 R 192 0 R 193 0 R 194 0 R 195 0 R 196 0 R 197 0 R 
+  198 0 R 199 0 R 200 0 R 201 0 R ] /Contents 450 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 441 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+203 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.docker.com/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 690.6315 156.7743 699.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+204 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.docker.com/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 681.6315 178.1873 690.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+205 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://kubernetes.io/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 633.6315 145.5113 642.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+206 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://kubernetes.io/docs/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 624.6315 184.0323 633.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+207 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://podman.io/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 576.6315 136.1733 585.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+208 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.podman.io/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 567.6315 174.6943 576.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+209 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://containerd.io/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 519.6315 143.5653 528.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+210 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://github.com/containerd/containerd)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 510.6315 226.8303 519.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+211 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://helm.sh/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 462.6315 127.9973 471.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+212 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://helm.sh/docs/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 453.6315 166.5183 462.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+213 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.redhat.com/en/technologies/cloud-computing/openshift)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 405.6315 288.2903 414.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+214 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.openshift.com/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 396.6315 185.5863 405.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+215 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.suse.com/products/rancher/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 348.6315 205.0183 357.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+216 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://ranchermanager.docs.rancher.com/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 339.6315 234.2083 348.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+217 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://git-scm.com/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 232.2929 141.2133 240.6929 ] /Subtype /Link /Type /Annot
+>>
+endobj
+218 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://git-scm.com/doc)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 223.2929 174.2883 231.6929 ] /Subtype /Link /Type /Annot
+>>
+endobj
+219 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://github.com/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 175.2929 137.7273 183.6929 ] /Subtype /Link /Type /Annot
+>>
+endobj
+220 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.github.com/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 166.2929 176.2483 174.6929 ] /Subtype /Link /Type /Annot
+>>
+endobj
+221 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://about.gitlab.com/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 118.2929 154.8493 126.6929 ] /Subtype /Link /Type /Annot
+>>
+endobj
+222 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.gitlab.com/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 109.2929 173.9103 117.6929 ] /Subtype /Link /Type /Annot
+>>
+endobj
+223 0 obj
+<<
+/Annots [ 203 0 R 204 0 R 205 0 R 206 0 R 207 0 R 208 0 R 209 0 R 210 0 R 211 0 R 212 0 R 
+  213 0 R 214 0 R 215 0 R 216 0 R 217 0 R 218 0 R 219 0 R 220 0 R 221 0 R 222 0 R ] /Contents 451 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 441 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+224 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.jenkins.io/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 750.9701 149.7743 759.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+225 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.jenkins.io/doc/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 741.9701 184.7953 750.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+226 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://github.com/features/actions)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 693.9701 187.1403 702.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+227 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.github.com/actions)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 684.9701 198.4243 693.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+228 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://azure.microsoft.com/products/devops)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 636.9701 217.8633 645.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+229 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://learn.microsoft.com/azure/devops/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 627.9701 230.3163 636.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+230 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.hashicorp.com/products/terraform)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 579.9701 223.2953 588.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+231 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://developer.hashicorp.com/terraform/docs)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 570.9701 248.6003 579.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+232 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.ansible.com/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 522.9701 157.9433 531.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+233 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.ansible.com/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 513.9701 179.3563 522.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+234 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://maven.apache.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 465.9701 161.4643 474.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+235 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://maven.apache.org/guides/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 456.9701 205.8233 465.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+236 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://gradle.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 408.9701 135.0043 417.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+237 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.gradle.org/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 399.9701 173.5253 408.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+238 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://ant.apache.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 351.9701 150.1873 360.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+239 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://ant.apache.org/manual/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 342.9701 196.8773 351.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+240 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.sonarsource.com/products/sonarqube/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 294.9701 238.0933 303.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+241 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.sonarsource.com/sonarqube-server/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 285.9701 252.4923 294.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+242 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://argo-cd.readthedocs.io/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 237.9701 175.0793 246.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+243 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://argo-cd.readthedocs.io/en/stable/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 228.9701 227.2223 237.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+244 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.puppet.com/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 180.9701 157.1733 189.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+245 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://help.puppet.com/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 171.9701 177.0323 180.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+246 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://tomcat.apache.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 64.6315 161.4643 73.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+247 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://tomcat.apache.org/tomcat-10.1-doc/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 55.6315 235.7763 64.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+248 0 obj
+<<
+/Annots [ 224 0 R 225 0 R 226 0 R 227 0 R 228 0 R 229 0 R 230 0 R 231 0 R 232 0 R 233 0 R 
+  234 0 R 235 0 R 236 0 R 237 0 R 238 0 R 239 0 R 240 0 R 241 0 R 242 0 R 243 0 R 
+  244 0 R 245 0 R 246 0 R 247 0 R ] /Contents 452 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 441 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+249 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.wildfly.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 750.9701 151.7133 759.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+250 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.wildfly.org/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 741.9701 173.1263 750.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+251 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.redhat.com/en/technologies/jboss-middleware/application-platform)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 693.9701 324.0603 702.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+252 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.redhat.com/en/documentation/red_hat_jboss_enterprise_application_platform/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 684.9701 382.0693 693.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+253 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.oracle.com/middleware/technologies/weblogic.html)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 636.9701 276.2013 645.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+254 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.oracle.com/en/middleware/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 627.9701 223.7013 636.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+255 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.ibm.com/products/websphere-application-server)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 579.9701 267.6403 588.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+256 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.ibm.com/docs/en/was)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 570.9701 207.7413 579.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+257 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://jetty.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 522.9701 128.3893 531.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+258 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://jetty.org/docs/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 513.9701 166.9103 522.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+259 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://nginx.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 465.9701 132.2813 474.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+260 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://nginx.org/en/docs/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 456.9701 180.5323 465.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+261 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://httpd.apache.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 408.9701 156.0253 417.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+262 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://httpd.apache.org/docs/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 399.9701 194.5463 408.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+263 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.haproxy.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 351.9701 157.5583 360.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+264 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.haproxy.org/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 342.9701 178.9713 351.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+265 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://kafka.apache.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 235.6315 157.1873 244.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+266 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://kafka.apache.org/documentation/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 226.6315 226.8373 235.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+267 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.rabbitmq.com/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 178.6315 162.9973 187.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+268 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.rabbitmq.com/docs)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 169.6315 199.5723 178.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+269 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://activemq.apache.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 121.6315 168.4643 130.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+270 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://activemq.apache.org/components/classic/documentation/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 112.6315 301.1353 121.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+271 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.ibm.com/products/mq)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 64.6315 185.5583 73.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+272 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.ibm.com/docs/en/ibm-mq)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 55.6315 218.6263 64.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+273 0 obj
+<<
+/Annots [ 249 0 R 250 0 R 251 0 R 252 0 R 253 0 R 254 0 R 255 0 R 256 0 R 257 0 R 258 0 R 
+  259 0 R 260 0 R 261 0 R 262 0 R 263 0 R 264 0 R 265 0 R 266 0 R 267 0 R 268 0 R 
+  269 0 R 270 0 R 271 0 R 272 0 R ] /Contents 453 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 441 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+274 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://camel.apache.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 750.9701 159.1263 759.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+275 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://camel.apache.org/manual/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 741.9701 205.8163 750.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+276 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.mulesoft.com/platform/ Anypoint)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 693.9701 218.6333 702.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+277 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.mulesoft.com/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 684.9701 183.6333 693.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+278 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.redhat.com/en/products/integration)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 636.9701 226.8163 645.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+279 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.redhat.com/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 627.9701 177.0253 636.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+280 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.tensorflow.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 520.6315 164.5583 529.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+281 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.tensorflow.org/learn)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 511.6315 201.9103 520.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+282 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://pytorch.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 463.6315 138.5043 472.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+283 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://pytorch.org/docs/stable/index.html)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 454.6315 229.5463 463.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+284 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://scikit-learn.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 406.6315 148.9973 415.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+285 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://scikit-learn.org/stable/user_guide.html)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 397.6315 241.2083 406.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+286 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://huggingface.co/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 349.6315 150.9643 358.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+287 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://huggingface.co/docs)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 340.6315 187.5393 349.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+288 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://openai.com/api/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 292.6315 150.9573 301.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+289 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://platform.openai.com/docs/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 283.6315 205.4243 292.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+290 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://ai.google.dev/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 235.6315 145.1263 244.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+291 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://ai.google.dev/gemini-api/docs)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 226.6315 215.9313 235.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+292 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.anthropic.com/api)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 178.6315 173.8963 187.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+293 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.anthropic.com/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 169.6315 185.9713 178.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+294 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.langchain.com/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 121.6315 165.7273 130.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+295 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.langchain.com/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 112.6315 187.1403 121.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+296 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.llamaindex.ai/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 64.6315 161.4433 73.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+297 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.llamaindex.ai/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 55.6315 182.8563 64.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+298 0 obj
+<<
+/Annots [ 274 0 R 275 0 R 276 0 R 277 0 R 278 0 R 279 0 R 280 0 R 281 0 R 282 0 R 283 0 R 
+  284 0 R 285 0 R 286 0 R 287 0 R 288 0 R 289 0 R 290 0 R 291 0 R 292 0 R 293 0 R 
+  294 0 R 295 0 R 296 0 R 297 0 R ] /Contents 454 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 441 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+299 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://spark.apache.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 750.9701 157.5723 759.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+300 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://spark.apache.org/docs/latest/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 741.9701 214.7693 750.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+301 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://hadoop.apache.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 693.9701 163.8093 702.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+302 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://hadoop.apache.org/docs/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 684.9701 202.3303 693.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+303 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://airflow.apache.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 636.9701 160.6803 645.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+304 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://airflow.apache.org/docs/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 627.9701 199.2013 636.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+305 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://developer.android.com/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 520.6315 174.6873 529.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+306 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://developer.android.com/docs)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 511.6315 211.2623 520.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+307 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://developer.apple.com/ios/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 463.6315 179.3563 472.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+308 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://developer.apple.com/documentation/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 454.6315 238.1143 463.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+309 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://flutter.dev/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 406.6315 134.2273 415.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+310 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.flutter.dev/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 397.6315 172.7483 406.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+311 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://reactnative.dev/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 349.6315 150.9573 358.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+312 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://reactnative.dev/docs/getting-started)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 340.6315 234.2223 349.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+313 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://dotnet.microsoft.com/apps/maui)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 292.6315 200.7483 301.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+314 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://learn.microsoft.com/dotnet/maui/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 283.6315 224.8703 292.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+315 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://ionicframework.com/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 235.6315 165.7203 244.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+316 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://ionicframework.com/docs)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 226.6315 202.2953 235.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+317 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.electronjs.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 178.6315 162.6123 187.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+318 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.electronjs.org/docs/latest/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 169.6315 219.8093 178.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+319 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://tauri.app/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 121.6315 130.7273 130.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+320 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://v2.tauri.app/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 112.6315 161.8563 121.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+321 0 obj
+<<
+/Annots [ 299 0 R 300 0 R 301 0 R 302 0 R 303 0 R 304 0 R 305 0 R 306 0 R 307 0 R 308 0 R 
+  309 0 R 310 0 R 311 0 R 312 0 R 313 0 R 314 0 R 315 0 R 316 0 R 317 0 R 318 0 R 
+  319 0 R 320 0 R ] /Contents 455 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 441 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+322 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.cisco.com/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 709.9701 151.7133 718.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+323 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.cisco.com/c/en/us/support/index.html)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 700.9701 255.2083 709.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+324 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.wireshark.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 652.9701 162.6053 661.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+325 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.wireshark.org/docs/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 643.9701 201.1263 652.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+326 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://openvpn.net/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 595.9701 142.0183 604.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+327 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://openvpn.net/community-resources/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 586.9701 232.6543 595.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+328 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.wireguard.com/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 538.9701 166.4973 547.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+329 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.wireguard.com/quickstart/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 529.9701 220.1873 538.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+330 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.ietf.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 481.9701 141.9973 490.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+331 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.rfc-editor.org/rfc/rfc3261)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 472.9701 215.1333 481.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+332 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://webrtc.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 424.9701 136.1663 433.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+333 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://webrtc.org/getting-started/overview)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 415.9701 232.2623 424.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+334 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.3gpp.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 367.9701 148.2273 376.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+335 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.3gpp.org/specifications)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 358.9701 212.0323 367.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+336 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.bluetooth.com/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 310.9701 164.5653 319.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+337 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.bluetooth.com/specifications/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 301.9701 230.3163 310.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+338 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://owasp.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 194.6315 135.7813 203.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+339 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://owasp.org/www-project-top-ten/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 185.6315 222.1403 194.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+340 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.keycloak.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 137.6315 159.8893 146.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+341 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.keycloak.org/documentation)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 128.6315 227.5933 137.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+342 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://oauth.net/2/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 80.6315 138.5183 89.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+343 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.rfc-editor.org/rfc/rfc6749)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 71.6315 215.1333 80.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+344 0 obj
+<<
+/Annots [ 322 0 R 323 0 R 324 0 R 325 0 R 326 0 R 327 0 R 328 0 R 329 0 R 330 0 R 331 0 R 
+  332 0 R 333 0 R 334 0 R 335 0 R 336 0 R 337 0 R 338 0 R 339 0 R 340 0 R 341 0 R 
+  342 0 R 343 0 R ] /Contents 456 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 441 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+345 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://openid.net/developers/how-connect-works/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 750.9701 234.6003 759.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+346 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://openid.net/specs/openid-connect-core-1_0.html)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 741.9701 271.1823 750.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+347 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.hashicorp.com/products/vault)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 693.9701 209.6873 702.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+348 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://developer.hashicorp.com/vault/docs)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 684.9701 234.9923 693.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+349 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://snyk.io/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 636.9701 125.2743 645.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+350 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.snyk.io/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 627.9701 163.7953 636.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+351 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://portswigger.net/burp)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 579.9701 165.3493 588.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+352 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://portswigger.net/burp/documentation)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 570.9701 234.9993 579.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+353 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://letsencrypt.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 522.9701 149.3963 531.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+354 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://letsencrypt.org/docs/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 513.9701 187.9173 522.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+355 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://junit.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 406.6315 128.3893 415.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+356 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://junit.org/junit5/docs/current/user-guide/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 397.6315 244.3303 406.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+357 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://testng.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 349.6315 134.6193 358.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+358 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://testng.org/doc/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 340.6315 169.6403 349.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+359 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://site.mockito.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 292.6315 152.5043 301.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+360 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 283.6315 346.2363 292.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+361 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.selenium.dev/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 235.6315 161.8353 244.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+362 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.selenium.dev/documentation/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 226.6315 231.4853 235.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+363 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://playwright.dev/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 178.6315 148.2273 187.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+364 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://playwright.dev/docs/intro)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 169.6315 200.3633 178.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+365 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.cypress.io/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 121.6315 152.1053 130.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+366 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.cypress.io/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 112.6315 173.5183 121.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+367 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.postman.com/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 64.6315 162.6123 73.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+368 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://learning.postman.com/docs/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 55.6315 210.8703 64.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+369 0 obj
+<<
+/Annots [ 345 0 R 346 0 R 347 0 R 348 0 R 349 0 R 350 0 R 351 0 R 352 0 R 353 0 R 354 0 R 
+  355 0 R 356 0 R 357 0 R 358 0 R 359 0 R 360 0 R 361 0 R 362 0 R 363 0 R 364 0 R 
+  365 0 R 366 0 R 367 0 R 368 0 R ] /Contents 457 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 441 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+370 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://jmeter.apache.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 750.9701 159.9033 759.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+371 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://jmeter.apache.org/usermanual/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 741.9701 220.2083 750.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+372 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://gatling.io/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 693.9701 131.5043 702.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+373 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.gatling.io/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 684.9701 170.0253 693.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+374 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.eclipse.org/ide/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 577.6315 165.7273 586.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+375 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://help.eclipse.org/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 568.6315 174.3023 577.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+376 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.jetbrains.com/idea/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 520.6315 177.3963 529.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+377 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.jetbrains.com/help/idea/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 511.6315 214.3633 520.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+378 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://code.visualstudio.com/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 463.6315 172.3493 472.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+379 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://code.visualstudio.com/docs)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 454.6315 208.9243 463.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+380 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://visualstudio.microsoft.com/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 406.6315 185.5653 415.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+381 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://learn.microsoft.com/visualstudio/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 397.6315 224.8633 406.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+382 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://netbeans.apache.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 349.6315 169.2553 358.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+383 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://netbeans.apache.org/tutorial/main/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 340.6315 231.1143 349.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+384 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.postman.com/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 292.6315 162.6123 301.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+385 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://learning.postman.com/docs/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 283.6315 210.8703 292.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+386 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://swagger.io/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 235.6315 137.3353 244.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+387 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://swagger.io/docs/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 226.6315 175.8563 235.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+388 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://dbeaver.io/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 178.6315 136.1733 187.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+389 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://dbeaver.com/docs/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 169.6315 182.4713 178.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+390 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://redis.io/insight/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 121.6315 148.2273 130.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+391 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://redis.io/docs/latest/operate/redisinsight/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 112.6315 246.2763 121.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+392 0 obj
+<<
+/Annots [ 370 0 R 371 0 R 372 0 R 373 0 R 374 0 R 375 0 R 376 0 R 377 0 R 378 0 R 379 0 R 
+  380 0 R 381 0 R 382 0 R 383 0 R 384 0 R 385 0 R 386 0 R 387 0 R 388 0 R 389 0 R 
+  390 0 R 391 0 R ] /Contents 458 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 441 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+393 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.sap.com/products/erp/s4hana.html)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 709.9701 226.0323 718.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+394 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 700.9701 277.7763 709.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+395 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.salesforce.com/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 652.9701 167.6663 661.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+396 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://developer.salesforce.com/docs)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 643.9701 219.8163 652.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+397 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.servicenow.com/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 595.9701 170.7743 604.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+398 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.servicenow.com/docs/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 586.9701 209.2953 595.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+399 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.microsoft.com/dynamics-365)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 538.9701 207.7273 547.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+400 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://learn.microsoft.com/dynamics365/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 529.9701 229.5323 538.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+401 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.workday.com/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 481.9701 161.8283 490.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+402 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://developer.workday.com/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 472.9701 199.1943 481.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+403 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://prometheus.io/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 365.6315 147.8423 374.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+404 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://prometheus.io/docs/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 356.6315 186.3633 365.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+405 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://grafana.com/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 308.6315 142.3963 317.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+406 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://grafana.com/docs/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 299.6315 180.9173 308.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+407 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://opentelemetry.io/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 251.6315 155.2343 260.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+408 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://opentelemetry.io/docs/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 242.6315 193.7553 251.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+409 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.elastic.co/elastic-stack)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 194.6315 188.2813 203.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+410 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.elastic.co/guide/index.html)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 185.6315 222.5323 194.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+411 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.splunk.com/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 137.6315 155.9973 146.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+412 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.splunk.com/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 128.6315 177.4103 137.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+413 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.datadoghq.com/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 80.6315 168.8493 89.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+414 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.datadoghq.com/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 71.6315 190.2623 80.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+415 0 obj
+<<
+/Annots [ 393 0 R 394 0 R 395 0 R 396 0 R 397 0 R 398 0 R 399 0 R 400 0 R 401 0 R 402 0 R 
+  403 0 R 404 0 R 405 0 R 406 0 R 407 0 R 408 0 R 409 0 R 410 0 R 411 0 R 412 0 R 
+  413 0 R 414 0 R ] /Contents 459 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 441 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+416 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://powerbi.microsoft.com/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 709.9701 173.5043 718.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+417 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://learn.microsoft.com/power-bi/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 700.9701 215.1333 709.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+418 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.tableau.com/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 652.9701 158.7273 661.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+419 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://help.tableau.com/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 643.9701 178.5863 652.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+420 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://cloud.google.com/looker)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 595.9701 177.4103 604.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+421 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://cloud.google.com/looker/docs)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 586.9701 215.9313 595.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+422 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://superset.apache.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 538.9701 167.3023 547.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+423 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://superset.apache.org/docs/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 529.9701 205.8233 538.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+424 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.metabase.com/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 481.9701 166.5043 490.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+425 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.metabase.com/docs/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 472.9701 205.0253 481.3701 ] /Subtype /Link /Type /Annot
+>>
+endobj
+426 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.arduino.cc/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 365.6315 152.8893 374.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+427 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.arduino.cc/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 356.6315 174.3023 365.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+428 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.raspberrypi.com/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 308.6315 170.7743 317.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+429 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.raspberrypi.com/documentation/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 299.6315 240.4243 308.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+430 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.espressif.com/en/products/socs/esp32)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 251.6315 237.7013 260.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+431 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.espressif.com/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 242.6315 185.1873 251.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+432 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.zephyrproject.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 194.6315 174.6733 203.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+433 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.zephyrproject.org/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 185.6315 196.0863 194.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+434 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.freertos.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 137.6315 156.3893 146.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+435 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.freertos.org/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 128.6315 177.8023 137.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+436 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://platformio.org/)
+>> /Border [ 0 0 0 ] /Rect [ 80.53033 80.6315 146.2813 89.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+437 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.platformio.org/)
+>> /Border [ 0 0 0 ] /Rect [ 102.3213 71.6315 184.8023 80.0315 ] /Subtype /Link /Type /Annot
+>>
+endobj
+438 0 obj
+<<
+/Annots [ 416 0 R 417 0 R 418 0 R 419 0 R 420 0 R 421 0 R 422 0 R 423 0 R 424 0 R 425 0 R 
+  426 0 R 427 0 R 428 0 R 429 0 R 430 0 R 431 0 R 432 0 R 433 0 R 434 0 R 435 0 R 
+  436 0 R 437 0 R ] /Contents 460 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 441 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+439 0 obj
+<<
+/PageMode /UseNone /Pages 441 0 R /Type /Catalog
+>>
+endobj
+440 0 obj
+<<
+/Author (Technology Stack Directory) /CreationDate (D:20261107090657+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20261107090657+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (\(unspecified\)) /Title (Technology Stack Directory) /Trapped /False
+>>
+endobj
+441 0 obj
+<<
+/Count 19 /Kids [ 4 0 R 31 0 R 56 0 R 81 0 R 106 0 R 126 0 R 152 0 R 177 0 R 202 0 R 223 0 R 
+  248 0 R 273 0 R 298 0 R 321 0 R 344 0 R 369 0 R 392 0 R 415 0 R 438 0 R ] /Type /Pages
+>>
+endobj
+442 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1516
+>>
+stream
+Gau1.?#S^^'Sc)R/'c\&=g_u13+%$a!o6/sQHg'/C8B^R`6`<f9HC$eIm:s`d*O@+".N;e$70]i]]\>J#ltkBM#Equ!3R!F]HKNg,VpRe@?B9]0KFJ?gY<+[NG*Ol@1i0[%ih4]$s,H<*4TD[C2OfKc.cC^O=5u2TTS9>J-D#cTU1K,WK`+,Y@4/Nq@&!]M,[-UL.</80V6P[2!5#j;9<"<!fFX<Y!,/B2^H/,h-4+YPW?#7"oDLdn@8PI>4Dc]m$84'o9nc-8/R6apg+L8k2+:Lj.\dOJO<9V6cG"WeFuR@nBJt>2\`3'6:E+4.=<-\(`L&ZA>jn.s*R&F*WQ*J-HT9f%iC8>%f=BClaJJ2`Vp3;r\7d<DYUjknd]0'lc5A!`!q>dI$eDQEuZ#\i_tVX`8C&]ie$$!-PmNe<6;-A8g*5!bb`1744O5Js+3jq/l5j=\1ZU!mV68YVH'c.C7.@7ds<00c#kY^VJ;Q_\sKU00bk%o97o/(m8k@kpESSc-mnR_XnY2lHf4#0[C>%/U,u)PeO5CohUONel\ebLM7;EHZ1qruM%Zk=-5BLkc;7Vc%[hPVKj4t=^UZt/:jf8^q4e(Y9$Th)TmU0Gc<^U#N:)$&@<$6g)h!(kAR?'n%r,jDR)3d+D<4.RZWr'I:flX8$hC1/#M2SNN8>r0W[oZphHhi*oU/J_!V0O!&#J!25D@6ml`KGYOj?G,:()'%&#>r$noB0h<P;X0V<qJn0oT^m.Mka*dki^u]nWN%OQ/6e>\[LF]TnhUM5_FSE>T\h()FVIE2[*qekSo'Z!ON&o_Mg6Uo6"1ZIG`oIZ2/Gg=gCVA(5-GeioP"n&GC71[95>M@CSAr[)cDn45mQBWOF9@l%7h=tHo&H<:Gims+d&'5/r\*:6&6\`/O$J\1%*]Z-_^i^LoJH#=#Y,DKgj(<Kto)nZ2`E69\!qSiHR,7nY8!X?[Ii^qr`i#U.e)$Wn[i"0Zt/X:=Q<hA!lS6d1XcM<fo,2nNu5.D0Vb";Kc3fPnhSPrkTHt2AX9LMr[4e')k4cCqdIlq2eIDb[b=_I5#E/h#51OOSJG^fCXd`9R@/YYUBaMrJQM+XhgmN6f7nVCNG]eU/&j!C;7rR#2+J<V;-3Cm;N\i'daKd&9l@Ps>:Hff(R`.P:NiC'Wr-FS,DQ5*lJPp)-J#BdXsRld-KptQqB'<MDHDJnHlUV_MZ!?)-ta)lE`Sr%Mj.H"6G<Ape8\#6d-i(c<QC"Ri0h+8T+N3a$_orR9'<3Vc;bp7F0j5WV"6f&2fS?du]?S3+:\LlO!&A@KNBd1u/R8FQ3d`gh8k=KKsqqaok-_&b:WO\R4LF'Bl^tBR.T$lTImCmF,K-;/r0["J6Z*VgNZN_$kMs;Q_&pN4ff/8"7TGt;PZe?L\g.1>r7lgtVLD`jQ-EboaDrlB'Pf%`LU$)$l8'YW5pj&(uh7(fb^rG/f,+i)[`$#H%@+RG8:Q-dh^9NENWQ6iWS\muF8GJURbat9j!r,&XiTrYsC>$&~>endstream
+endobj
+443 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1374
+>>
+stream
+Gau`TbAu>q']&X:mS`F?,k9k=]=>/DR7YCi,u;/:L*@e/&P92,)+T/un0*XO<>fs/FZa0eL+hu*kM-:B"HNIJc1`Ug\=J787=[)9Q[l#'@K$T$ju<=qF=U\2i:$Y_;'-H@^g]9rg<*lUlZbV7<Gd8th5P<9h[b+M^."tn?'o7YRe,_t(TCMR?ri$0)CC=%;(:Q1rl2)GpWI+\-"..D.oFEE6^m(OoaB!Y_>Mp=Hd;l5e-[2T*kM+ZXuP@2`E+)%c3.:';*r(iLdaE2Ba448Kd]9Z$Pj3l'^/>ZH4C=C6?7V-*pb<[jOTi/Vl%D(P(VX^H/nhthaVQlE#Fs5^4P$-PrqtM+A]mc?6:NF4B'KeAi+H`o7SkH3+h"JCloL3f$8$[6S3rt=6i`umm(mgS]c6HO=*94BsQk4jtZA<jKal(iZNDH<K#B_!)&jb:2?(4/+tAY?r7PEc,Xn,XMmdTW./&1M5[]YRH1Vt1>td%_13MR:*M-O=I.8mJ>J>=[hPisYa.a'DO`mL#=oE+JHTg>Fk*on8CDp4?GiXFBk$j(,pe$ONRuQf=Vg;9D*L0H=kOS&'oC.`l7lD9)bi_"AQiUbPfSpQ;]a*ZoFCT<n[Uh$?@/%sr#0g(#;)-f$FBk!b6.p`>tY)L_8g:dgOIYbgW2d3ljbHDV^/Hp(cXt0OK.X?S<(:]ZfX%+.9)2FYh22Vjr7u16(FlO-B"n$d\QB#mp7.J>.g/_/)*no=@DGBg%e1o?pK\n(0+[A#$r/b;WKL*W7"M6&@:9M[f`pMnkgm:fL0En>Zg6jiN0"T6^8a=>$/gWkG(:e5aDArp%*N4_VP3%@9D;AE/2sA(r2:+;In-_2,K`fp^/l1H2JMfrKubk\NMr#>hNg3_RN.S;C?=Ym/=b;SF5SuliB7.#*C]"@!56=+pi;mY9Xr?(Od$#<olo`)9;Y::\A[f:F(Wc*[#W[4GXrB?IRYiXL-1UdZVBf:td@ZKa\F'qY28_SuQg2k`IH-44;BSSM:)\.PDaH$7W^R]C;kVpqKq'O,9S3`L]6:mQ/5ZIF\B$Af#=Sg]#j6pDTiag((\\9e1XtCg+!-/ZtgGg&7\SOmr7erGF9DLOD4VnFn\s;WEn"?2r%l]u=WW3i;NVWf%WfX].*R?WH5O@so?Lh+5TBqi'@6O*_h<Nu33G-:/J;pG2oL#S!1&+,WBt?[$+3b9\2)hA'Q3CRC*#RO4_e<UUDFZF@Y9h&E;O]HNp.VNUQ*fu1ZX)tZ_)Il#us=M@4BEfF/1V5@t#in"_3A%V?;THR[t52LaC%j1gtfko)8N8kEoD=+h,ls-Ug(1GtLr%4pA$(EKO_kA(tVH9n6GqF3q_me2M]H:8d6*(R_lODYI"JcoV`;~>endstream
+endobj
+444 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1452
+>>
+stream
+GauHLgN)%,&:Ml+lqCd9`WCu)Dg>"9fP)st)lr@!?YC(H@$:^$K%?l-?\";N8oYk"V)4XgNEko)F*=er@.;DKp[;5gnFI($$OiE<C^ugU#.'B[G4sqa(Rlq;]b#,^7k>uDTR[*,0Oofg,kRiK<+-7*k34Ed30'1>8;nr)=U;>@-8V5FC0A\g"kPf[mbh=uSnY0)n.uBUpcP1,9V`s_hTAT)*(j)c[6MOp(1od6mfO@,@4:Y[\Ei-(/ND+.`G[)dXU.HR@$Etl;+)WN)[=MtKGhd,#`'`i:<[@l,!SWl6Lo\1&)IHj**Q*nD^k3/kg&Wg?2*4Mn!h+XP(cN/9%4#l9^AE/:tm"d:Laj.+]`'nAqkaIYf&Km;\o/M55dYV7+Z+3J>eeGY@1],R]Efc2P"SnbKk^jR]Amaqn:7=BX@r1eiC+<<qE>Fnc::^5g0'GAh?[YQ:*:>J/D":+m!LD_&=kW`."9Ol"IlH:[_3eT-b4@AE`X0X\$[7<5MOsDo;$(C!'E$V5h>D%B+odBhFMa>0,ES-@\S8%PE\lXCRl+S+><G.,B8?;,=8C@.G\[Bnb]QT_CKMB\g&!4E%c8,,s"lj=$4WGAET<qE$74agoX,b/!HHn!iGpCPT@2*gf/2<Z'9te\>;PKrc<-L<$BW8,\bukN*&^eg,sJ+mlY<H32D8:NbCSa6R(Pe.3E[Jbi):T+S@g8GI`RFci2I,8^9#^BciE`r;@2^QE9([@DkU(s2R_gaK^L\Z,9rY#e!rKnD?IZGJW:kG<")6C%I=P\&Q!`p;mXf=d39Z1I\QFNB"$Gj=lgKZT&70j?NjflKF!9FpIC[)C7/drK<sj,jP4KHSAC8mWHulQ0pWq2j&)&*mPCLZgE0;<9aoG0#j9QqRFrjO4N,[YL]q6#7=!;fqcRe7G]P?Dq)!@B[o]nWj>jY,_(3APJrpS1@oYlYaK015?-f?qeCD^3"<cP;+A5-]5mm'XJhB;A8q.F5+Y=e(f01!"P$Z"/;&M]L.SSBt:u!$VfV8ec*D$@nalVqif77WZSjb*T#2IDeFicm50W[/8E:*<MN/s9"&cCH\ldBCTb@P?)4K?e_9OZc\K^5Lq6qc#EL,IGG_DZ;%E>>3H%>`Rt"<FQVnTq9.a'a+'J;(+u=PUC:h%21hR%*8^'X<nOqIpb[)QR7kJ(S8[Y"ql26%?B#<1,>-ft89b/8\N1<Z]4s(8k`nYOJ]5hkInX/$:F*5gZZo*3r_=?""8o6LqRuN7NcTu+^8#P!I0,eBQdfW)+#F"gUHdOg+&rh10p8,B(3VX"P4]"4IeZ!7N6W(2h&B.=EgC:&4ke,*G\/0JQ+u)7"$(<Vs*F-Zm)tM]4rb17efbfcqPkIE.;E,Ym-%4VEnIarepO@QOK@b7KUr`FA]BW!?[caZG(&IbHrrMRCZJ_luma)[#Zg,$I$X%JVcrIUm(;0DY/[8fS~>endstream
+endobj
+445 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1477
+>>
+stream
+GauI7?#uc!'Sc)J/'_/8mDKim`5g^lc)*:flmB@7Zo>[\YtWdM@O4RbrUi=:m?kE?XQU9mAn#R9*9hmsHR'`liubQ+ZO5W"%^RYe,_5[t#k]UiYMoHXm-E?u9PdHLcbFf`#soDZa+BObPfM4nNtY@##pA!7e&3J&OsU_c?:Z:Z_7YBA>\*T:/7lPM]9[(?E*4TO[8O-cmi[MHB!j+oJsW-`QCZ/$PXYPDItmb8R/^X$pJS5GHDquU02pZs>QF.[I);:6LCc+L1^kO&n0mu:.Y+E[&hoc+(BcI("?[U"!Jq:uj?qi[P@A](+Z5$*/(ujSm[f;9q]b.lU_2o?%8\p>3h"hfl53F]Vh[=%XPkKVP41"1inLQD9'2"4<DhpUniH6`bZ@]YY>%q&BM..@[n:uW,GTZI?DJseA5>q>k@3od,p\MpO>ieOC^!cu9`>Y4?*rT3fW:;6[VbZKg$ItfajW^+:TAeSc^>qN/nNU6U2G6\aSPS&AcL2H_kaM#`aer"+ebNeanL,%Ph/P>oja\+D<>aSCEnILM[[jnaf=T//-?.*;*n&D>"oq^^S%ogd*<?/%jEN1GJ)G^I9VsHF,T$49o[SALSTlf$2ooL5O?XR?l)7Kr%/^SPGqLbW[F+@,Z\3A)',s`RXH]*WIZ0UL"hT9;_sa`7=Z`:7mgXU&b/@:Ik-aN[BYsV$3#-G$cU;'e#>fO!BO.Je+S.#"'HE:-Qq0:5!t^+l]LL!h!5V^iJ9`P\T1fD=W"nFqsH9ZG-Qe&Z>3[<XES6&DiSe1`XZlCF'5=W$/_-<&r#nBimHG]]Bf'k=:5$*.F9miOm?pE(H9qU8J?SIYSWi_C8!L9H-8qJc1&o79pd55e6mU1C/eX.][j3(g5AfDS\W.^U@N8KRGmY%?.S:D-5Ws-YV4be^bkDGW&O7qJ##^Li,7!S#r=A"IK:5\mXbNIW)4],2\H7De^E%l8:?Z\B1-7%=UetEiV'!?d%mi3!;F=ahr,2^0";Z8I^7#hKHc[S9o!H<)sn0&f4RtOc*Dd.+6D=VlZ4VRBdG6V8id2/\B=5V%r$qo9XVYf_6+IWm.`s?6uUF:BZ(k/1OS998a)7"U17s3IW%(9/>!Zr$jU_jM70d<kD^!X"JYn)C2cQ[8h8]:8DDN%g*u^Sd=X)jnbVm0E('[IMG-Sn="Rgn_OXMa691"@+4W@J5ocqVSN.\:#K\pZc\Uech/Fr/rO"IghWa`^r$=7QqS+t/5T`DAM!/cRDK@+c]0g2mNsY`]&bU8CSnS"OFG.:7n/samn7JF065o\1j<2l'\IPt:dkNGgG!\mNE(n3ZZKXua5k\%S5K4s@:LWOrJRlFWg;V$@0*oZ\J0c``'.d2g^V"MV)b+c-hI@!6S+Ql$UK:&g@#N>71'ueSEb3a(/qu?1(LdA//F5D\n4dN;`oJ`;>e9EbdkPk2,hg#NZCBSl(1unI%Q<loBanb'rNKf1):&3b#]!B$~>endstream
+endobj
+446 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1397
+>>
+stream
+GauI79lo&I&;KZQ'mo5ESX:ZfJ02>POkjWh:7>A8?@%/n84#u_$:%aVIsh;n?Zoua:+208,RqlWMg_4'&0QSGI$"4XC4M3SKNAEjL=$,8#mcKmiGs&6j_T>l[3r9InUP.0VD/2fkJTal1f'i&"#[IeBRP)f"XqRb$ud!#,U!JQC)DnS0l(;GV^o8o=`F[6Tm4sW[=\EtP/>8]6kk5QTX^9q<H+m)F/OMAd:X<pB%?W$-mh5$`Q;VH^Y"bQh2D&=1>.DT+JpEE+jJ6G1d]1_F#lRROrOO^;aM'!,gJ,:Sn&N9%]GWuY6a4_n&1W;%>2E@.J+k,_kIIn(WFBO@XPQ:Omt.Q1s2HeBN=(feW:%V$PYVOpW\!.C[59J=pE^5aFQ2p'Wd\l^gfK;hh4Lo#[,F-l>0*95Qmc;YljBBe(!'JVD.e3O0rZs>B$Tp=kh6pgFuUXQpAa>*O_^\$tZ]BH.0'"aQD1A93LJ_@P-2Kk`L\#K`5Z!@p0fj(%VusZ9F*TKl3.m03V]!;O%*lOO^(Ci.J]@FR:K;RJ%enAE:[>MiC:/S%E^)C?eIf@&tO>%m3G3*eD)@\:NTUHcT+7CBGM]it5@6,r@Q%?KLN/e)(?e9NWmHPn.l)Ss]:n\I?Ed%LQ?oF!]!udH[r@g\-'Zqr+]iH*`JoSf*E3A8N7,jS""%RZfp4?e/^nQDUbp60?Ek1d5bNe*+`3op<f@I7Z6`79HY-XK="69PE3+eDG'8+<)0#)HP&?Knk&Gp.>"52.kB95+/<7F*0,C0<cig0j(m6!HU/A*U'RSa1dcYg8"C%RNKY8*cYOf9XgbCS>fu[+eD-#H:W6IE/Q>I!nGGRb.jJR9jV8Rk+,]\=igVUSDUumGDk_&X@kn-Pl.RpWuJW5ZN%]dq<T8^j$&n2U"Fb$C[AU"_^A@4*fT,A5;D3<3oV(+PNXX74bl1@aDdbIi'o=H'ta'^#ffNb-cL:p>a4&VBg^7TXuiq"MU1A#CO$p6r!JFa2b(I`Y+)@#6lsYZdm!M%Ppl)"ZrVK$7sV:kh1"Tn.UgrZ]1I9d[H2rUBCs]c-YlR\D(f;o,g)kT81)ITgaY1FC@TheM1mDHPO(iir7ij%"P5jp%qD-C`r='4A&n?'Simd64<q1EN+,1l7L(S3VMmGM4@tsnN,d@DN58K/Ia0p6:i:^qP"*s_*+$VMMn5QIj2SQd>p"e?B(Ad"k3ra`m^BR5/)BdMUKUNXmu=l5L&#=?EmBq)^R9]A`ps=;`>Zu.9*EIn[bt>Yo5D)!V7VKb^ZUlP>BnLe=_Wq+6`0SOZKU9?`'a=iejDAk?H52N%hO2mqG-iQi^)k%GTj>K5+5VLH\_LENQ8ZN'6V=.;!ij7ik`1t,H0k5o?9cthq(([H6'[l%*lQf[L+Z>~>endstream
+endobj
+447 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1500
+>>
+stream
+Gaua@D,91O&BE]".H]0[G>]LK3);&q:/F1\U4T/jhW]-#SCDDh,]V.R@H#\-SN`,Z@!tZ`KLDR^cMV=(*m`J-&=Pi5r\&&;UBq($#S;a4$kVq89J576Eq&P6k"]Z0A@q;YP2RgL^lNJ1bU>^$P;(6HcKtV=Grs,qP\#+E3:eAXO9?mf$mr&\1nkWSHPgO%hS:k4XOKSn_`p+PiGpj:-)VJKVSl)m$nC,hW1RMh"X^udlQ$Wn-@R"*ahET^3bOOr7f6[WfaU5r'U'qs1c&3ILeIrqD'.`(jPXO<Or/aGU)]rhM+8^s5IMnj;ZaMCS@(YpJAKpd#TeT>e`i[Yk7&eYf.]+F,:8`-IV<1.OZ:RW`mS%Nes6aS^ZC$`f(/9W^@6#/[Ak*X8K1)kbs__-.8$HODrr1.9N#`2e@j;3p)QPaDKPT:+Cp2ef(a-#pkU&W-<C*A1JQVKauKn0A;0$3I=g&8@%m6kI0tS<]/uW$[9neP0NtBT;QJ_A05'Z^<o)\9PfBan;sVeGj/8VN!G`a3^[@SZ2>r[[Sdi^MG/LCWn<<$Ddq/r/\ZC&/L(+i\[nOAs:GVJQj@`gZ2itMd4fo^Z9@BEjT8aiC-SamFktOXjEa^(l0Vt3R<3[3eG6t3^A!TIG!Ze0\!M.h\@D3c\\n<GXRJ1]P@4%dQmOoTra#WAtr(3ZO>Y8mI93/HolHTC1bA-t0JU*c?+2N>.i&<>KUHRY5pE1I.a)TTbqp4<?Ob;I<m?@?Y0(m@`*h+e([Pio;?0bq;oKl5Up7"abO`UVbnOqe[n(`,`=f<J6OWXS"`KHS&dae`.DOjV\XeN4UnhBJLBIBF,QUdAYhpt&u]MH&><A9P=o#d3]s-(6/YE=4I8hCBIH!A8"9`32Ih7h)^RgI2c*;ljqi64JRK_o:uNIE8O]iO^[d$q2D0C\[8c3no^pUO?e+$-3CPkM[]3u8&/7AH]Xi.<lYQ!MJ?>m(j@Q]"TPmk=j<jMgE_IZ$1UT8^H:U+he*Fj6sFXuY\nIFmWI_kG!942S\^k3MC``O_YW-4k#EY#r5t>i5!0]3l)CO%AX)@>hTDb?LPo>4ThGn<Q5J97l1Tl#AU$8O97DK3@-1lrHX^qg6$GRqK]rnn'4_bs7,R^8$iW\M1"fhP-FrcM2c5BkNXlfXg&:`KK+ceeahFm8&jjlVl.j?1:O8=XBA7^4GYimAS?'IP_t[iTL]1g$N,V[W/Jsr/l(K&hRZ>kAmOe$W/A8`&<!_&)JPc\nnWlm3to7/410!RTkk\rIqDTD[T!ZT3LSr;;Nu9j%Z7-Qqr(b;*P\p`K\K!5HOJ)11ZFTi\lo>5b^7<nK;B^[[enke3OrqIMed2.XV-qPjBH9,+Vj#3*^7>?k@P$j#f`?q+O<t`i]$o1tk(!*].P6I?.ks?\<>2IY(L48rdPM&D6qJ^mRRO5[i;Br8uZdeqQ8O;q:HBGTj%C3aef:eDrA!.pbrdXH7YK[(uCZAad!+4e3X5n/hXu;L/~>endstream
+endobj
+448 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1344
+>>
+stream
+GauI79lo&I&;KZQ'mk$a@u(-$YMA+sC"'=#VioM%0+\<7YX*jA5r%Z.00gsEjeOIb"*H`3254/*p3jGQ/29Qd#EQXC)W5W:ZZd6?J]/N]72-Nhn9/gFj_TDmEu4DFcOnDnSA]pj;G\<dOs5mk*-C9DnG_0VNc:R+3KP6"1o2WPC,fSio"It!<Ekh0<^+Bcd(D2-DrFKTB(0fR(8YCO2"+DI9+FiVO53U9G_!cZ:44=K&;l>n:(JXg=iDPR7!u;.4G@/W-T$i,bO)nm_U\a7).A]T!Y?Lm9e[\.(BgWh15^UT`(A20;(15Sok<&:SH$11\NWjfZ"BFu22O2M=rX#SA8R9>&f!':FJA;#e:Kq1$65&"2bZI0/P+Gl]ut]'1^na<.ol:#DbPpKQ:.W/*9^kuA.'dXF;#cj1!W\+f%o47)i`;]SH$ElSM9sVN2l(8`jFR&g$ISF&p5cZd;[FU:a)[9g%[4<A`m.l`A/Z;o.kL.2dEAKCK.@LKTp9]k0:m$HtK_OAla!8l+Oc3_XW(2T6j*uGt?_3Z]uNAHd9n1bZe:)hd#fhT'#[`fS<m#6TjoX(I#0k"i]n`+AK1me?(:7^4"makU&87qFdrFNpBO^=L6^)QcrS023b1R9-K!$go'5^3;k5u,RA]LHo;_#V;`[A^>Cq$NJD0]LLg,ugTYt&7;Jr)/2ac)c4t3bG`'L[]k4)W[j3J!>dN-%KIf=E6@B?*SE\$<LQhoEqV#h=P%bG0RYF5qp&WaQ;O!q,Yh#o<K@5fW1Q0bsp^3<kpdM/SEZ_ZAS/<j4=`k/.Bo(J^]b,Y]80pk0')p[-o\d"3d_#hlpf=H<2UkK<3)&W3M6dFbH>qFs"k$,k+1brW;pPJE033J_OT`o2_OTAh@(:u,9L?UDUZtlNXtQ*BZZUQfr]#oCLU^9%lpb3>WQ[qel_jcR6sPBbG!>E!`iCTL/Ej`&p@$+8le:R6Qh$ji-ct=d=8$@-EH:@/Vm0PK=/D)d:UkDcal\4Zq/*Ys%Q`E>[TVEF7arED]oWG7J,PmaYU%2e8".G$F!Srl#i>?JO[p7.ApO:(NJ8K:8K)\]\Ijh"R2i9uY[mKPQk.V)4#'XIF2tG\<4+C0_]T>1f1ra=NG'g&*dDqj7\YEt+$T@&D`q&EqEN1^=!)A#.Fl^pN</@&pM>`YketC]^,W$N_9H/7?:Om?&nr<smA3^X1Rb]m_DDYTDnFTo;0N:PCXnd[DOFZ9m"^V%;+a"Zj$T*M-`1'eZi&t70l4U_)kToNA/(j@&MKN5K<XKa4jtn#&rH0EPjcW_gg7(9mYkAd;9.]RSM'%=B[,D(Z9)fbIMqj3ZP8r.%EVit@f~>endstream
+endobj
+449 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1439
+>>
+stream
+Gau1/9lo&I&;KZQ'mo5ESI-W-n11t-[O+_>eql9+,o;@=A_Iil!2)1JpB;sJVGt`n*,%GZdNfX@q`]oA8.;3f_qf5c#<3em0Z&>HN(^r#;&EZVjnS3*g#c%EDe.VgLh7oi,="!*WNed0SqLe^Eb5dMAosIbS7QsM,XW/<BEI3S%*#riD+#sf%re:HE=WkNjFnB?!Ig+UKn%:O.OnJOj@Zebi)!M"^%rbhG;0$6HLJD##t9+V-+be4fo/;LZhRubfpZ:_`AEGpc-0</@\\IaNA-3'%Z$42`Y]8HEe9LgN'\X8[P!.DL"r8cSS2(Ypf;+Cj7.De8_j&3N+g_^BO-B_`e_WC^+Z7()QfPK&?%sI_p7L;MFJ,%1PJD)ePjg]eA0;C;nh>#=Nl&c6#jHr&ig(bqh"0&J?]P+[naEoJ2"r%9l/>FA"%QRar(W%o8,5S]S"Mqi)]/tH5?]WEt+PiK'oq(AoJoNeqV:g-(9J4ce<-V",@R]K#.f62MGcc8FgTo^g<&NVF\RHNW]dgIZbreEGgdC9uFJ61)NHLLXnqIVWe/01>Z8kF&V3:dR^Z(?O;"]i&>n1rKhgnTd1krG^m83DRs!g.\e>TgM$Sn_<f[1XWb,Te5an9!SKBBRWIRe7>WJ`?GsT<X_no[C1^8a3V]M_:W5N&-/4Pk/";G4,X,1ESn=5PoKe`J(/iqU5,pN-L?4G+YKsVU-kptGDL[m9nrcZ&'J@ig#rDT=E%Zfmh0#67SM2-RZS[OW]nR2tq"+kWPX9uMAu;e91`SDNp.E;8[`$;(IWY,fR61iQf&En93)i7]cMU\[-[*h3AoN%[i&Q[C(;j^Y\MU99%UE:8$XQfo,OMXJg90jq*TIfC^K\m73-SYEHPX5M3?Y1Zon`B9bN+*;YWC2ho?$aqG/@h.2-7]8UqYVl5,RAhR%>/]ca>`U)ENK;=`jNh-_O?%&a8DX0KW:c3qR>_Yh/"6gZQ894VuSUB'*c:Z?tW3E8&o3H$Wr*o1,(+@,!R$ru8\B8JZV_qu5^rrGsuR%mi=i!(@4e\i^pbC:L412JD9#Uq<j3Ht(^gUUkM7_\8f:$>oX`)OqG:7YR372U$]NKt657^ZJ3JqkJ68"GO\N;@=c@=:5phXI0A"Y@6_&$9hLsgL4r+?f:cHhjR9NV1)+m-<YG"iiCT:9fmVYgTV1=0sge.ouhV,M+>4RROO"N0G9.)l!>7=HH#:?S+2[&`-=p*%9g!Ik#soc[#[M#GQ?S'ju$XH]1ciMk!"&HV+o-\h(?nsT>W[QGItCqn&@qJC=G]f[]#:jm!PnR;3VUF^78.r4CZ!5P*oY@i&43?@f:QM\/`9JCC8)B`+\JE1<0snS(KXtH5a??mpf_ZaTEA#^Tsk_n==n(2E#=9HDnE9pg"l[[cR;6?cSt!8i4t2K7oc*10qX@TkCL"&q[Ii!!7F5.f~>endstream
+endobj
+450 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1425
+>>
+stream
+GauI7>uTcA'Sc)P($@@>/;ba'miB#^GNl=XPg&cs2i==h!o*9<2@TKK/'/+nBM+Q+@@2TWqrGEQIEmu9?jOseG/%/`n7`6i0,QBoklPgW,+)]SDpu$7B<*P^]o]q?O.qSdE<ms>H"<XGS0pUkJLYI9?@@-a+e3+h"scQEPXGgO.i:u@>Lp*E`A?;WPWcgY:n4pk4i?/&8`=9d&5:F`'\BWhN'f&Z#Q5$(mpZ'nc+]Ge-5"CQ0\K/TT`p4!/)o,Zne-OO(e8!?BkC\J!B(FTb6X:kaoN*;7PP)]KfQuk?:=l+'\a>^0+m:=jhdF/%AQ.tDL]FUaa#j]&oVD/`jWr*Bp/eAa=rL(I,@Ja2XJm2'Ze,+6(_3'3P*hH:pf4X;E_f^.aX-?FB3G/>Wm*2ZtW.KBIdVqOb^qigR0'*(gA#kc2H',#Y,`0M&"qJ9iL5O.U_lbT4u^DO5R=(Q>PC?O5k4sgq)*na_L/p=?WEPah!A]Xjag&0pbS/rNOnS0YK1\hlhnqbM-fnZp?Sqi7j9]aXCk/FLJ5a4U9NfXf/`SI5/;'+durhM2<#!T-#ABWpiHg*E$pXC(I77Oq%cjVW"q&cm*CdLP1!*E$c@$M0'a#>Vd[<U+YBYF?8sS9%"AoI<p3+db$r,ToXc*9o6K5P3R$Y>;O-0fiFq>EB"esFn+YUoDe!4o4U\AhaF_3Dn%QY.pAFU9^t``*#^+@T6H0F=fKThlKs-b:4nakEl4!#raXa@DHCM4$'+$_"X/o.rkg[^SmL;^Z*/854M\N'Rm^s%kPmj[o`,8bShO`>TQ_R7q0uAq:>l,",PYNdD@R?/T,*^c-j/LHQ#CN(8N/Fe1b^;pFN:/DF/;+nDk,G!pd`djCO'e:R.EgSRL)o1QPYVX//XN6mqm.'2H(D,rFm$$dmnAddbl8lc%^>C-YJGB:"S+\F)@'X.To'@d)VMugR(ou'n+Mdp2Z0VpDaNg]p^Vq&G(+^Pgja$_So<WApL1"K+>pK5PkuD*e;-j4Z-V_%]\)hO.kp#5C9*lj#gG!=YLuaY>Q.u_8/j28+%W@'(d[L>:<"XM((N+W,P@i*ot5TY?+-/!V,"pb1:grW\t(mh5ZLC?=Ou[l&`8R>'en38'<Vk)Tfi0,Bmd.-e:"nJrdd_(!Q"8:6,RT5%c1),Qk?eqXiTfY"9TA8_Rc_*GsB>ZTZ,E".:G'!*ROG%:N&JrCF+:/T-VaJpbX<==Ij(7X`tL4<4@u[77]Vr9C,(!6.V0%Y/8sVe:1kidEM(aih]!Ya>j?qGJ$%V<&0H[._Q]-GuV8&9cr8X<'_)B9HDq7Er76RV@`&4!:0iN_/QhdJNUqi)cu%irO-]`tp&pfq$T>:tDqT3AZ_eU4*#K`g_+n^"PSk>2FX5n@b+Ck:;Md*OrEll]._=da&._?rIi2r<#MO5bn~>endstream
+endobj
+451 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1355
+>>
+stream
+GauI79lK&M&;KZL'ltkQ,,)pcII4<0DA.,CU`0ELoHHr8X[Wr2,aBMPIRg[fgY"V\GNBr4*(V'qn9no'S5A_FL\AKh$K1Y=Gb6B\#4j-;5m5Cr_oMT+f<aF1e@g[Yk=!7I#96:M&qO(/84#Ou6*E<O3dePq$'!sj"r7k)64q)IK(HOsf!R!Xl5B#,RQ\Hfcn_q"5Jo]:N8Sli/@$HO5tdtVSOk5fqSE(:o7(3J>N^FT7DL>A.1Q#WgncM-eDE"V$b%nF:r3=N3CGSH5,SERE*tsS`W]^nh>/6T8'LGon3/SB#Z)X1"f5'%KI&fVn1tc@+!`6B0&jdCNR<%-8%5lH*lF8CD-GFe)u'SSFgdUUlI6TLhV6>*a33M6GR6__![4g6,X+QS,4LfJOF1GhGFRhOP9)R:`%m&K\ufgH8TOoI2^1fY*#`@TY)7N/9ps_3dZkscTm#A&U!bP_N0HaTTKiWU(s;DtUqnBU!D3%KZHlX3FJc>KW?&YJ_.a%pjeFA,;p!beU'uX5OuOj&`q3*5;;1hA2T[ikj-XV0pl(qR6d2t0^ZE<H<doSUlhT8g`dI9gVl(o*pI^QA<F5^2MlDoDm6^98^:$?9o:=Rh3silZD#\;f;V0>hj5=(1VuZP?rYV[%?jiBYlGKP2.?l@4IA7:W$WfQ]OR&I[X43iB"UU`_kq&*bW_7%7A0YD`@fqo)3.inG1!ZY_jTq*!ID3"5HOkZl+i[Btgqbc_;kgq(o+l-4q9iC3\Z*kuL^jmH"Y'+?N-$St&Qi+g?+5a+j)47tA(28#T9/ZP/1Ust;)BTX]Dc[k!HT2E1gnddm<RUi<s8H>E7_#r0l'jl0?YA?Y2J8l$u[(fhlhs7F`>S&.7&EaXji=_N83ANStiO>We)lZL[3GN:ut:D%Tar.o/29O<M6EVq_GSodWeoogADT@1p+`dYGY3!1CEI#ZUZ7\CDDnn$$5&u>2tmfiQfY75%Q)-i87LVIqLt)7`BZD%e*2.AC%+".W7+Y4M;?N[Es]j6g#XVn_oldDoPA9YiO_eb*$.;n6Y/>9Kq;k3!WdGGZQ\k:iGWq:@SlbM-;JS2)rD6o#I50R*==;IlaXu2ub>jN^p4o$V4L&Wh.B;/D?iB05s<p9(b;ABZ5GYgK\hk5o-c^i.&$Fs!Sl`0b`N1HHcfPHEh-8p=r0;9fLT2idlA5<k;6SA*d%k9iQso$+_rrFj.A,CP#"<YR<[_(?TbOpp!m=:R_;hdD9"SmPO4X4&]^Y0%BCn.h*"IQ0FsUgh`$3/mk*]]aGEJ$h\T+!gU)`Mc;msb7*-B:Xl>>I7gbEjg$GAAtP-YlGk9LMTOH'%MGYps'`NP[bV=]I02p'P>2~>endstream
+endobj
+452 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1506
+>>
+stream
+GauHL95iiK&AI=/bc,Q>7M708[C9u-[(G.%G7aq(l%PF:Ru&[G,\=mlod-TUY@J<DOFmP</S\VL2_uEd6"KtVqd1rV5#*656@^a`Aq3E;@.FL#R%3!)4fi1;+l>Ho8<2^UL*4;90iC;8Uf!G1S6H$dTUk-Eb4?e^S-Lc?8ICY-N$bW21nkcW%GYW#hSGRP<b`d:n./8Mpc=o7P1(<p;kfI%K:4`Cl;sA._W3XkIEt<5;%On8*h)jnk6qpU'DZN4fufs1:.Q?lQCDeqKF@uq3C#PI"U#ZT,XE!'\A1T(@7V!g+L*iA.ftG'3ch6JJ^J,]h!miS(k(7WRd?N_"up(b[+6H(APA8c3/5l8NI/9lN53hl,%pYEdpbm+(C_c>=%pJ)8@\R3?B,*uB?37@#8RoW"q,3WRfWU7#\C".ZN&-(LROaNkQdS,Y1X&!<_!P">P0-JfB[QugLCn9&\:EsdqC;TDTNgaI"+Sb&nU8=$ml&hqBsmEF]5duXa`OI7er.YrXeX<<f8i^*Po+^H=h^ed/3"BELN()F$/W3@9b8#17U)!4&`^6h8AW&^(%n.fMb.c;,>YW5gD%^286tqXhM5-[M(JCj4Cr.6A_+bMQKu4>#WVQUj:)3Nd;eaEHYg.WPp;g5!&$YCSdu@;QJ/h03V`BCIVlVUrd>#:ubFH.>e='JI.O'RMNJ^h/H8R+o2/fbTp1l)A$a$;?`nq(hb(-&(6XmHA>80TPD;9+koB,o`8_Ijo1Y*7gc_O>XRud3f/Wnr^QElbrj4ifnm.V]6BU9RIPPMG<N]MD(RX]9qOg=nN.utmBL]5]qrb6OaAeu;PXEcHVISCnM$D%6aHToj)t#c,ASd[PT*`Q`XJg^.S';I\tWT4l./PFb(F2eUaP;LBsA"Y9?RJHKUhq&r'YGZnV[.LEPpq#e!m.u:FQqsT7H966$meD\0t*8UH(Tr6=iBF*JqHL7?3.>a"E5,U<t$Jdr\,!D*=IdWF?T9*M^>*&q&udbNo7JYKA(=dsX8\q[eXK!=?FO%@,h_WCL+2;)'>gQZeJ%2_fBeENN?JZBP4t>&P*Vd+21NahraBS1!d0_^^RFIg'jPCq57H"65jXq,lHRbB\SSi/nI.c%dig3>ZWpp+Vuo+`h)9b*q&CC;oNWg77g%`2.b.M,'I%\i'q:j0n'a%6Uq)Rec<l)!@g"I=p0t=Tsu98hZR,ec/8'-do(&Q)8.=o18p=jGhj%Y&0RsDb%d>(M61XXM\b!2j\eDNjADh4DPs2D],nuXDXYd]c;ls-_hM)2Nm610Zj:g_GR8M7Z*s)<"()Up1)'1KF7==Ot941XPm1Wn5:nrl::E9m)*>CB\SuB4YJas7k+3:Y'FR_Ou8LG]*L`Jcg*lo!k3Lni0eC-=6>a]k@EI@eaK_Se&NQurT2UCO/t+i^?>)A1XnfDNK5-)R)P/3=jh&^*<`#!*L3(F]pnI00'/'Qs8/>VJ!P?^'q'7'r/[iBWF5be*(9lhJ*,#pcMdqCgf5X~>endstream
+endobj
+453 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1482
+>>
+stream
+GauHL>u0K?'Rf.Ggntn!Jg>O+I*<N8=I=en)(P#;XFsj!D%6:bETuu]f61Ae!].>JBn\t'-9(,EF3_J,K-8NjaSt?+_!qF&1B\!$?j):1"9t333nSf7>?m$0L#h?BO!H]\+a=^!6q;MZNIj-@Ao%Oqioq`Y:m.U\i5?!p6m<H^YWi\H;HA'#IYM(Gp]I&-7W;?bcgWTJ@^mJ=,aU';7^U^Qi<"%&5.&)Bi#W)P)"\:@`Q/DuMUiqgfN@?H3[%jQ.5*Es$RlBLL_G1P#=qdd07*t'P(JI/9IKt'KIPI_?8!`-lqrDoT+OW=l,^/R$2]4q4?L`Yf0J5KNG'+DCZ:/Id\$i6b)jsmI8-QS%Hk6)%+!(I!fMD2Mt1i''W^P)Ei*AI67\KPd<H/sO=guXTElFZeDS!L^dA6u3&6?9O)\umCW;eF0l3[!T>72h:R%m6:VK&_c+KIAB9YW-<AX@9<Kkr38]@T].$[O&F]_]7p2/U2CVcf:8\^)jcC':1a&Um2l-YJX!^Y84\>Q/9:#3lk^h<AZec`-sVFFQa3(P#8A-W`+,+C:JnZ)(Il)SBf9@<V16d=Ot+gW^91Y)iH;omq'OA0PrNg4bUp[tpUIIYU7hME$UmlI+c92Gjl78_j8WNI2[Erh`M9?dp$>MH%c=\uIUB/u$5#ff$r<Fm&S>'Csnk-(0iRPXA+<0;+YUX$3RO#i>G-lrOTg>_,eb';pSSqoj`$r0aLV]-'@W_qV-",p>*ob_kn/.Qj]#rsQ<BQ[6b;m*2(>0G`1GI4`Xk5*^Ah<,\t(e;ePlVK>GHZ[+RcXgtI;CLY2S=j<GV\ADN3$/QHQGTs`ZSO'I$@&DHPGQ`ETIAU$&+0lmRk,sg!ES'<CER?@UTe,)]_M&Y")&>>.B"S3+m"8];X8tDQL:41cW8`3@MoSWc:[N#.\Y7U<@u7sr4\#fX+:"<^e*04m8;N2Rdl6%GE(q73Pj[_Foe0%F\jngdk*(bNg[p=8Xg"_-I,KD0Yoo0H[^'H]#=\.MY^<EZJ1eU=)HR#-q`t=IXrk_T$O8Q\i4UnY=5WKK+LmYbI]]@D;XFaYDOX'<ZK>A`LoZg<f>E,V>;$k32!]`s"%F11_8:nD18P<`Rf&Tg6V!&1Hp=neHiiD.`_#t>j)@@\?V<K>Sp5Q:>WbPQ?c((L/%?68,NDO8REr\?d^_7lE'L9.Tbi:U`JfU[Egq&pG4o2@\X1jJ5(Y[=Z_b7+?>rA^!V=(fEU)GN2%J?Yc!5&0_G:(&c*hlIAcF.>*/G+p,=lL8p0h"@pG79Ys"bNeofLk,BGTaQ)sY5]N@)"RBrpQ<US9D./Motl1</WjfNd7>E]M>1M^uBqDo<YEM)(3Q$a3>Jqm3qJhP,9Z*(]>p0M_"U+=)bes0BQZo4Ctom<B9iOUL]7-jH7[B8L/pNfGY<8P8bE7$gDqinec<bp73X1(,BgK(n<IX^n^U3QTiG80oFiSjm=dU;N.n6^Y!~>endstream
+endobj
+454 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1464
+>>
+stream
+GauI79lK&M&;KZL'ltk[@P*ENWK4`h8\Jm^_7GVW?4%C*7*BBl;3e))rU3BO[Nd0QL.:5H5V-"Uc-6'(Ak409oH3At-O%;h95nML&;K9R&9.t,DrA+d`P35$4/'1s*PQ_gKRN-<6ZGf,PsaTI$R;T+@t8`@-]s%U.#n9tN_]]h^p8L4OsfQnjtb].SRT\C>`5$u9%I5A$O7i&>HL:;=:R3,A6UE$E`#"W5K!%6=T2dB%pVqi*"Sb$fYrGR*0<B=q-Bn=YX+:FM=3eKl)W/u=os-,6(!fP*/m6O&NI^iZ$u4_8fhAq)B\C+5\r&SSSC);\ZAo=k&A9HSf`6,h02,>^9L_"BK]&qT%;@<e;KsbBq5(6F%sU;QlrSR4tdYsC8QY8@9)V)2R7d^Q)p[FXV,1LXA#>GWT]pn/-7(aEK6bYa93(oa+q(]+G*E,R)o0N0^Rl%1RS*^mi.tqBB[!'ek/reB@fk:;@`#'F(CiPh/*hUjB<mI_+W;^qkdZ8b*M.l78B5/#lM-Uq41b>\1G+S'W$CMcBQnmY_^5U`l*A;QqqdpJf$%kC);g4lQ@BaB"cl6S3lPlBYBp((@F@IpRn*(rDY,gnZ+53$c3Lds.P/GaqP8!c6<CKc;j>1Z4gB,\qu;7TsdeJ12R]TfT=/4#EZ-7\n4)V?Fp%'>k(KQ9DF.K=X8g-j8"M""CHS-lF"BVi0aYb#_9Tp!=X:6$mi]oLLU3"OO0bn"RaLk4k(EFqQui1G@/8Lr"IlNp*E<@2k8EpC!])\2,aqO'#DbE^RZ5OU-[`+D^"_M_9mX^6Dck0oT5pl+1mX+IE8t/Y?<Hebt=c-C(TepCN.D=7b4nNDCdpIFA/CB<P4jiFs\jV3CmhY#XUaZGpCn3lBGIdV,!G`Y?5s.^7?!qabZH'gSM!8[>!@Se7uLA%p2/JfMY0?>A]XfjV4FV'@TG,7^;i\lR&.mn'5)O(7S@aLEj*A'(I*oe95,+FB61Lb.Qt^b_rT,>A]N$3'9"[TgYfoIUT^<h);qF4)7:-/W'@e2^7dqD3c'AB?Xu'q#MAFD]]0e#J-CEHIep=mP\>C6Vbrn<`Q\$3alkPRnp[Q08"DNgIfYd[lq0Xi0fiZHAc=<59b'A\JA-d:FnVTiMcXA`Vc+sI4Om<XM3-ij2aG@@B"riU>+/&8m(i[r=NsUhXu&MP_*:2c<mBkEXlH$+\H0u)cLZKgq*hI??1+]GiT'Marbo3[Ackk2Onc+B$M;mej\lffPE8a)eGS];mT0a8fE'HLo;t"[B='e'"H(eRrUUE./(\6DH##r&Gek6!>l"1#Ags(?D;j2T5qM+2RZ/5iXtG3YVNgo1L[O36[g^9db3$OQ8^b3dn4Mf53nipX:`;k^c9q4,t=g\9U:39Z2EL,@QGjnS/#jX[epoU;9%eZS&eLtmqU#!bc%?eCZ;7TVXu)u)o_Y@'!iY'4m85u:[,[6Iumr8jT~>endstream
+endobj
+455 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1352
+>>
+stream
+Gau1/9lK&M&;KZL'ltk[!hi&?qV#0-,]/)1BH%2'l%P6JKkj7Z8NK??rK<?(fO"$$c:Tcu$'p<%o0+s?8f.X,_>ST7!;sQ]q)&@M?r7!&Lr/.7>V48#5MKF7gkBkI4/+/1UC^6i12<pfPf5qOJuY=AhQ0INK[VbNJYX]i0o]Vh^hgjYLK<!3H@fA=ng.NJ`H*9S'DtA["?r*Ia9AV1E@k6Ak>7([WIKW@(KgUt]^N@d#Y"j7n\0pr=iG4r4!t![<44\%Kb4b]85af#"P?=S0-a.7RK4TXTb.Js_i36%pJVELTZHqr?W5&$C"]Q\*bH3/b9&_!G"aL^4<O;<8%ZKl<KC<H>mQ#31Sdm0*U;mZLP'Y@"SGH-co]!X74EH^XC_'g&\/,&<he\P8d.(N'gL;1X#Um<0^+bF\^mLWO@Q*g=/ETL0QtiS/qRr&+A=Lb@[FrN9Ti^`<Pe#X^Xp?lGL1]-4W)Z4GOr@gOs/EBLSUs4rFHeqlr)uHL:;mT+kp)c$CU4*bm`39mZA?[j5^/t'iK2rc@^44rn!#bHnEmS#@7[QPdk'<>7oS4Q>6`V(8l/5;`ZZ-LL.#?JH+3)-h!0rS;`O,6E%2UCCfkG*g?D4Mq^5rWGEE;Gcqj([K11V1d6^e1,35rB_)GJ7kB'3@tK:D7kUj;2ak*[T5Q\[S%>[m0VhFY<l8h3,R\R'O"j@\W6]g>*H#a5N+QoKhi$maBD<V<KcRqC^a7T*,<L7"jL+>Zri`46`T^.95@$8kXl>DZ8B@(GqY[m9J9;kH09JQr4BJm[3CWXX-d&(KY-q/)'HV/0BM<FFPd7TjRK8fB\Eg3(!r\o(DgKeh$?:2\ZUG^\YNeSl[V]-&%GIL\2ST-5gt9$il`&9jNX/s=](L$1N7nj[>rMq.)LZhXN6g:UcpJIE^Oc74]\#+2R("nG7\kN>YDhG___&]7<kogSKCJ:5N0O!5\/?\6(oDlinh<]`7U?Q3+j8.MZYa4ENSTZe8:qMRrl\G^@//XLn/]t4dI(q5gYpIse*FI/26>T!)#>(t#h*0j_TG;&`-D^O6aM6V<,pqffss"7g#iBsoLLqcGkCN@!?Wr^DEJmDab1+/*\.:^hh*m[_l:\d1bCYb&T0f[9@FD\(Yu`4/)eUbk"N/fCCCUFX*?HaM;o3$hoJjZ*_rJ<6LHLT^:1B'%!Nfg,b>jeE&qk%o9;u(&PKkZ)[We^6!r/)2bLN^qo)\th.//sO&e=uIEh5s4MPhLgo&hFS5%4S]j;qtOmIuije;I*j_=1rE(!1V^0iH;4Ih/rFO50JlC.1XY=7<Kk=$>RM.mnVP1s=?6@L3D^ugCiA2/rtP2YAB#Fp2G[T2s-~>endstream
+endobj
+456 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1490
+>>
+stream
+GauHLh/h:0&:`#5YtlBd'9"51rodRT-Cr@d>HVBe06o9=&/X)AAJ't%osZj!R'p8<`5uPGNNHcA]>+<-#e9Y"lMi%1GX$c,2$$$P1'bZ9#*Zg[C3'%HXEbIY0>dFn_a<X.%ie=hL/JMBHoD<s0.I"Nr&P3+&r'6h1itkB1ERq]$mnk7j=4/f%G[CS/E&sjV(bM[i1BcGI$r:oOi/\^=fR`&'%/%4Q>^4&%46R(g,gcD-&tWSJ#Hfr0-h+c&c!A?Bk<+\ETVNX"J4WW/jU:i/L@N'=S4c*Xiqek;a:M"^I&h]JI`6M>S?#GB7\5NZl0a+c(_>e+Kq(!AXga0=dlbHb9UH1)n8jM[`T6qRmc?CBRc)0#9CGe7?97cJ8uF9aFVCA)u\!3$e4\r@qldMRRa[&dXb;lZ'd,5Q01u431n09L:;k;7L>?GJ<.Le<!noL[G`d$V.0Op\R!RX6Aq4F^c2@MGnEIMrJI"]0f+WcgNag.M"reTL$CYF69f%03peCU;AVAC-0-*HBf0*$ZZT4sA"?[sG6)OA-J(BrMhG&+U2;G>WRus"f3Es$FtAC-i(d%j`5m.!CE5MS;j?`?U\/s#Lrt,UZ8elA<KID,PZVKP2g#]2^Q9;SI'b@njf0_n2PVOiaa]idPGM%ok_EK*EH$[jUO7mjdR(5=&m<[1#>uV@RibO4OR0<K"fFkRf/qkL8hWp_qG;..6ohQWM>BC+qPB;L5NC'*C5L[mX-MOMdr&!3>7`AWje;^kUacNA=QBr-**YJ9,%B;<b\#KC,R[qh+8)/-+'7)q//30/:M)hjRFM%ue:#Kb+N]L?[f3VlR7=BE]Sjp0VcN%L_=+Em/?tIU@m`,I4]6]T1O`LRMu5b1^6N8dIXrFHo;$OAN-AgA!tF#rDQY><pMVY)Ac[;`Z4gs7V\Wu0(IL2UE*f[nnS@gfW)"tGik3U-QIE%$9+.k.e0ijTAXj6)P"?5@nJNt!2^MkVL8e5>;X3X'()M\Lpr*MgBti\.)fZMFH\mG5"t.Q%S^DI9;NF^?-?B'l@9sZA8@eJ7Cm!LZ8GfOIdj13jrPtN"ZBO#+Uc;/!f[b)(LTcfrhP)Dn:%),[/>Pi!4&[_)@\cMghkqu=PVNabMCJ"Xm8c#B*A,7I^>EpJp5Iafm#kEmH+Ln?C;W4L4J^`+Bi?!5?'"Kt]&,0V(uHq/rH.)Pn]%[F.ug;N]RcOi>*$-.VD-^iqWnL!.#N,u'ZpX+3@#'(oBMa0c!Ghm*b2:Q.P)\eWD.>/N;=%HkAGY7/oE6J.s7UN*E?s&T\UX<]b>`feM;XET7od+aH+;E?i-L=>b4nkpB$_$6QH-@8R[?C'gj3eM]<sjfH\Lfb)JqlCiNuOGcqG$h;%GH?oo>7;:X8LcJq@,(UBa&*\Am*<n1dAX&Id9J_[?=g;5U3qFp.3(%s?BnS,rSn$W(e?DX,o#j+1nA:7jnCRmA=OlW>p3C],'i<4T.hT$./oTN!gp)dCC0Tl~>endstream
+endobj
+457 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1524
+>>
+stream
+GauHLgMZ%0&:Ml+bZ!gC#piL!D;R7\2N+ra_J]6KTMT0&ej^ETMMgB-mnf/fgJ+tq<aGobCs'ZSS9&:%,R#"aB_t#"!1Zj#\Y_V09P-OMi@qfrX3&Ju-iKO]]SJK+KLa8X4WlqH3Ed"Z%br`>Po0\Xcd!b%UF;.Q7E"3e%q)\nd6sf%;AM#l_,r)L,@'A'Ufsc5r69g)mUidfc'&3nW+D`%!C^<Yej%"3$VZ"-hR?bbN"VK*@+WAGOpRetQH<bJARe)akB"t%0Z$VZ9+_5Q9doUY%"tmIq\0>1@YPQbL?&C\^@C/eF,8)]=c:ucN:&/mhH[pO/5$Caa7md6"+T&e6i8nfC)5bPU)s'bGTTfChWrrA-_t=-\ukk!W@2nl=&:.mU#;Wd$OsCp]8qrCUR=b+QGg65g$q_7E>oiu)a+bT.1HBcf'XE1/VGU+d9kn,cF*EIXk1s*l`0sB3"eO"Vkb$\R>N@hi-/0_F1FD+45A,I;E`T+CLn8C\s-p8^sE^bbOUYWl:Rjp5HpP,PtIRoIp=b\Mo$Ze`Wm3rY=Un'0;PW+c_N"+']DMK.Ujr,-$0TSUr7X7(d_+q@@HB_.O?qRKTJN#,^Lff_Eo>1`/h!\j`3rT"ug(q,,ng,\C,)TlIpO;JG=7mCp^T/=Z_BpQ"b(IC_.()L2jbM[.*>/+Vet,L&l%O2Tf!S6eH#0OkHlL'Tu,DCcB"h*LjOi:Yc$X4Dup9`skN.FjGN\LSPO0K;>N)4DeMP-<#h+k@JfBWIF%PRFFhY>qbe#_sB15q#Q&Q,krZa_tp]n7=`,H>(AcF*MH[G^FB[0h28ArN.1+72-cEG>#c?gh"SZ/7<#A^J>CS5O_?JgTeW?0l$R)B+_ht]l)Vl67"'X@NTfjT;J!:^]l.NRg`jLY*"get^5;%7+/%3:5M-@2Rs:@U"jF2PgkhE;/rfB=i!b&RZ#f=*5O+1sSJ%Q3qdGla.JX'nDN_j^kuF/5V%<u(/Rn;HermdN1k1b#5)$Z!,#^)cVss6UjqJl$>h6D:R!o%E#?*^I&j,K'6.&RG2Nm'unZCo%@u:.pQ>>I/o_cU8oI5&XTL$nnk[uAJ#h+Q4+Q15tCDn-?WP4b-*Kj1D#43eQb9u(#'O!I*npZl^q,CIlQl!:8nnW:+pKoJa#(n8=A=lmf]n<$7L0spp%2jt/UUi3BK]"EiUt18ijpalAD_cab[Bso=L-tOaqL+LH2KNa#'oT^LZY@G#U-n.;Ur>$L9[hZ5:=4)FMpjoF_lQe(c!Hn6lZ&ic_t&c0Jm^hqN(&:&mUfndf6;ua_teT`lT-6=(*?G_)%2HU"ETa.HZTOb7r<tL5J*Kcf-8n9)\5L/I?CUs.aR5m)`*Je+Xt,TVe7E)JN_/e?[9s-9nW5^<*(#t%O$/EWnjJU;c=HcQ25;^MD&"q'",]<#k`cmq;"9d^5H7=^-`s>*C>Nf<U?3g)+j0*RC0?Of[3o.3Q=EAMJ!=\YMM1hNUOEQn@o('<<lBJ/SKQ-9iQtSm+B$o=G;t=!&[nSXT~>endstream
+endobj
+458 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1392
+>>
+stream
+GauI79lo&I&;KZL'mo5ESJWP9n1-Gq[PRX0NE[ptV&+r@-o_p7&s1rIq^t-&V-M&l)QKPMM'I&O]C3)<"@s]Q&,"iA$K1:[VABppK@p;S-QHaME'AXAkH"!<balh!rtD!13/N23XPdb\Os5mk*4jiAd-]Y7:2$483O#$l4QS$9<\Tr`EnT_If:V$IMXhFNWD8a[GG!h)Q=fW8Yu%80%<U%^9ijr#<;Xf8#d\lFrT(U%>U58kLsgD&`N?'bctm+\/#KVYTd3BX*(-%P;&3#n!)F9N&mbQH/E7$?_W-7,NV?A/J<@eGQsO_[gu6,NFq'Ya[4%@SY&:&#h4ErqSYsTV3CEU%$L2)V:sbRW;=RU^k<87H,80"0d)^RKetN5n<j7nG6?as-U2X-OX4eJnedVokM%B:3o1Q'(><#]rEZgTFR\_Xfr\r$5JmAhLhrWWA/)PmO3a#Xu2K,JAqiqhM#VQq?>s7lD?!*:H?#E]K[DFELIbSgOUs!d'RV>$!N/pO+SZl4ZFb&3p+._p<VX$]R#<IBNRe%bFXa<Kmd\/oV>oN:`m,]eHJj_=f>SbXmJE?[iJgY8QQR.Rd1`7G&@@jQVBS!oIc_AA@3PC6X(\L7][e0\#A%_a^0$hhfCH/L3%PRuL^mTS3NQ*;u))e#l8;edHW5#r6[f2ic+PR.Ol.-kbN2<[&a?Iu&E-clqa+EhKUY8/MZ)UZ%8J>!'=Pe\W^U'udb=8UnFGbP%F],Fu<BL6(b1<M:,=/_<et'$cVohpi"-cC*r+i,g;TCpa4qcO!k/X0qA8(9\A[C7"%EKoj,Efc/M46t?3Rjr-cJqb`"J#T(::U.Fj(i#V-.[Jhg3SCpL6/uBkZ8#6Lii*^STdE.L6R#Gpkhn`s0d*l#Ieq44'qCg=asBT+47UHgJge_cT$OY,09=0J`$9'jN1g/_4oC/\5?h8NF%8p1f*n/Oh:,(K3-6@YroN]im/RUB5BhJEHWni!R;Q''D2k"3+G''Z6N<*A%()+j8nH`.D#50l0thV*?XIlL_]E;Zu;dS""Gs!q3^[/Y@W'dh(muO&)k^,,P,bl$p-3C_j9IG;nKm1KmVkE$:fFK=Vd&hp/W,j>HRt8;)Tb'[oUK0MX+XD^b0cYLq2rdC5;/.=<@JQcg>kYd_S*52F9c82n];)ZSW[7n_Kt=l]B^7/;_A7lo.Rd=m!:4JY1/?_:e5&=44%Y%H5LY,P*e+49t4o#8X!uULHWaB/kek6@dK.*Y[am<hW`M97]];iF%DSKq`:$A;\pmCN@MNMQOhuI7Y)1,0&MZiG.9`pSdc5"uq[m0k%fnE9V_UO2:qbG>;r,&)iUE';b':=?@=iK;s6c6K.A!4B['%87SQGDR)L;GJb6'/5hWHXJ#Mb.X:VF.@S-S~>endstream
+endobj
+459 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1514
+>>
+stream
+GauHLh/D%+&:`#5EDK"],dKs<?[YS:F;rRP?>Q\r!t%MlD(_!MMGi6rYMW4JGESD$'dJ7rfK.mFmt3`ZJ;\oQI8+a4%q?H(,![Q8-U=':@/LnF`[BY=(;GObLM6@o_]nCA*]Q?C)+HW8*4TD[e^O_``Tf!p8/0#Td)b`Z^]GA9E&ncVXAG=R5/F2[aTGej8gLgET&=N*KQ'#@a@,S-.\Tj@,m#i)4Qp-[r""a92;'odplm`j+i/>Z+eK)ad723LfZG[u31eGY&&Q\7][.r16.[Pg_8=DWe2?V'5#K)ufY9cj+^k?\NEm1WHb_u"O0NK5aBMp!"e?EGnoa<YC\Z7i=U;.gU+A*gn62hY_`P@XC/L7]e,k@BY:$?moiD#EGMn5q*B4`n@)r]J=mR=_*qS34QPC=8j-fUE?CdBbdT(L62`u_RGLpIMf&b+Uoe=M;*-dU_rN^gb/g&5I_2^t'bh]@fQr:1s)D[q8_n;?\?I'#Q]7Lp=k2W7;.Mb.X(rBt%I_WD'YXhJkY@+IU=t(2K-jj*N5rZ(b2K61oCD%o2jGc5-/f_B!TXT.V_\PL:i9;%tY;,9gBX=;UlFPL6#D;i"mV#ofM96'7V:$]io`,@ABK"lSG@kuh[1T:_dn>r_3Ki84]=ZQdAE@R.<$cj@pjX<ln:/-b3?R*`?2lXjg>@#aH$tR#B0rBm&n-n_kg_@/1Y&;@1&K4(+bkN\\f^SpL*^(VO-\S!i_a6d'\.*6d=F`%2!C-C;*E&igo.bPB&^OelaJcAh3A+'H>4o<N/'+U8&6pImqOE'r"/!tLhsbCd8^bP8G]_f.]([kL<HKHk;(HC"hmD?^@t(u=Sa)"btZC9*.p40*J*^-$!G=&!k.\HD#:ch"L!\aQGHR;1dG`8)YeoM9DR'9Zn)^DM"HNTG_&=C`6T@/4!_J'29r7<lWXXFL%GWPR!3fR^Q&4qn;eO*;:P8pD]3rt!gNWRJn%O0f;apWB7U`L)15K6W>Wt;_<nqhchP2tA8S(fib]D/dos<uFbTNL"2"fSf=Ks5>@5PGlsB33eZH7g"YE$=X@K7$=071^4I#h7\Nf>g@AS!AcU;8_aEs'(-W%:K.*`W]FhT'*"U@PZW]'n,8nAO]`c.Lk]I(Cb$s0U)Ehp"KgNJ\?_<Q;cNthUpnHj)=(27Kd7bG$*Y5D/f%F=+M/SGpldeMAKV'gSe*DD7TV4/WoeC'0H8?K/D=CcY)eWn*K7t[I1K)ZHPWiGYW1q:Y=TXOWe<'1uZLp8+id5NBgG?[2h(I0!Khe-r;1fM.ZR]eKLCRK:jdk$ZoEM#(KE(EZ7m<LTqD:!ND4k4.6f;9l&N_/<H0umlK&fjm6aMHlr\R'i!G;$>.`3bZ+(s!m9hq-1OIb\KGouR$/baQD#E8o>1$,>OY?esN>^?et6],se:b&1T11cb^0]#Es-8JnT-/F:EJ&CMf8#3JlZpSX#L52#=pC$c=6gB8VfA0W?ii&9taRXI8bhA7C14A9^GR)Yr6bCPlW!2,oY2u~>endstream
+endobj
+460 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1460
+>>
+stream
+GauI7>Ar7S'S,*4/'cV*%5BG4e?*Z6P&(.[,YJ7S./G,\[*==<23M_:rq]Ktm+AS6d&Rc^L^f84kOP15KYb!E\GMnb!9YeiY:s>cknGg?'[fcrR@a=tdU.jb$h=(;6t>3]5+mEOe4QDW$,%_k2/<A7Is2eU*61VZ,Xss,BaADZV^]gPPn\8IJ:!LA%rf?"bDfI/pe&C/DPg@(o1X[D=uIjC+F*RPItdM6Uqa=k2cKn_,7igR>K(G;@t9aPOh\"KCDi*/JGMGtOcTF]__qWj:[pIs[(R"?>'J"g"KV[j5Je,p-j2pN%k%',UlcH=en]WRmgh"(:9..cPAL7TS2Zm<9P_/@$kn6==CjYn"[5tT=;[Xq/Yi'0*CLiY,@UaN/IE-;`3Uk>)L0AF'HRhH[m"pg;25f<9tFiB</+J\1FP"AT?'\@q@'Zp62"MkYF#a4F5:AYs2YV8'c8BR7LnQYDpqtHg1dZ8&IgE:l6jM>B\1sGBe>%7rAs=ddouVbc^!"#C>`,V1'Qjm%MfU:AAHb%q'Ns:8l%1B7:rDpPqMUs]L,hXEGIkGbeh("f1G3#T2F*,e0a/=B/\/mYRf)p4e3NjlOW#qh*u.r;7VQ)b%3U$cEsI>?HBc.=_0Xsc\2PG<:rql]A[G?a00h+`r:M\dqiL\BcPWWK@\,_DYjBOhB>&7FU$k(q"TZh1/c/SShj74b.[-L#m[:'8]h:8*400n8@X.?3>2gM(U>JtZF@?)^`15N)ro1I6d`!A]&P'-iq>Fp"4H3r]$-`g9EkY!Z-Mo#KDVNX8i,M#54F=QIoE[ge1V]qKOb&56E6pbh^Wmfp`t,pppuM$b.?4KWFi=+]hc#3mSN'I-:?'tB"La6g$<ru'##+LrIs)\2%H-j7,FVmQ[PBaC#V3pNeFB;.QnjYX[i7!f[O4JGct]SZCJ.n@)X!gbLA/dJ(iHF0iJKuqgRnYYpf<)m/H5`lLrP/<^oY(CcS$el]$RLI:kmt/XihffMe&`Y[PMl?Jui%`+<`XD<>c(rNhJa'b.@BKA+rs10U.Na+OnVP1>]\Oro@4nnu6@bE`/qH1"jLD-cOb^$LTJ%#FO.e+JACqp^#:*H[K2X5Mhu/daN%SeZ+6QZZeS/Tb.1/r(YgPN6+i)3D+,7BGXlG1>]L`MS.fH4lDBd9kbfqSY[6(_4[c1ETom%e7)CQlVE'%cqjm>Vh/W!\SVtm!RnnQNWuB*>3n)/SZ0/C0W8l1qD"Dh%!#'\IY`Nol&a6_+PCLQj$i!4^TVI95j5=<-u_kol\5/0f$CP+ROWG[;V3n0=5.6fMpKAO*1f?bW[!OmuRuC](jqmph&^;0me#_rdaXaIYI<Br3$fEDX_X2L4k'N1@Sp>_$N)XhZ<N%###o6O(Q'Upp)gq%u>M=l<`A\XuQfCjF"LVZ":INZ?CN"M;O]cC><cR1t-lIYIo0H@6tU>HpE:Irr?s[:XK~>endstream
+endobj
+xref
+0 461
+0000000000 65535 f 
+0000000061 00000 n 
+0000000122 00000 n 
+0000000229 00000 n 
+0000000341 00000 n 
+0000000548 00000 n 
+0000000631 00000 n 
+0000000750 00000 n 
+0000000935 00000 n 
+0000001123 00000 n 
+0000001315 00000 n 
+0000001511 00000 n 
+0000001687 00000 n 
+0000001864 00000 n 
+0000002036 00000 n 
+0000002213 00000 n 
+0000002437 00000 n 
+0000002614 00000 n 
+0000002790 00000 n 
+0000002970 00000 n 
+0000003149 00000 n 
+0000003333 00000 n 
+0000003523 00000 n 
+0000003707 00000 n 
+0000003889 00000 n 
+0000004100 00000 n 
+0000004281 00000 n 
+0000004476 00000 n 
+0000004653 00000 n 
+0000004831 00000 n 
+0000005016 00000 n 
+0000005200 00000 n 
+0000005591 00000 n 
+0000005772 00000 n 
+0000005957 00000 n 
+0000006133 00000 n 
+0000006312 00000 n 
+0000006520 00000 n 
+0000006728 00000 n 
+0000006912 00000 n 
+0000007101 00000 n 
+0000007294 00000 n 
+0000007478 00000 n 
+0000007650 00000 n 
+0000007833 00000 n 
+0000008028 00000 n 
+0000008223 00000 n 
+0000008391 00000 n 
+0000008563 00000 n 
+0000008742 00000 n 
+0000008921 00000 n 
+0000009094 00000 n 
+0000009275 00000 n 
+0000009454 00000 n 
+0000009650 00000 n 
+0000009826 00000 n 
+0000010016 00000 n 
+0000010410 00000 n 
+0000010585 00000 n 
+0000010774 00000 n 
+0000010953 00000 n 
+0000011145 00000 n 
+0000011325 00000 n 
+0000011506 00000 n 
+0000011680 00000 n 
+0000011858 00000 n 
+0000012028 00000 n 
+0000012204 00000 n 
+0000012391 00000 n 
+0000012581 00000 n 
+0000012766 00000 n 
+0000012955 00000 n 
+0000013144 00000 n 
+0000013329 00000 n 
+0000013509 00000 n 
+0000013694 00000 n 
+0000013869 00000 n 
+0000014048 00000 n 
+0000014221 00000 n 
+0000014414 00000 n 
+0000014589 00000 n 
+0000014769 00000 n 
+0000015163 00000 n 
+0000015333 00000 n 
+0000015515 00000 n 
+0000015697 00000 n 
+0000015890 00000 n 
+0000016075 00000 n 
+0000016259 00000 n 
+0000016431 00000 n 
+0000016612 00000 n 
+0000016797 00000 n 
+0000016987 00000 n 
+0000017176 00000 n 
+0000017368 00000 n 
+0000017539 00000 n 
+0000017715 00000 n 
+0000017894 00000 n 
+0000018074 00000 n 
+0000018250 00000 n 
+0000018430 00000 n 
+0000018611 00000 n 
+0000018793 00000 n 
+0000018979 00000 n 
+0000019164 00000 n 
+0000019348 00000 n 
+0000019531 00000 n 
+0000019932 00000 n 
+0000020119 00000 n 
+0000020305 00000 n 
+0000020492 00000 n 
+0000020681 00000 n 
+0000020867 00000 n 
+0000021052 00000 n 
+0000021238 00000 n 
+0000021431 00000 n 
+0000021648 00000 n 
+0000021849 00000 n 
+0000022040 00000 n 
+0000022239 00000 n 
+0000022432 00000 n 
+0000022655 00000 n 
+0000022870 00000 n 
+0000023055 00000 n 
+0000023284 00000 n 
+0000023484 00000 n 
+0000023669 00000 n 
+0000024045 00000 n 
+0000024228 00000 n 
+0000024431 00000 n 
+0000024614 00000 n 
+0000024816 00000 n 
+0000025018 00000 n 
+0000025190 00000 n 
+0000025367 00000 n 
+0000025541 00000 n 
+0000025723 00000 n 
+0000025895 00000 n 
+0000026073 00000 n 
+0000026246 00000 n 
+0000026423 00000 n 
+0000026596 00000 n 
+0000026773 00000 n 
+0000026946 00000 n 
+0000027127 00000 n 
+0000027303 00000 n 
+0000027500 00000 n 
+0000027673 00000 n 
+0000027850 00000 n 
+0000028029 00000 n 
+0000028213 00000 n 
+0000028391 00000 n 
+0000028573 00000 n 
+0000029000 00000 n 
+0000029171 00000 n 
+0000029348 00000 n 
+0000029545 00000 n 
+0000029749 00000 n 
+0000029941 00000 n 
+0000030130 00000 n 
+0000030303 00000 n 
+0000030491 00000 n 
+0000030664 00000 n 
+0000030844 00000 n 
+0000031019 00000 n 
+0000031199 00000 n 
+0000031393 00000 n 
+0000031587 00000 n 
+0000031771 00000 n 
+0000031956 00000 n 
+0000032144 00000 n 
+0000032342 00000 n 
+0000032525 00000 n 
+0000032708 00000 n 
+0000032882 00000 n 
+0000033060 00000 n 
+0000033236 00000 n 
+0000033419 00000 n 
+0000033838 00000 n 
+0000034011 00000 n 
+0000034189 00000 n 
+0000034363 00000 n 
+0000034543 00000 n 
+0000034722 00000 n 
+0000034917 00000 n 
+0000035087 00000 n 
+0000035262 00000 n 
+0000035439 00000 n 
+0000035621 00000 n 
+0000035803 00000 n 
+0000035991 00000 n 
+0000036170 00000 n 
+0000036354 00000 n 
+0000036537 00000 n 
+0000036726 00000 n 
+0000036905 00000 n 
+0000037085 00000 n 
+0000037268 00000 n 
+0000037455 00000 n 
+0000037638 00000 n 
+0000037822 00000 n 
+0000038001 00000 n 
+0000038187 00000 n 
+0000038606 00000 n 
+0000038783 00000 n 
+0000038961 00000 n 
+0000039137 00000 n 
+0000039318 00000 n 
+0000039490 00000 n 
+0000039667 00000 n 
+0000039843 00000 n 
+0000040037 00000 n 
+0000040207 00000 n 
+0000040382 00000 n 
+0000040600 00000 n 
+0000040781 00000 n 
+0000040973 00000 n 
+0000041167 00000 n 
+0000041341 00000 n 
+0000041518 00000 n 
+0000041691 00000 n 
+0000041869 00000 n 
+0000042048 00000 n 
+0000042226 00000 n 
+0000042610 00000 n 
+0000042787 00000 n 
+0000042968 00000 n 
+0000043157 00000 n 
+0000043342 00000 n 
+0000043539 00000 n 
+0000043734 00000 n 
+0000043932 00000 n 
+0000044132 00000 n 
+0000044310 00000 n 
+0000044489 00000 n 
+0000044668 00000 n 
+0000044854 00000 n 
+0000045027 00000 n 
+0000045205 00000 n 
+0000045382 00000 n 
+0000045566 00000 n 
+0000045767 00000 n 
+0000045967 00000 n 
+0000046152 00000 n 
+0000046347 00000 n 
+0000046524 00000 n 
+0000046702 00000 n 
+0000046880 00000 n 
+0000047074 00000 n 
+0000047493 00000 n 
+0000047671 00000 n 
+0000047850 00000 n 
+0000048080 00000 n 
+0000048321 00000 n 
+0000048535 00000 n 
+0000048727 00000 n 
+0000048938 00000 n 
+0000049123 00000 n 
+0000049295 00000 n 
+0000049472 00000 n 
+0000049644 00000 n 
+0000049824 00000 n 
+0000050003 00000 n 
+0000050187 00000 n 
+0000050365 00000 n 
+0000050544 00000 n 
+0000050723 00000 n 
+0000050916 00000 n 
+0000051095 00000 n 
+0000051278 00000 n 
+0000051460 00000 n 
+0000051675 00000 n 
+0000051858 00000 n 
+0000052044 00000 n 
+0000052463 00000 n 
+0000052642 00000 n 
+0000052828 00000 n 
+0000053025 00000 n 
+0000053205 00000 n 
+0000053405 00000 n 
+0000053583 00000 n 
+0000053764 00000 n 
+0000053950 00000 n 
+0000054124 00000 n 
+0000054320 00000 n 
+0000054499 00000 n 
+0000054700 00000 n 
+0000054877 00000 n 
+0000055058 00000 n 
+0000055235 00000 n 
+0000055422 00000 n 
+0000055598 00000 n 
+0000055789 00000 n 
+0000055972 00000 n 
+0000056153 00000 n 
+0000056333 00000 n 
+0000056514 00000 n 
+0000056692 00000 n 
+0000056871 00000 n 
+0000057290 00000 n 
+0000057469 00000 n 
+0000057660 00000 n 
+0000057840 00000 n 
+0000058025 00000 n 
+0000058206 00000 n 
+0000058392 00000 n 
+0000058576 00000 n 
+0000058764 00000 n 
+0000058950 00000 n 
+0000059146 00000 n 
+0000059320 00000 n 
+0000059499 00000 n 
+0000059677 00000 n 
+0000059875 00000 n 
+0000060067 00000 n 
+0000060261 00000 n 
+0000060442 00000 n 
+0000060627 00000 n 
+0000060808 00000 n 
+0000061001 00000 n 
+0000061173 00000 n 
+0000061348 00000 n 
+0000061751 00000 n 
+0000061927 00000 n 
+0000062129 00000 n 
+0000062309 00000 n 
+0000062494 00000 n 
+0000062668 00000 n 
+0000062862 00000 n 
+0000063042 00000 n 
+0000063233 00000 n 
+0000063408 00000 n 
+0000063600 00000 n 
+0000063773 00000 n 
+0000063970 00000 n 
+0000064145 00000 n 
+0000064334 00000 n 
+0000064514 00000 n 
+0000064709 00000 n 
+0000064881 00000 n 
+0000065073 00000 n 
+0000065252 00000 n 
+0000065444 00000 n 
+0000065616 00000 n 
+0000065806 00000 n 
+0000066209 00000 n 
+0000066411 00000 n 
+0000066618 00000 n 
+0000066812 00000 n 
+0000067008 00000 n 
+0000067178 00000 n 
+0000067353 00000 n 
+0000067535 00000 n 
+0000067731 00000 n 
+0000067909 00000 n 
+0000068092 00000 n 
+0000068264 00000 n 
+0000068467 00000 n 
+0000068640 00000 n 
+0000068817 00000 n 
+0000068996 00000 n 
+0000069229 00000 n 
+0000069408 00000 n 
+0000069601 00000 n 
+0000069778 00000 n 
+0000069965 00000 n 
+0000070142 00000 n 
+0000070320 00000 n 
+0000070496 00000 n 
+0000070682 00000 n 
+0000071101 00000 n 
+0000071281 00000 n 
+0000071472 00000 n 
+0000071645 00000 n 
+0000071823 00000 n 
+0000072005 00000 n 
+0000072184 00000 n 
+0000072369 00000 n 
+0000072559 00000 n 
+0000072743 00000 n 
+0000072931 00000 n 
+0000073120 00000 n 
+0000073315 00000 n 
+0000073497 00000 n 
+0000073693 00000 n 
+0000073871 00000 n 
+0000074059 00000 n 
+0000074232 00000 n 
+0000074410 00000 n 
+0000074583 00000 n 
+0000074762 00000 n 
+0000074941 00000 n 
+0000075145 00000 n 
+0000075548 00000 n 
+0000075746 00000 n 
+0000075947 00000 n 
+0000076128 00000 n 
+0000076319 00000 n 
+0000076500 00000 n 
+0000076686 00000 n 
+0000076878 00000 n 
+0000077072 00000 n 
+0000077250 00000 n 
+0000077434 00000 n 
+0000077610 00000 n 
+0000077791 00000 n 
+0000077965 00000 n 
+0000078144 00000 n 
+0000078323 00000 n 
+0000078507 00000 n 
+0000078697 00000 n 
+0000078890 00000 n 
+0000079067 00000 n 
+0000079245 00000 n 
+0000079423 00000 n 
+0000079602 00000 n 
+0000080005 00000 n 
+0000080189 00000 n 
+0000080380 00000 n 
+0000080558 00000 n 
+0000080737 00000 n 
+0000080922 00000 n 
+0000081112 00000 n 
+0000081294 00000 n 
+0000081481 00000 n 
+0000081660 00000 n 
+0000081844 00000 n 
+0000082021 00000 n 
+0000082199 00000 n 
+0000082381 00000 n 
+0000082577 00000 n 
+0000082779 00000 n 
+0000082960 00000 n 
+0000083144 00000 n 
+0000083329 00000 n 
+0000083508 00000 n 
+0000083688 00000 n 
+0000083863 00000 n 
+0000084043 00000 n 
+0000084446 00000 n 
+0000084518 00000 n 
+0000084826 00000 n 
+0000085032 00000 n 
+0000086641 00000 n 
+0000088108 00000 n 
+0000089653 00000 n 
+0000091223 00000 n 
+0000092713 00000 n 
+0000094306 00000 n 
+0000095743 00000 n 
+0000097275 00000 n 
+0000098793 00000 n 
+0000100241 00000 n 
+0000101840 00000 n 
+0000103415 00000 n 
+0000104972 00000 n 
+0000106417 00000 n 
+0000108000 00000 n 
+0000109617 00000 n 
+0000111102 00000 n 
+0000112709 00000 n 
+trailer
+<<
+/ID 
+[<ddce8c14b09d25887edeaf320d5f8645><ddce8c14b09d25887edeaf320d5f8645>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 440 0 R
+/Root 439 0 R
+/Size 461
+>>
+startxref
+114262
+%%EOF
+439 1 obj
+<<
+/PageMode /UseNone /Pages 441 0 R /Type /Catalog
+ /AF [462 0 R] /Names << /EmbeddedFiles << /Names [(Content Credentials) 462 0 R] >> >> >>
+endobj
+461 0 obj
+<< /Length 24288 /Type /EmbeddedFile /Subtype /application#2Fc2pa >>
+stream
+  ^‡jumb   jumdc2pa  Ä  ™ 8õqc2pa   ^∫jumb   Gjumdc2ma  Ä  ™ 8õqurn:c2pa:73d43514-c9a1-4ef9-9fee-03fde7f00898   ™jumb   )jumdc2as  Ä  ™ 8õqc2pa.assertions   	πjumb   #jumd@À2ªäHùß*÷ÙCic2pa.icon    bfdb image/svg+xml   	wbidb<svg width="716" height="716" viewBox="0 0 716 716" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M508.749 317.399C516.777 287.314 508.991 253.884 485.389 230.282C461.788 206.681 428.36 198.895 398.273 206.923C376.231 184.928 343.39 174.956 311.148 183.596C278.906 192.234 255.45 217.292 247.36 247.361C217.291 255.451 192.233 278.91 183.595 311.149C174.957 343.391 184.927 376.232 206.924 398.274C198.896 428.359 206.683 461.789 230.284 485.391C253.885 508.992 287.313 516.779 317.401 508.75C339.442 530.745 372.286 540.717 404.525 532.079C436.767 523.441 460.223 498.384 468.313 468.315C498.383 460.224 523.44 436.766 532.078 404.526C540.716 372.285 530.747 339.443 508.749 317.402V317.399ZM470.899 244.776C486.892 260.77 493.488 282.601 490.687 303.412L415.577 260.046C412.411 258.218 408.509 258.218 405.345 260.046L317.401 310.82V277.526C317.401 275.191 318.652 273.005 320.676 271.837L387.644 233.174C414.178 218.353 448.346 222.223 470.901 244.776H470.899ZM357.837 311.144L398.275 334.491V381.185L357.837 404.532L317.398 381.185V334.491L357.837 311.144ZM264.776 269.693C265.207 239.305 285.644 211.649 316.453 203.393C338.3 197.54 360.505 202.744 377.127 215.573L302.014 258.937C298.848 260.764 296.898 264.144 296.898 267.798V369.346L268.065 352.699C266.043 351.531 264.776 349.353 264.776 347.017V269.691V269.693ZM203.391 316.454C209.244 294.608 224.854 277.978 244.276 269.999V356.73C244.276 360.384 246.226 363.763 249.392 365.591L337.337 416.365L308.503 433.013C306.481 434.181 303.961 434.188 301.939 433.02L234.971 394.357C208.868 378.789 195.138 347.261 203.391 316.454ZM244.775 470.9C228.781 454.906 222.186 433.075 224.986 412.264L300.096 455.63C303.263 457.457 307.164 457.457 310.328 455.63L398.273 404.856V438.149C398.273 440.485 397.022 442.671 394.997 443.839L328.029 482.502C301.495 497.322 267.327 493.452 244.772 470.9H244.775ZM450.897 445.982C450.466 476.371 430.029 504.027 399.22 512.283C377.373 518.136 355.168 512.932 338.547 500.102L413.659 456.738C416.826 454.911 418.775 451.532 418.775 447.877V346.329L447.609 362.977C449.631 364.145 450.897 366.323 450.897 368.659V445.985V445.982ZM512.282 399.221C506.429 421.068 490.819 437.697 471.397 445.676V358.946C471.397 355.292 469.448 351.912 466.281 350.085L378.336 299.311L407.17 282.663C409.192 281.495 411.712 281.487 413.734 282.655L480.702 321.318C506.805 336.887 520.536 368.415 512.282 399.221Z" fill="black"/>
+</svg>
+  jumb   )jumdcbor  Ä  ™ 8õqc2pa.actions.v2    Ècbor¢gactionsÅ§factionlc2pa.createdqdigitalSourceTypexFhttp://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMediamsoftwareAgent¢dnamejgpt-6-minigversionjgpt-6-minidwhenx2026-11-07T09:06:55.702625ZrallActionsIncludedÙ   ¶jumb   (jumdcbor  Ä  ™ 8õqc2pa.hash.data    vcbor•jexclusionsÅ¢estart ‰-flength^‡dnamenjumbf manifestcalgfsha256dhashX CÒ|¸_≤3RÂå ©v4ÚŒaÙNl•«ÜŒÙ§…cpad@  âjumb   'jumdc2cl  Ä  ™ 8õqc2pa.claim.v2   Zcbor¶jinstanceIDx,xmp:iid:93450549-1e51-4822-9df4-8798625dddeftclaim_generator_info£dnamegChatGPTdicon¢curlx$self#jumbf=c2pa.assertions/c2pa.icondhashX u>=W1í≥®NÎL˚¡åt∑'w÷–6«e6„ÒkspecVersione2.2.0isignaturexMself#jumbf=/c2pa/urn:c2pa:73d43514-c9a1-4ef9-9fee-03fde7f00898/c2pa.signaturercreated_assertionsÉ¢curlx$self#jumbf=c2pa.assertions/c2pa.icondhashX u>=W1í≥®NÎL˚¡åt∑'w÷–6«e6„Ò¢curlx*self#jumbf=c2pa.assertions/c2pa.actions.v2dhashX À{
+”‡J	$LÃ^[„~ÌÎÖïü7_A˜<ﬂD-˚¢curlx)self#jumbf=c2pa.assertions/c2pa.hash.datadhashX ‘’ì›MA&∏|ê◊x‡ù?jW€\ÛÍÍ˘RËhdc:titleiimage.pdfcalgfsha256  P8jumb   (jumdc2cs  Ä  ™ 8õqc2pa.signature   Pcbor“ÑYË¢8$!ÇYà0ÇÑ0Çl†•¸ÈpåÚÄ1ÓDds0	*ÜHÜ˜ 0J1!0USSL.com C2PA ICA R1 202510U
+SSL Corporation10	UUS0260422155105Z270423155104Z0G10	UUS10U
+OpenAI OpCo, LLC10UOpenAI Media Service0Ç"0	*ÜHÜ˜ Ç 0Ç
+Ç ù∫jLMóÍÅâ∂—æ^XNr°ôﬂiq|Â!#”Å¢5úL£J<Ôn+øÊdÆ◊ÑKi$ZcœÍv
+ê≤e€|<ç·˛¡3wØ'ﬁ; :¥cáòÕMúø¥3D™T07F∏˝öyDsWU£c|›¨X/ÊzÆﬁ•ò√ìNHZ¯‡|§íK’l∫ ¬*»íæu‘îgµW™jöm00,◊Uaåj“S∂ x^ECûNí£ÄÒØ[—≤Î˛ãÔ∫◊7	ï´d-ô…áö¯ø.–ÁcÄñöy†7ì6£5…H…,òcÈDõ5¨πßSlúhs»
+9ÃIÛ £Çg0Çc0Uˇ0 0U#0Ä9=G‹óèØà{MsÕÂÓ§•*0o+c0a09+0Ü-http://crt-c2pa.ssl.com/SSL.com-C2PA-I-R1.cer0$+0Ühttp://ocsp-c2pa.ssl.com0U 00
++ÉË^0)U%"0 ++$
++ÉË^0UÛùM‘Àùr¯F
+vG•hOt0Uˇ¿0	+ÉË^
++ÉË^
+03	+ÉË^&$019bc403-5cd7-7669-afe6-fdb17177d4280	*ÜHÜ˜ Ç Ç8óle°7 Ò˘Ìt∫’¶[5ıglœ+fi@Õı¸“rVﬂ ï(Í¯fﬁBC=¯x†h(â≠µÓ¸ı2“å∏_ÁlÄnÎ[|ó[0Á.B∏∆pö˛˛ 	¨5F’†åIEÄ√∫íU«Zùo“Îÿyõñ:ºDê44}ÙA•3ó/.lQR
+m=I∞À«ÜXÃ‹Óû.È∆9∏3\ ⁄Ó W3T.p(J%)Oí|.“˙›g.zËPx9Q∫É:⁄à~ê#êíıbXöÂ¬®sÜû≈ÿqÈÔ\d{ëÓ7/vòxVdÁoB—}íºÖjomdÖÿˇ"ñÌπÔ≤–\Ñ}h]5[K±≈iHyÊhé†ƒaò:L¯¿$yÂ¶h‡Ô˝÷ê÷.-AduV_ìî∂°úä<∂¿ËmÛ≈CÁv,h§ÚÊÀãàïË{*r$Å=!∆cm/%Ä£ô[™)•˝GÍ·˜kÂ˚[P&m+°Ç]1ı›b®|2‹L«•,r0PÄWìÇ‚ËÆ≥ßØY4ÆrÔ*ùÆx¨‚3ÏSµ…ô“(®*7°N´¸Ã~Xõ'mE·¥*úΩ0W°1. .…‚»T€°íOæ$5ò˛/i‹∏M„ﬁ/Ëlı¡ä‚”˛rw”®+‘WóÆáÿ æì∂âYS0ÇO0Ç7†'+c»ÃM-õÑQrlÙú^2QÆﬁ0	*ÜHÜ˜ 0O1&0$USSL.com C2PA RSA Root CA 202510U
+SSL Corporation10	UUS0251222181730Z301221181730Z0J1!0USSL.com C2PA ICA R1 202510U
+SSL Corporation10	UUS0Ç"0	*ÜHÜ˜ Ç 0Ç
+Ç À:¥Õ∏úÀ)V∏yß¯kˆ˘ÿèr√¶ò≠*A⁄a.GRΩtQæ]ÏzÇ∂¿˚˙Ë'•ãË˛bÛ`Ò_H ssï‰NnÃNz5ﬁX·◊Ç‹“GCwõﬂHàyü£9§YN^‡NGóÚuB◊v=∂§"‹Ì∆o‘rFå÷Q«µ∑zÚì˘#'’ÄPuäp†hÈÁºÑ(|ú*Í)©¿/˛…vFU∞/cÍ}ûÙ∞D§@ﬁ@6\DäTkWHˇªo§’Íé¬◊|ÿºŒiø† MìE;ô.y“œûü)ªFŸxc0ñ3Qú^ìm˙Â4JXx≥)l]|∏uï<ôw!{ÿ¥JÎ⁄Õ«
+÷…¢ﬁÆó≥∂Qñ⁄íõ√≤ªPƒ˛∂§Lï]-íjObÂ‡*˜i†ú’πì ⁄—ª^O∆Ø˘)L–…ÏÎÛ≤qP{v'hë˘Pà∏w5ÿÕ°·◊”)ÁJ∆áTY$¬g≤m	5€∫Œ∏F•‡ã⁄·ßüjŒ`“ƒ˜¡ﬁsyU‡p¥ÔÍÃ«˛vâNf
+ià-Ì√F¢*‰å‘úWF-Xb’ ®˙~¯¬ŸajÀ5]†ì£≤e®/ÌÔòÁ¸~∫HÙ™°q¸ìØÍßNsài’B¿˘ÑíÖOÀT≥=:¯›)ey Cûñ∏áXñ!Ô—ë{ £Ç&0Ç"0Uˇ0ˇ 0Uˇ0)U%"0 ++$
++ÉË^0U9=G‹óèØà{MsÕÂÓ§•*0U 00
++ÉË^0U#0Ä¸*Ju:Ä˙ôcìsWÏæì∞}√{0x+l0j0$+0Ühttp://ocsp-c2pa.ssl.com0B+0Ü6http://crt-c2pa.ssl.com/SSL.com-C2PA-Root-2025-RSA.cer0	*ÜHÜ˜ Ç Œ6˙>Ôñ6-éØUfˇ{+ kVıÀ≠Ω*Å≠•¶–M£>ì‰ìi’‰å®nÊ7T‚%úÏef(<3=¢ö¢ªÕgdJÁæt!°n√´&ƒ;,⁄Uπ˝GN‡çxõ7Éƒt;≈GaÔmAr§€]CS…ñNÂ‡:ﬂ®›.—ØXó÷ÁÙ_r#<kœΩ9´åì®èßvY>·íı˜Ÿ˚Fb´nn‘àF†≥/*j_•N⁄¯‘¸ÃŸ£<©wE
+¡˘òπ9ÀÃ°q¿*Çq”‰ˆ%‚Q!m÷ﬂ‰SçoJ}é^¿∫’wy!ÅzŒÌ˜õé∂≤äBVùèkA*˛kúãÓ£(œ_ÛÈ–d÷Ó¬âKÎíœıØ¬'M∏ë°7%ôÊ˝Ä‹Ùº«7{æ¥-gX/Á√≥ãqÂDz0∂•≤u>[#~;”T¶:π«Ã3’j5zÅv/˛W⁄i¯>?ÔTèã{F√cû˙Ìƒ/pÑ+ˆVÇÙßÀ$◊l^${:Ω©X;i≥úè“ptˇãn&ª√´E«SñúGµ∆F´^ı¸àãh£5Â|jïeµ´Îπˇ∫∏‡õJG≤ŒÏ/â}ÓØúMƒ…Œı2=è˜&4˛"ãzÌ˘^^g_Q[€$V˚—Y°∑ﬁöf	∂—Ü.˙}~ïyõDf|6Öˆı£gsigTst2°itstTokensÅ°cvalYä0ÇÜ	*ÜHÜ˜†Çw0Çs10	`ÜHe 0ÅÜ*ÜHÜ˜	†wu0s
++Éø0010	`ÜHe  .Á.î"êüˇ‘Õ‚≤eíò¸E ∞jT
+1	ìr…Fe ß˘ƒeH20261107090707.011038Z0Äung˝˝“Õ	†Çf0Çˆ0Ç^†a€F(2äåçJ∑ø˛`„l?q∑0	*ÜHÜ˜ 0{10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Issuing CA0260408174626Z370709174626Z0u10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Leaf0Ç¢0	*ÜHÜ˜ Çè 0ÇäÇÅ Í ≈≠î˝˝'ü«xßa ˇ)a*˚°àÕ_®¢óùâ/ãë»º∞ñê=UÇ¡ñé6j≠âiËê€,D2É®
+ÕwÂ5ËÓ®d[˛∏‡éùÁ °(√5›ß7È"˜	Móö¥Ñs¿.|©PG(†¥i∞á)zY˛5B˘ŸiRJ 7ÚhÃÒ-∑Çñ KF\=§Ü∏KEf8¢NM' ï∫uÃNájüt√ $_ƒ~\Æ˛ÛïÌ ëﬂ<ıÜõ*^÷–›…˙»M√…ÑZI,‰8s`R∏LÓ∆Û∑∂ÿ›j©Œ ∫]÷ƒ\5dÚ#S?bée]p+‘…k	ÅERËWÌZF]⁄]vú%yhÉQ§òÑuëròUˇÿ„Cb±Ìig'Aº≈èÚj+ÉIË·-4ª9ØgΩ¥ï»≤ΩEgÕràî_UK,≠ØÌ•Ù$Øw>ÉädQèëå9ñK∞=Æ˙ô°>å=æ6°.ıcµ £x0v0Uˇ0 0Uˇ¿0U%ˇ0
++0U§'TÇ¢äÄ{=≈ÜÕ?pŸ¬ÉôQx0U#0ÄÚ∞«T=#CÖ‹ s–rÄ=∏®0	*ÜHÜ˜ ÇÅ  ˚$OA¿¿ºò≤2 ç ôH5OƒFV~ß>?∂•#˘*H>‡QùE@x¡ªÉNìP…õ'ñhﬂMŒÚˆ“y´ÔÍ¡⁄?ıòYÊpÕâÙÓGã™ÀÏˇå~·FÿëÊú∏‰4Fˇa“x¯}89„RÌ_fËs¿ r;‰®´éÜ*£7!˘;ﬂ{\TÿL«j*KœCt`Äs£…—wØá©˝µ±Ñjnøà*Œö°ö´¢ûÇH7≈cQó€R|og…iB’œı˚≠^ãê‚‡y<.Éjû•Ë%AèÖÌ‰¡†:ç˛ùRPÔáﬁ·dÕU˘! ﬂ∂)Ôü'n—∫4F´J"OÁbw›E#›a-¬1)èƒπ~y´¥W‘¡Ïœ·\{eI∞ÎM´§«'@N¶¥µèœ|√¥Cßv”^0cÓ®Æ5(td´Z5„[/:>N
+a÷0MCõˇN.∆!π>:, W0ujédK¢–	—◊†g&Amg¯pv∏%&V˘ë&'√KI0Ç~0Çf†ç ∆≈≈⁄∞ºÒNï•Íº0	*ÜHÜ˜ 0x10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Root CA0 260408174626Z21260409174626Z0{10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Issuing CA0Ç¢0	*ÜHÜ˜ Çè 0ÇäÇÅ âº‘π‚»°æaªﬁ<df~ßæúm”©0&<Ù‡k 9ﬂï4Ì©¢eH€7Ü2ÉéÃ
+J†¿Û4l†¿òÕ+ü•ÙÀ|Ÿ&ﬁ~…M¢Ôc[ëÊˆY®“˙N˘Ÿ8+ZÕ`ZòÅò®◊S∆„÷.H¨CW	ÈîÚG˘lEä`∑˜Æ/^¢5NÖ8Öiü4ù–MÿC=Õ4m¸cì¸”pªJËvËjNfI†Ì¸¯æÔö∑®w¨Ô∑8Ãπ‘*3ƒv÷@wÀ˛«]-@”ﬁã<¿÷@AôÀî?,} kR¸û P∑	GE·#U˙±OoTòïÙ}∫¯h·"z‹äëCã∂.C±b†æ $é.Ôø§—MË∏?1œ&=≈ PÍÚŸ$ dÌ’sû.px™ﬁV<˘‘Ä¢Ë≠Øˆ˚®£\Àh´D€0wÚƒ4tkUm∆á˚Ú2<ûqE˜ÏP˚˛÷1&ª–ƒMa‚B€Ø√+n_+Ê‚∞Ôç\DÕ¿s}è¢ÈΩmÇº%eÑ0iÌ £{0y0Uˇ0ˇ 0Uˇ0U%0
++0UÚ∞«T=#CÖ‹ s–rÄ=∏®0U#0ÄX¬@†<Gv+®Ên®ëñéñ»∑Ÿ‰0	*ÜHÜ˜ Ç íÏ7\ﬁlÎd⁄Æ°	0rÆ‹rı;ºz=÷∆·/ˆÉ3}ËW@NLô™k‘ôŸã€k÷L¯ –Y3”°†8\#àD$˚á·ˆì'º°ÌL_g]ˇ5´1“Ï{‘@C7O¬Ñú∫d»∞¢~ö6¯·–Ç≥PC≤‡UΩÄî»YRNJtﬁ]«EXõ∑˙0™;‹Gº’.,π8c,yZ∑›U≠=BﬂàœÒh˛s ‘Z∑ﬁ$óë¿Ág˛‹¶
+Û•F≥QœçØ_„»∏@∆Ω„˘÷Kq–d]Âd¬K¿^w—=«[ûœ{˝îîÁKQ⁄˚dÙ´5îÒˆæ~+›≤ö=P›P√ñdém´sü(;w–óÌoEO±3._FÎÉ∂©aº◊ÇÆ¯Äo¬„i0Êm|:Dí+ò-Ø‹4¡æ•*HÁá»ﬁ8µ3 „ÑPpÒ≤KﬁçOˆë‹_Ö˙ÒÊ—◊ ßÓ¥üˆ!x)Å„pXwÜ§:KóÉFË⁄¬jv…©À!Eæe±†Ü.ÄºYKMõCm¥◊Ñ‡¸’»aêCéjù√Ò!<Ñ]˛;÷ÿ#9E_q˙2˝†ÄïDµO Â√t˝‚NárÜÙQáΩ‘µ+5lí§;kjù∫˝¿;úv¬’9I⁄„î>Pj◊L‚âaùÔÎœ≈√@npz80ÇÊ0ÇŒ†P;lâå$3,è˜Oé˚}ÇÏ0	*ÜHÜ˜ 0x10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Root CA0 260408174625Z21260409174625Z0x10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Root CA0Ç"0	*ÜHÜ˜ Ç 0Ç
+Ç ˆíÈ“∫≠û·¨u®Vÿ™±≥jí_ñyıí∑-$¯ø¿Ø`æ¡öÕyö‹lö˛6ö¡ò§?‰,ù∫••Ps≥
+¬˘ÛƒI/xΩ“ÏºÁ?Ùõ—Ú†a¢,â% Q˘%ú“∆/ÙâƒA˛&”m5ÕÏª5`@®ÖQæˆÓêòÒ*ÿùzkjŸ.ŸcÛÂ\)≈Ü"¡ähÕÎ8û©Pñ[#C˚8ˇB|;:°Q/%…H‹1ˇPrÓ|°wÕoÅaÛ?ønË“±¶6‰k2˚˛w®^õ\››1êLéeˇÅÀAŒ(1S CŒHn}÷d≥)‰¥.:∑TZrVWÛ®j}ÔÊa›e»H	Iô2t
+¢Ã›ì S¨#ΩÇÖ ±ÔæÌ°w Ó:F3¢ûÏØÈ1f¥fo≤âì†~ï!ŒA¯^éÈÕπ¿’3]x––'1œP0rs⁄j¬¿ìœ≠‹dáˆ˚Nàvı>Ôˇí,ôw.ˆ‹ò∂ù	:˝Ù	«è_ZÈ~H	+µäÉÚ[<,Øë¢ùA∑Rh—ø∞¿⁄O`ΩÓ)™Ìáçq\(åçà£%cEÿ¸{aèlFT;\…∞ÇØÉ»±#?ü[Ó¢◊Tµ*SÆªÖ€¶˙óûÏÑârÛz@…∂ÖXG[Ò$a9¢Lﬁÿ∆®"Úûø[L,À £f0d0Uˇ0ˇ0Uˇ0UX¬@†<Gv+®Ên®ëñéñ»∑Ÿ‰0U#0ÄX¬@†<Gv+®Ên®ëñéñ»∑Ÿ‰0	*ÜHÜ˜ Ç X¯ÅëòÚla˛»Ü÷[Ñ¶÷æ∏¶]]IÀ∏°)Õ-ù∏X˘Ñâ=<¯o’j¥*¢UígÅô^µT˚öFÄ„Q S¿¡àWﬁÔÇU~„Ù}Î&¸Éˇ!®¡¨ﬁ€ì´Õ–0v:ìùŒ™g9.Ätﬂm~v/ÈÍPAã8=lÂ‡>Ó/€dT6^æbE∂—!¥Ä<åÎ⁄ú÷J©’Te[k—X~¿IáÎÎK_í;î◊öÜˆ°YŒG8¨√∞td—¿R;°±{(k·ió¯(;'ˇÆ§û˜eÀ†ÙÍπΩîŒD‚ò±
+HhÓU©!•`è˛ ÷}—{Ü úÛ®x–∆⁄@.»Å\b®*¡˚VÁyéØÏÂ€”p˛FÃc®dÒ<ÈØ•dº^øÖ-∞Œ„π”§◊RªpãÜù˚.ø
+ˆ“U+#B+C\Ï°Ça?œqÌ∞˜óÈ‰À¬<¸¨w∑∂‹ ¡LÈâ≤≤/√~ídúµÑﬁÃñ˝â∞KµC}“È≠Ü˝Ÿ-üΩ Ó¿¥GV#|HëNgâ {b¡…^UÒˆ∆Q#WoÔáæ Fyæî±» (ùïäà&UfRÔŸK∫®ZÈ¬,≠ü√\BÛ°ı'dyqå
+Zû˝π˘Eyp·jµ7ñéX˝EøT%åÉ=Ÿ&3#–Xw¶∏1Çh0Çd0Åì0{10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Issuing CAa€F(2äåçJ∑ø˛`„l?q∑0	`ÜHe †Ç%0	*ÜHÜ˜	1*ÜHÜ˜	0/	*ÜHÜ˜	1" ÿ¿&OàYõÙxGÜﬂ¿Èh"1üö¡ú™zkˇ√ﬂÇ0Å’*ÜHÜ˜	/1Å≈0Å¬0Åø0Åº ΩOπ≤êLÅ6gànÔA·m˛Ÿ"ùø[íJ–¢ƒ`F"z0Åó0§}0{10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Issuing CAa€F(2äåçJ∑ø˛`„l?q∑0	*ÜHÜ˜ ÇÄÈ¡YùI⁄∏ûS^iãÍˆs¨ˇòàøRˇî¨‘^¶ä%H"ìaÒf:øÿjP=™aïÎ/ÚÁ÷¥ÎÚ∏¥#‹†æ,Q⁄≤1-AB0âë‚51_yª∂^Éˇ+‚]yN#î√GW  «ë‰û∑<°yÛïcXE†O¶e˜»í\<±‡UØ?7J/√:uÈﬂ>àÍË\∫xÅ‘Ææs¡ÈKRã†XCÌ‚"¬áÅ¢ÄÇd∞i=`€XÎÕÖΩ˜â(SR|ºèñﬂÇy∂&˙∫·Ë˛MGıö+ù0>c¡êæ6àsZ7#“±#·4ˆ~
++—∑€I>Pù*Ö&uülªtÔ-}:ﬂ≠¯Dæ±MïScó§ÃÁõÛ#∂Ãêll<ãßö„Ê·Ø∏Nù]ﬂ}í´u;àI¨»7]U2≈Á!ÃwÓ°Ùÿ†â:£‡@¢Â˘,ŒJC¡-A∆)h>∞ÁXPÈW{ìw^ëàÁqËON·D…hì˙çerVals°hocspValsÅY◊0Ç”
+ †ÇÃ0Ç»	+0Çπ0Çµ0ÅÈ¢Àcól‚ù≠‡-e&¶:tiô20261106114351Z0Åò0Åï0I0	+ ﬂÇ7S^Sÿ3±‡=$5ÒuÊ·
+9=G‹óèØà{MsÕÂÓ§•*•¸ÈpåÚÄ1ÓDdsÄ 20261106114351Z†20261113114350Z°"0 0	+020161108114351Z°#0!0	+0I%˚•ˇ«'ä›7‡’0	*ÜHÜ˜ ÇÅ ⁄ì~, é63Î·´Ã4{ébI.OOHd[‘ª¯N~¥§€y(Øõ∫ˆ’<˙«ô8´´Œ≈v‹©gî÷ròÊXﬂJDsg®5ËÅµÕ¥>€#ºUñ˘¥È:Bê1∏√ò9´§˚=ï¢bl≈Êhml¨Ù¢û‡-qh/≤Ω¨›cão≥{∏…ÂÍ˙öhÔ{Êf-⁄úëúà5ê¸}ÆmEÎ™áè[HyÍÙõíüKô|é€<√€†+ñÔág‘ﬂøúHŸ‰ÌÂ®SiÈÖQ3EïD⁄ lRÒ=K∏÷ªû4Éúi*=ñL*åA°
+#I◊~LˇTSıhn,N¯=d[RVG”ÎƒàÆ~ç\—Ï›Ÿ¨)&ZZedıπÇãüå7‚ΩßkŒø+Xr§8mJlÉW|x†Ä9Z¬fSã∂"¥ú,Zq^H_åµÎ√îj—∆°©´ëOã,õµn¿pÈ=w¡÷ srVß¯u◊l ¯–ΩvBÒû€ÁB‡™†Ç10Ç-0Ç)0Ç†97«k˜”!òS§¢°îR/0	*ÜHÜ˜ 0J1!0USSL.com C2PA ICA R1 202510U
+SSL Corporation10	UUS0261104111802Z271104111801Z0M10	UUS10U
+SSl Corp1+0)U"SSL.com C2PA ICA R1 OCSP Responder0Ç¢0	*ÜHÜ˜ Çè 0ÇäÇÅ ≤›W §¢∫øºÇ	≤Ï~ö|j>˝&ùˆ#zdÍµ9´3±ÀùüüLK≥/„æÁ}VŒµXl°/È@d¸·∞ıuî€ßæjH*àV#ïMJ˙ö,M/µp˜é&ÆR⁄8Ê<∫<o9î‡£ShoñyC]ÑÙ†9·Jìp¨ÖÜΩµ?°Æìi_⁄"]iÈ7• 5æk©´g¯  5JD?y¨JtyøüSj±øÏ∏*—G¨ø±ªÅhïHf"c9‹Ï⁄ÀrŸ√◊IÛËÌG.VòÅ~œÔÀÛóN¶zÊQÛm‡bÆ‘éê·Eúˆ∆GËÈâ„W„Ä2JTååy4jµ≠î.ã»¿¬§Üáá¿•_ÇÖ9hˇıÙòÀY†¬¨:ùïà"fn,_ÀAqÒY4≤88…˜Åˇ,GQ( •ö H±¥J=Cà ¡?ˆU"ƒÚ£Y˜≤÷ ˘dK˝ƒ®N4°^◊aÂ‡m¶πiõE°ß‘èH≥≈æ¡õ £Åá0ÅÑ0Uˇ0 0U#0Ä9=G‹óèØà{MsÕÂÓ§•*0	+0 0U%0
++	0UÀcól‚ù≠‡-e&¶:tiô0UˇÄ0	*ÜHÜ˜ Ç 
+r—⁄Z>t["_© /˚Ü2º&Í≈x“F}p91‹ádcwÏÜûÇ%z—æ√«∏ÆL“FåJÍ”•øØÅ@–Ò˝$~tñÜòâ; ﬁc˚'ÙsqH“PõÃhæÓÁmW'°Ÿñ˘ƒ@ÜÉ›ª~ÇÃ8–¥ñ»±rÇ@`åöÙq“Vòä
+å°+L8 Ö™ΩïöæﬁáÛ{ºa<f.√**(<uI\√ãV¨%∂3«!'y(’?ypπNŸÑ.ûÌu∞ƒ	‘Ó˙|Êgkñ€M†F	H√	Ô4—8%v»z@É∫a¸|Éº‚,„‚Yû∞VÖ6˝˘Î¢!ká-â3("Ö3zñWq\Aπo¬dFÈ[Ü“>ç~Ù˝}ÃîA÷™50ÃM"zÓÖÚÆ#ÿ€`ÉÏπÙ†KîÏ	Ú=S“ømjåˇø»÷∏Íê<UmiÓ¨kPIÿe¬⁄/ÚaË9í‡;O“ÒﬂΩ“
+∏ã«ïtçPogZÒ∑f}∆ÿ=®/]êvä∞Ü<â¢6%ß5,®$ø–Q~·≈M”$R>•≠ﬂ¢¯gÓÓ˝˙ôíÛ:˛i(ÙeI÷`_˚ ◊‡ËPﬁÅ<	fÄ/à
+'U¥˚¶û*xW˘CÜ'Bx˛â◊≈Ï=.Ç¸eôkZYBÉÒ#Ü”≠≠%&hp¡‘ÿ˚'®ªLÏ¶ƒ∏5∑‹ïcpadY&v                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ˆY H=¸¿C/I#®ô„„¥8¢µﬂ≥∫ÿCc”b.œíõãíêÀQOƒwD£f'˘ôp∏ãeE„˝ ;(Á˘ùD16A‰n @7Bëãﬂr∆®>∞©*;˚˙≥B4Ûl<™ŸöETw∆Ó∞`—YÄb∂ƒfôÏ‡‰	∂Ï Ï8Óß∞î=æÙNÒ…◊L™¯†W4V@z¡Q?ΩKyöó©∑*Ë€1Ásæm®teUFÃ¥'–}≥SîÈbÈ	Í ,Å∂ŒÇíPL¨«≥È¶Îu»:û≠ø¯†>MÕù∫ë˘1öéCl(ˆ=∆iGaµ!…ŸºÓˇ™X∆
+endstream
+endobj
+462 0 obj
+<< /AFRelationship /C2PA_Manifest /Desc (Content Credentials) /F (Content Credentials) /EF << /F 461 0 R >> /Subtype (application/c2pa) /Type /Filespec /UF (Content Credentials) >>
+endobj
+xref
+439 1
+0000123703 00001 n 
+461 2
+0000123863 00000 n 
+0000148255 00000 n 
+trailer
+<< /Size 463 /Root 439 1 R /Prev 114262 /ID [<ddce8c14b09d25887edeaf320d5f8645><ddce8c14b09d25887edeaf320d5f8645>] >>
+startxref
+148453
+%%EOF

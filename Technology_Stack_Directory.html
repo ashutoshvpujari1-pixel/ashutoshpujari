@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Browse technology stacks by category with direct links to official product websites and documentation.">
+<meta name="keywords" content="technology stack, operating systems, programming languages, databases, mainframe, cloud, DevOps, frameworks">
+<meta property="og:title" content="Technology Stack Directory">
+<meta property="og:description" content="A categorized directory of technologies with official websites and documentation links.">
+<title>Technology Stack Directory | Official Technology Links</title>
+<style>
+:root{--bg:#f4f7fb;--panel:#fff;--text:#172033;--muted:#65728a;--line:#e4eaf2;--primary:#3157d5;--primary2:#203fa8;--chip:#edf2ff;--shadow:0 8px 26px rgba(24,42,82,.07)}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.55 "Segoe UI",Arial,sans-serif}
+header{background:linear-gradient(120deg,#14254b,#3157d5);color:#fff;padding:42px 22px 34px}
+.hero{max-width:1200px;margin:auto}.eyebrow{text-transform:uppercase;letter-spacing:2px;font-size:12px;font-weight:700;opacity:.8}
+h1{font-size:clamp(30px,4vw,46px);line-height:1.12;margin:10px 0}
+header p{max-width:760px;color:#e2e9ff;margin:10px 0 0;font-size:16px}
+.stats{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}.stat{background:#ffffff18;border:1px solid #ffffff35;padding:8px 13px;border-radius:9px;font-size:13px}
+main{max-width:1200px;margin:26px auto;padding:0 20px}
+.toolbar{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px;box-shadow:var(--shadow);position:sticky;top:8px;z-index:5}
+.searchrow{display:flex;gap:10px;flex-wrap:wrap}.searchrow input{flex:1;min-width:220px;padding:13px 15px;border:1px solid #d7deea;border-radius:9px;font-size:15px;outline:none}.searchrow input:focus{border-color:var(--primary);box-shadow:0 0 0 3px #3157d51a}
+button{border:0;border-radius:9px;padding:11px 15px;background:var(--primary);color:#fff;font-weight:650;cursor:pointer}button:hover{background:var(--primary2)}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin-top:13px}.filter{background:#f0f3f8;color:#33415c;border:1px solid #e1e6ef;padding:7px 11px;font-size:13px}.filter.active{background:var(--chip);color:var(--primary);border-color:#cbd7ff}
+.resultline{display:flex;justify-content:space-between;gap:12px;align-items:center;margin:20px 2px 12px;color:var(--muted);font-size:13px}
+.category{margin:24px 0 30px;scroll-margin-top:150px}.categoryhead{display:flex;align-items:center;gap:12px;margin-bottom:12px}.categoryicon{width:42px;height:42px;border-radius:12px;background:#e8eeff;display:grid;place-items:center;font-size:21px}.categoryhead h2{font-size:21px;margin:0}.categoryhead p{margin:2px 0 0;color:var(--muted);font-size:13px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(235px,1fr));gap:12px}
+.tech{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:15px;box-shadow:0 3px 12px rgba(24,42,82,.035);display:flex;flex-direction:column;min-height:145px}
+.tech h3{font-size:16px;margin:0 0 5px}.tech p{font-size:13px;color:var(--muted);margin:0 0 13px;flex:1}
+.links{display:flex;gap:8px;flex-wrap:wrap}.links a{font-size:12px;text-decoration:none;color:var(--primary);font-weight:700;background:#f0f4ff;padding:7px 9px;border-radius:7px}.links a:hover{text-decoration:underline;background:#e5ecff}
+.empty{display:none;text-align:center;background:#fff;border:1px dashed #cbd4e3;padding:35px;border-radius:12px;color:var(--muted)}
+footer{max-width:1200px;margin:35px auto 0;padding:22px 20px 35px;color:var(--muted);font-size:12px;border-top:1px solid var(--line)}
+.note{background:#fff9e9;border:1px solid #f3e2ae;border-radius:10px;padding:12px 14px;color:#71551a;font-size:13px;margin-top:16px}
+
+.downloads{margin:30px 0 24px;background:var(--panel);border:1px solid var(--line);border-radius:15px;padding:23px;box-shadow:var(--shadow)}
+.downloads h2{font-size:23px;margin:5px 0 6px}.downloads-head p{color:var(--muted);margin:0;max-width:760px}
+.download-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px;margin-top:18px}
+.download-card{border:1px solid var(--line);border-radius:12px;padding:17px;display:flex;flex-direction:column;min-height:205px;background:#fff}
+.download-icon{font-size:27px;margin-bottom:7px}.download-card h3{font-size:17px;margin:0 0 6px}
+.download-card p{font-size:13px;color:var(--muted);margin:0 0 15px;flex:1}
+.download-link{display:inline-block;text-align:center;text-decoration:none;background:var(--primary);color:#fff;padding:10px 12px;border-radius:8px;font-size:13px;font-weight:700}
+.download-link:hover{background:var(--primary2)}
+.download-note{font-size:12px;color:var(--muted);margin:13px 0 0}
+@media(max-width:760px){.download-grid{grid-template-columns:1fr}.download-card{min-height:0}}
+
+@media(max-width:600px){header{padding:30px 18px}.toolbar{position:static}main{padding:0 14px}.resultline{align-items:flex-start;flex-direction:column}.grid{grid-template-columns:1fr}}
+</style>
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PWYCGS4LYK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PWYCGS4LYK');
+</script>
+
+
+
+</head>
+<body>
+<header><div class="hero">
+<div class="eyebrow">Developer & IT reference</div>
+<h1>Technology Stack Directory</h1>
+<p>Explore popular technologies across software development, enterprise IT and infrastructure. Each entry includes a direct link to its official website and, where available, official documentation. We provided links and information based on best of our knowledge. Please cross-check about links and information that are provided as there could be wrong or mis-information. </p>
+<div class="stats"><span class="stat" id="techCount">Technology catalogue</span><span class="stat" id="categoryCount">Categories</span><span class="stat">Official links</span></div>
+</div></header>
+<main>
+<section class="toolbar" aria-label="Search and category filters">
+<div class="searchrow"><input id="search" type="search" placeholder="Search technology, category or keyword (e.g. Java, DB2, Linux)…" aria-label="Search technologies"><button id="clearBtn" type="button">Clear search</button></div>
+<div class="filters" id="filters"></div>
+</section>
+<div class="resultline"><span id="resultCount" aria-live="polite"></span><span>Links open in a new tab · Official vendor / project sites</span></div>
+<div id="catalogue"></div>
+<div class="empty" id="empty">No matching technologies found. Try another search term or category.</div>
+<div class="note"><strong>Note:</strong> This is a curated starting directory, not an endorsement or a complete inventory. Some products have separate product and documentation websites. Always check vendor support, licensing, release status and lifecycle before selecting a technology for a project.</div>
+
+<section class="downloads" aria-labelledby="downloads-title">
+  <div class="downloads-head">
+    <div>
+      <div class="eyebrow" style="color:#3157d5;opacity:1">Offline reference materials</div>
+      <h2 id="downloads-title">Download the Technology Stack Directory</h2>
+      <p>Get the complete catalogue in Word, PowerPoint or PDF format. All 21 categories and 210 technology entries are included.</p>
+    </div>
+  </div>
+  <div class="download-grid">
+    <article class="download-card">
+      <div class="download-icon">📝</div>
+      <h3>Word Document</h3>
+      <p>Editable document with category-wise technology listings and clickable official links.</p>
+      <a class="download-link" href="Technology_Stack_Directory.docx" download>Download Word (.docx)</a>
+    </article>
+    <article class="download-card">
+      <div class="download-icon">📊</div>
+      <h3>PowerPoint Presentation</h3>
+      <p>Category-wise presentation containing the complete technology catalogue and URLs.</p>
+      <a class="download-link" href="Technology_Stack_Directory.pptx" download>Download PowerPoint (.pptx)</a>
+    </article>
+    <article class="download-card">
+      <div class="download-icon">📕</div>
+      <h3>PDF Document</h3>
+      <p>Printable reference document with clickable website and documentation links.</p>
+      <a class="download-link" href="Technology_Stack_Directory.pdf" download>Download PDF (.pdf)</a>
+    </article>
+  </div>
+  <p class="download-note">For downloads to work on your website, upload these three files into the same folder as this HTML page.</p>
+</section>
+
+</main>
+<footer>Technology Stack Directory · Links point to official vendor or open-source project websites. Last curated: November 2026.</footer>
+<script>
+const data = [
+{category:"Operating Systems",icon:"💻",desc:"Desktop, server, Unix-like and enterprise operating systems.",items:[
+["Windows","Microsoft operating system for desktops and servers.","https://www.microsoft.com/windows","https://learn.microsoft.com/windows/"],
+["Windows Server","Microsoft server operating system.","https://www.microsoft.com/windows-server","https://learn.microsoft.com/windows-server/"],
+["Linux","Open-source kernel used by many Linux distributions.","https://www.kernel.org/","https://docs.kernel.org/"],
+["Ubuntu","Popular Linux distribution for desktop, server and cloud.","https://ubuntu.com/","https://help.ubuntu.com/"],
+["Red Hat Enterprise Linux","Enterprise Linux distribution from Red Hat.","https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux","https://docs.redhat.com/"],
+["Debian","Community-developed Linux distribution.","https://www.debian.org/","https://www.debian.org/doc/"],
+["Fedora","Community Linux distribution sponsored by Red Hat.","https://fedoraproject.org/","https://docs.fedoraproject.org/"],
+["SUSE Linux Enterprise","Enterprise Linux platform from SUSE.","https://www.suse.com/products/server/","https://documentation.suse.com/"],
+["Oracle Linux","Enterprise Linux distribution from Oracle.","https://www.oracle.com/linux/","https://docs.oracle.com/en/operating-systems/oracle-linux/"],
+["macOS","Apple desktop operating system.","https://www.apple.com/macos/","https://developer.apple.com/documentation/"],
+["FreeBSD","Open-source Unix-like operating system.","https://www.freebsd.org/","https://docs.freebsd.org/"],
+["IBM AIX","IBM enterprise Unix operating system.","https://www.ibm.com/products/aix","https://www.ibm.com/docs/en/aix"]]},
+{category:"Programming Languages",icon:"⌨️",desc:"General-purpose, enterprise, scripting and systems languages.",items:[
+["Java","Object-oriented language and platform for enterprise applications.","https://www.oracle.com/java/","https://docs.oracle.com/en/java/"],
+["Python","General-purpose language widely used in automation, data and AI.","https://www.python.org/","https://docs.python.org/3/"],
+["JavaScript","Core language of the web browser ecosystem.","https://developer.mozilla.org/en-US/docs/Web/JavaScript","https://developer.mozilla.org/en-US/docs/Web/JavaScript"],
+["TypeScript","Typed superset of JavaScript.","https://www.typescriptlang.org/","https://www.typescriptlang.org/docs/"],
+["C","General-purpose systems programming language.","https://www.open-std.org/jtc1/sc22/wg14/","https://en.cppreference.com/w/c"],
+["C++","High-performance systems and application programming language.","https://isocpp.org/","https://en.cppreference.com/w/"],
+["C#","Modern language for .NET applications.","https://learn.microsoft.com/dotnet/csharp/","https://learn.microsoft.com/dotnet/csharp/"],
+["Go","Compiled language designed at Google.","https://go.dev/","https://go.dev/doc/"],
+["Rust","Memory-safe systems programming language.","https://www.rust-lang.org/","https://doc.rust-lang.org/"],
+["PHP","Server-side scripting language for web development.","https://www.php.net/","https://www.php.net/docs.php"],
+["Ruby","Dynamic language focused on developer productivity.","https://www.ruby-lang.org/","https://www.ruby-lang.org/en/documentation/"],
+["Kotlin","Modern language for JVM, Android and multiplatform development.","https://kotlinlang.org/","https://kotlinlang.org/docs/home.html"],
+["Swift","Programming language for Apple platforms.","https://www.swift.org/","https://www.swift.org/documentation/"],
+["R","Language and environment for statistical computing.","https://www.r-project.org/","https://cran.r-project.org/manuals.html"],
+["Scala","JVM language combining object-oriented and functional programming.","https://www.scala-lang.org/","https://docs.scala-lang.org/"],
+["Perl","General-purpose scripting language.","https://www.perl.org/","https://perldoc.perl.org/"],
+["Dart","Language used by Flutter and other applications.","https://dart.dev/","https://dart.dev/guides"],
+["COBOL","Business data processing language used in enterprise systems.","https://www.ibm.com/products/cobol","https://www.ibm.com/docs/en/cobol-zos"]]},
+{category:"Databases & Data Stores",icon:"🗄️",desc:"Relational, NoSQL, in-memory, search and time-series data platforms.",items:[
+["Oracle Database","Enterprise relational database management system.","https://www.oracle.com/database/","https://docs.oracle.com/en/database/"],
+["Microsoft SQL Server","Microsoft relational database platform.","https://www.microsoft.com/sql-server","https://learn.microsoft.com/sql/"],
+["PostgreSQL","Open-source object-relational database.","https://www.postgresql.org/","https://www.postgresql.org/docs/"],
+["MySQL","Popular open-source relational database.","https://www.mysql.com/","https://dev.mysql.com/doc/"],
+["MariaDB","Open-source relational database forked from MySQL.","https://mariadb.org/","https://mariadb.com/kb/en/documentation/"],
+["MongoDB","Document-oriented NoSQL database.","https://www.mongodb.com/","https://www.mongodb.com/docs/"],
+["Redis","In-memory data store and cache.","https://redis.io/","https://redis.io/docs/latest/"],
+["Cassandra","Distributed wide-column NoSQL database.","https://cassandra.apache.org/","https://cassandra.apache.org/doc/latest/"],
+["IBM Db2","IBM enterprise relational database family.","https://www.ibm.com/products/db2","https://www.ibm.com/docs/en/db2"],
+["SQLite","Embedded relational database engine.","https://sqlite.org/","https://sqlite.org/docs.html"],
+["Amazon DynamoDB","Managed NoSQL database service.","https://aws.amazon.com/dynamodb/","https://docs.aws.amazon.com/dynamodb/"],
+["Elasticsearch","Distributed search and analytics engine.","https://www.elastic.co/elasticsearch","https://www.elastic.co/guide/index.html"],
+["Neo4j","Graph database platform.","https://neo4j.com/","https://neo4j.com/docs/"],
+["Snowflake","Cloud data platform and data warehouse.","https://www.snowflake.com/","https://docs.snowflake.com/"],
+["ClickHouse","Column-oriented analytical database.","https://clickhouse.com/","https://clickhouse.com/docs"],
+["InfluxDB","Time-series database platform.","https://www.influxdata.com/","https://docs.influxdata.com/"]]},
+{category:"Mainframe & Enterprise Systems",icon:"🏢",desc:"Mainframe operating systems, transaction processing, databases and development tools.",items:[
+["IBM z/OS","Mainframe operating system.","https://www.ibm.com/products/zos","https://www.ibm.com/docs/en/zos"],
+["IBM z/VM","Mainframe virtualization operating system.","https://www.ibm.com/products/zvm","https://www.ibm.com/docs/en/zvm"],
+["IBM z/TPF","High-volume transaction processing operating system.","https://www.ibm.com/products/ztpf","https://www.ibm.com/docs/en/ztpf"],
+["IBM CICS","Transaction processing and application server system.","https://www.ibm.com/products/cics","https://www.ibm.com/docs/en/cics-ts"],
+["IBM IMS","Hierarchical database and transaction manager.","https://www.ibm.com/products/ims","https://www.ibm.com/docs/en/ims"],
+["IBM Db2 for z/OS","Enterprise relational database for IBM Z.","https://www.ibm.com/products/db2","https://www.ibm.com/docs/en/db2-for-zos"],
+["IBM VSAM","Virtual Storage Access Method data management.","https://www.ibm.com/docs/en/zos/3.1.0?topic=access-methods-vsam"],
+["IBM Enterprise COBOL","COBOL compiler for IBM Z.","https://www.ibm.com/products/cobol-compiler-zos","https://www.ibm.com/docs/en/cobol-zos"],
+["IBM Enterprise PL/I","PL/I compiler for IBM Z.","https://www.ibm.com/products/pli-compiler-zos","https://www.ibm.com/docs/en/pli-for-zos"],
+["JCL","Job Control Language for z/OS batch processing.","https://www.ibm.com/docs/en/zos/3.1.0?topic= JES-job-control-language"],
+["IBM RACF","Resource access control and security for z/OS.","https://www.ibm.com/products/resource-access-control-facility","https://www.ibm.com/docs/en/zos"],
+["Broadcom Endevor","Mainframe software change and configuration management.","https://www.broadcom.com/products/mainframe/application-development/endevor"],
+["BMC AMI DevX","Mainframe development and DevOps toolset.","https://www.bmc.com/it-solutions/ami-devx.html"],
+["Rocket Software","Mainframe modernization and enterprise software.","https://www.rocketsoftware.com/"]]},
+{category:"Web & Front-end Technologies",icon:"🌐",desc:"Standards and libraries used to build browser-based applications.",items:[
+["HTML","Markup language for web documents.","https://html.spec.whatwg.org/","https://developer.mozilla.org/en-US/docs/Web/HTML"],
+["CSS","Style sheet language for web presentation.","https://www.w3.org/Style/CSS/","https://developer.mozilla.org/en-US/docs/Web/CSS"],
+["Web APIs","Browser APIs and web platform capabilities.","https://developer.mozilla.org/en-US/docs/Web/API"],
+["React","JavaScript library for user interfaces.","https://react.dev/","https://react.dev/learn"],
+["Angular","Web application framework maintained by Google.","https://angular.dev/","https://angular.dev/overview"],
+["Vue.js","Progressive JavaScript framework.","https://vuejs.org/","https://vuejs.org/guide/"],
+["Svelte","Compiler-based UI framework.","https://svelte.dev/","https://svelte.dev/docs"],
+["Next.js","React framework for full-stack web applications.","https://nextjs.org/","https://nextjs.org/docs"],
+["Node.js","JavaScript runtime built on V8.","https://nodejs.org/","https://nodejs.org/en/learn"],
+["Express","Minimal web framework for Node.js.","https://expressjs.com/","https://expressjs.com/en/guide/routing.html"],
+["jQuery","JavaScript library for DOM and event utilities.","https://jquery.com/","https://api.jquery.com/"],
+["Bootstrap","Responsive front-end component toolkit.","https://getbootstrap.com/","https://getbootstrap.com/docs/"],
+["Tailwind CSS","Utility-first CSS framework.","https://tailwindcss.com/","https://tailwindcss.com/docs"],
+["Vite","Front-end build tool and development server.","https://vite.dev/","https://vite.dev/guide/"]]},
+{category:"Backend Frameworks & APIs",icon:"⚙️",desc:"Server-side frameworks, API development and application runtimes.",items:[
+["Spring Framework","Java application framework.","https://spring.io/projects/spring-framework","https://docs.spring.io/spring-framework/reference/"],
+["Spring Boot","Convention-based framework for standalone Spring applications.","https://spring.io/projects/spring-boot","https://docs.spring.io/spring-boot/"],
+["Jakarta EE","Enterprise Java specifications and APIs.","https://jakarta.ee/","https://jakarta.ee/specifications/"],
+["Quarkus","Kubernetes-native Java framework.","https://quarkus.io/","https://quarkus.io/guides/"],
+["Micronaut","JVM framework for modular microservices.","https://micronaut.io/","https://docs.micronaut.io/"],
+["ASP.NET Core","Cross-platform framework for .NET web apps and APIs.","https://dotnet.microsoft.com/apps/aspnet","https://learn.microsoft.com/aspnet/core/"],
+["Django","High-level Python web framework.","https://www.djangoproject.com/","https://docs.djangoproject.com/"],
+["Flask","Lightweight Python web framework.","https://flask.palletsprojects.com/","https://flask.palletsprojects.com/en/stable/"],
+["FastAPI","Python framework for APIs.","https://fastapi.tiangolo.com/","https://fastapi.tiangolo.com/"],
+["Laravel","PHP web application framework.","https://laravel.com/","https://laravel.com/docs"],
+["Ruby on Rails","Full-stack Ruby web framework.","https://rubyonrails.org/","https://guides.rubyonrails.org/"],
+["NestJS","Node.js framework for scalable server applications.","https://nestjs.com/","https://docs.nestjs.com/"],
+["GraphQL","Query language and runtime for APIs.","https://graphql.org/","https://graphql.org/learn/"],
+["OpenAPI","Specification for describing HTTP APIs.","https://www.openapis.org/","https://spec.openapis.org/oas/latest.html"],
+["gRPC","High-performance remote procedure call framework.","https://grpc.io/","https://grpc.io/docs/"]]},
+{category:"Cloud Platforms",icon:"☁️",desc:"Public cloud providers, cloud-native platforms and developer services.",items:[
+["Amazon Web Services","Cloud computing platform from Amazon.","https://aws.amazon.com/","https://docs.aws.amazon.com/"],
+["Microsoft Azure","Microsoft cloud computing platform.","https://azure.microsoft.com/","https://learn.microsoft.com/azure/"],
+["Google Cloud","Google cloud computing platform.","https://cloud.google.com/","https://docs.cloud.google.com/"],
+["Oracle Cloud Infrastructure","Oracle cloud infrastructure services.","https://www.oracle.com/cloud/","https://docs.oracle.com/en-us/iaas/"],
+["IBM Cloud","IBM cloud platform and services.","https://www.ibm.com/cloud","https://cloud.ibm.com/docs"],
+["Alibaba Cloud","Cloud services platform from Alibaba.","https://www.alibabacloud.com/","https://www.alibabacloud.com/help"],
+["DigitalOcean","Cloud platform for developers and businesses.","https://www.digitalocean.com/","https://docs.digitalocean.com/"],
+["Cloudflare","Connectivity, security, developer and edge cloud platform.","https://www.cloudflare.com/","https://developers.cloudflare.com/"]]},
+{category:"Containers & Orchestration",icon:"📦",desc:"Container runtimes, orchestration and packaging platforms.",items:[
+["Docker","Container development and runtime platform.","https://www.docker.com/","https://docs.docker.com/"],
+["Kubernetes","Container orchestration platform.","https://kubernetes.io/","https://kubernetes.io/docs/"],
+["Podman","Daemonless container engine.","https://podman.io/","https://docs.podman.io/"],
+["containerd","Industry-standard container runtime.","https://containerd.io/","https://github.com/containerd/containerd"],
+["Helm","Package manager for Kubernetes.","https://helm.sh/","https://helm.sh/docs/"],
+["OpenShift","Enterprise Kubernetes platform from Red Hat.","https://www.redhat.com/en/technologies/cloud-computing/openshift","https://docs.openshift.com/"],
+["Rancher","Kubernetes management platform.","https://www.suse.com/products/rancher/","https://ranchermanager.docs.rancher.com/"]]},
+{category:"DevOps, CI/CD & Infrastructure as Code",icon:"🔁",desc:"Source control, automation, build, deployment and infrastructure management.",items:[
+["Git","Distributed version control system.","https://git-scm.com/","https://git-scm.com/doc"],
+["GitHub","Code hosting and collaboration platform.","https://github.com/","https://docs.github.com/"],
+["GitLab","DevSecOps and software delivery platform.","https://about.gitlab.com/","https://docs.gitlab.com/"],
+["Jenkins","Automation server for CI/CD.","https://www.jenkins.io/","https://www.jenkins.io/doc/"],
+["GitHub Actions","Workflow automation and CI/CD in GitHub.","https://github.com/features/actions","https://docs.github.com/actions"],
+["Azure DevOps","Microsoft developer services and CI/CD.","https://azure.microsoft.com/products/devops","https://learn.microsoft.com/azure/devops/"],
+["Terraform","Infrastructure as code tool.","https://www.hashicorp.com/products/terraform","https://developer.hashicorp.com/terraform/docs"],
+["Ansible","Automation for configuration and deployment.","https://www.ansible.com/","https://docs.ansible.com/"],
+["Maven","Build and dependency management for Java projects.","https://maven.apache.org/","https://maven.apache.org/guides/"],
+["Gradle","Build automation tool.","https://gradle.org/","https://docs.gradle.org/"],
+["Apache Ant","Java-based build tool.","https://ant.apache.org/","https://ant.apache.org/manual/"],
+["SonarQube","Code quality and security analysis platform.","https://www.sonarsource.com/products/sonarqube/","https://docs.sonarsource.com/sonarqube-server/"],
+["Argo CD","Declarative GitOps continuous delivery for Kubernetes.","https://argo-cd.readthedocs.io/","https://argo-cd.readthedocs.io/en/stable/"],
+["Puppet","Infrastructure configuration management.","https://www.puppet.com/","https://help.puppet.com/"]]},
+{category:"Application Servers & Middleware",icon:"🧩",desc:"Java and enterprise application servers, web servers and middleware.",items:[
+["Apache Tomcat","Servlet and Jakarta Pages container.","https://tomcat.apache.org/","https://tomcat.apache.org/tomcat-10.1-doc/"],
+["WildFly","Open-source application server.","https://www.wildfly.org/","https://docs.wildfly.org/"],
+["Red Hat JBoss EAP","Enterprise Java application platform.","https://www.redhat.com/en/technologies/jboss-middleware/application-platform","https://docs.redhat.com/en/documentation/red_hat_jboss_enterprise_application_platform/"],
+["Oracle WebLogic Server","Enterprise Java application server.","https://www.oracle.com/middleware/technologies/weblogic.html","https://docs.oracle.com/en/middleware/"],
+["IBM WebSphere","IBM enterprise application server family.","https://www.ibm.com/products/websphere-application-server","https://www.ibm.com/docs/en/was"],
+["Eclipse Jetty","Java HTTP server and Servlet container.","https://jetty.org/","https://jetty.org/docs/"],
+["NGINX","Web server, reverse proxy and load balancer.","https://nginx.org/","https://nginx.org/en/docs/"],
+["Apache HTTP Server","Open-source HTTP server.","https://httpd.apache.org/","https://httpd.apache.org/docs/"],
+["HAProxy","Load balancer and proxy.","https://www.haproxy.org/","https://docs.haproxy.org/"]]},
+{category:"Messaging, Streaming & Integration",icon:"📨",desc:"Message brokers, event streaming and enterprise integration technologies.",items:[
+["Apache Kafka","Distributed event streaming platform.","https://kafka.apache.org/","https://kafka.apache.org/documentation/"],
+["RabbitMQ","Message broker supporting multiple messaging protocols.","https://www.rabbitmq.com/","https://www.rabbitmq.com/docs"],
+["ActiveMQ","Apache message broker project.","https://activemq.apache.org/","https://activemq.apache.org/components/classic/documentation/"],
+["IBM MQ","Enterprise messaging middleware.","https://www.ibm.com/products/mq","https://www.ibm.com/docs/en/ibm-mq"],
+["Apache Camel","Integration framework for routing and mediation.","https://camel.apache.org/","https://camel.apache.org/manual/"],
+["MuleSoft Anypoint Platform","API-led integration platform.","https://www.mulesoft.com/platform/ Anypoint","https://docs.mulesoft.com/"],
+["Red Hat Integration","Integration and connectivity products.","https://www.redhat.com/en/products/integration","https://docs.redhat.com/"]]},
+{category:"AI, Machine Learning & Data Science",icon:"🤖",desc:"AI frameworks, model platforms and machine learning libraries.",items:[
+["TensorFlow","Open-source machine learning framework.","https://www.tensorflow.org/","https://www.tensorflow.org/learn"],
+["PyTorch","Machine learning framework.","https://pytorch.org/","https://pytorch.org/docs/stable/index.html"],
+["scikit-learn","Machine learning tools for Python.","https://scikit-learn.org/","https://scikit-learn.org/stable/user_guide.html"],
+["Hugging Face","Open platform for models, datasets and AI applications.","https://huggingface.co/","https://huggingface.co/docs"],
+["OpenAI API","API platform for building AI applications.","https://openai.com/api/","https://platform.openai.com/docs/"],
+["Google Gemini API","Google generative AI developer API.","https://ai.google.dev/","https://ai.google.dev/gemini-api/docs"],
+["Anthropic Claude API","API for Claude models.","https://www.anthropic.com/api","https://docs.anthropic.com/"],
+["LangChain","Framework for LLM-powered applications.","https://www.langchain.com/","https://docs.langchain.com/"],
+["LlamaIndex","Framework for context-augmented LLM applications.","https://www.llamaindex.ai/","https://docs.llamaindex.ai/"],
+["Apache Spark","Unified analytics engine for large-scale data processing.","https://spark.apache.org/","https://spark.apache.org/docs/latest/"],
+["Apache Hadoop","Framework for distributed storage and processing.","https://hadoop.apache.org/","https://hadoop.apache.org/docs/"],
+["Apache Airflow","Workflow orchestration platform.","https://airflow.apache.org/","https://airflow.apache.org/docs/"]]},
+{category:"Mobile & Desktop Development",icon:"📱",desc:"Native and cross-platform app development frameworks.",items:[
+["Android","Google mobile operating system and developer platform.","https://developer.android.com/","https://developer.android.com/docs"],
+["iOS","Apple mobile operating system and developer platform.","https://developer.apple.com/ios/","https://developer.apple.com/documentation/"],
+["Flutter","Cross-platform UI toolkit from Google.","https://flutter.dev/","https://docs.flutter.dev/"],
+["React Native","Framework for native mobile apps using React.","https://reactnative.dev/","https://reactnative.dev/docs/getting-started"],
+[".NET MAUI","Cross-platform framework for native apps.","https://dotnet.microsoft.com/apps/maui","https://learn.microsoft.com/dotnet/maui/"],
+["Ionic","Cross-platform mobile app development toolkit.","https://ionicframework.com/","https://ionicframework.com/docs"],
+["Electron","Framework for desktop apps using web technologies.","https://www.electronjs.org/","https://www.electronjs.org/docs/latest/"],
+["Tauri","Framework for smaller desktop applications.","https://tauri.app/","https://v2.tauri.app/"]]},
+{category:"Networking & Communication",icon:"🔌",desc:"Networking platforms, standards, protocols and telecom technologies.",items:[
+["Cisco Networking","Enterprise networking products and learning resources.","https://www.cisco.com/","https://www.cisco.com/c/en/us/support/index.html"],
+["Wireshark","Network protocol analyzer.","https://www.wireshark.org/","https://www.wireshark.org/docs/"],
+["OpenVPN","Open-source VPN platform.","https://openvpn.net/","https://openvpn.net/community-resources/"],
+["WireGuard","Modern VPN protocol and implementation.","https://www.wireguard.com/","https://www.wireguard.com/quickstart/"],
+["SIP","Session Initiation Protocol standards (IETF).","https://www.ietf.org/","https://www.rfc-editor.org/rfc/rfc3261"],
+["WebRTC","Real-time communication APIs for browsers and apps.","https://webrtc.org/","https://webrtc.org/getting-started/overview"],
+["3GPP","Mobile telecommunications standards organization.","https://www.3gpp.org/","https://www.3gpp.org/specifications"],
+["Bluetooth","Bluetooth wireless technology standards.","https://www.bluetooth.com/","https://www.bluetooth.com/specifications/"]]},
+{category:"Security & Identity",icon:"🛡️",desc:"Application security, identity, secrets and security testing tools.",items:[
+["OWASP","Open community for web application security.","https://owasp.org/","https://owasp.org/www-project-top-ten/"],
+["Keycloak","Open-source identity and access management.","https://www.keycloak.org/","https://www.keycloak.org/documentation"],
+["OAuth 2.0","Authorization framework standard.","https://oauth.net/2/","https://www.rfc-editor.org/rfc/rfc6749"],
+["OpenID Connect","Identity layer built on OAuth 2.0.","https://openid.net/developers/how-connect-works/","https://openid.net/specs/openid-connect-core-1_0.html"],
+["HashiCorp Vault","Secrets management and data protection platform.","https://www.hashicorp.com/products/vault","https://developer.hashicorp.com/vault/docs"],
+["Snyk","Developer security platform.","https://snyk.io/","https://docs.snyk.io/"],
+["Burp Suite","Web application security testing platform.","https://portswigger.net/burp","https://portswigger.net/burp/documentation"],
+["Let's Encrypt","Free automated TLS certificates.","https://letsencrypt.org/","https://letsencrypt.org/docs/"]]},
+{category:"Testing & Quality Engineering",icon:"🧪",desc:"Unit, integration, API, browser and performance testing tools.",items:[
+["JUnit","Java unit testing framework.","https://junit.org/","https://junit.org/junit5/docs/current/user-guide/"],
+["TestNG","Testing framework for Java.","https://testng.org/","https://testng.org/doc/"],
+["Mockito","Mocking framework for Java tests.","https://site.mockito.org/","https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html"],
+["Selenium","Browser automation framework.","https://www.selenium.dev/","https://www.selenium.dev/documentation/"],
+["Playwright","End-to-end browser testing framework.","https://playwright.dev/","https://playwright.dev/docs/intro"],
+["Cypress","Web application testing framework.","https://www.cypress.io/","https://docs.cypress.io/"],
+["Postman","API development and testing platform.","https://www.postman.com/","https://learning.postman.com/docs/"],
+["Apache JMeter","Load and performance testing tool.","https://jmeter.apache.org/","https://jmeter.apache.org/usermanual/"],
+["Gatling","Load testing platform.","https://gatling.io/","https://docs.gatling.io/"]]},
+{category:"IDEs, Editors & Developer Tools",icon:"🛠️",desc:"Development environments, code editors, API tools and developer utilities.",items:[
+["Eclipse IDE","Extensible integrated development environment.","https://www.eclipse.org/ide/","https://help.eclipse.org/"],
+["IntelliJ IDEA","IDE for JVM and other languages.","https://www.jetbrains.com/idea/","https://www.jetbrains.com/help/idea/"],
+["Visual Studio Code","Source-code editor from Microsoft.","https://code.visualstudio.com/","https://code.visualstudio.com/docs"],
+["Visual Studio","Microsoft integrated development environment.","https://visualstudio.microsoft.com/","https://learn.microsoft.com/visualstudio/"],
+["NetBeans","Open-source IDE.","https://netbeans.apache.org/","https://netbeans.apache.org/tutorial/main/"],
+["Postman","API client and collaboration platform.","https://www.postman.com/","https://learning.postman.com/docs/"],
+["Swagger","Tools for OpenAPI-based API design.","https://swagger.io/","https://swagger.io/docs/"],
+["DBeaver","Universal database tool.","https://dbeaver.io/","https://dbeaver.com/docs/"],
+["Redis Insight","GUI for Redis data and operations.","https://redis.io/insight/","https://redis.io/docs/latest/operate/redisinsight/"]]},
+{category:"Business Applications & Enterprise Platforms",icon:"🏭",desc:"ERP, CRM, enterprise workflow and business application platforms.",items:[
+["SAP S/4HANA","Enterprise resource planning suite.","https://www.sap.com/products/erp/s4hana.html","https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE"],
+["Salesforce","Cloud CRM and business application platform.","https://www.salesforce.com/","https://developer.salesforce.com/docs"],
+["ServiceNow","Enterprise workflow and service management platform.","https://www.servicenow.com/","https://www.servicenow.com/docs/"],
+["Microsoft Dynamics 365","Enterprise CRM and ERP applications.","https://www.microsoft.com/dynamics-365","https://learn.microsoft.com/dynamics365/"],
+["Workday","Enterprise finance and human capital management.","https://www.workday.com/","https://developer.workday.com/"]]},
+{category:"Monitoring, Logging & Observability",icon:"📊",desc:"Metrics, logs, tracing, dashboards and operational visibility.",items:[
+["Prometheus","Open-source monitoring and alerting toolkit.","https://prometheus.io/","https://prometheus.io/docs/"],
+["Grafana","Observability dashboards and visualization.","https://grafana.com/","https://grafana.com/docs/"],
+["OpenTelemetry","Vendor-neutral observability framework.","https://opentelemetry.io/","https://opentelemetry.io/docs/"],
+["Elastic Stack","Search, logging and analytics stack.","https://www.elastic.co/elastic-stack","https://www.elastic.co/guide/index.html"],
+["Splunk","Data platform for observability and security.","https://www.splunk.com/","https://docs.splunk.com/"],
+["Datadog","Cloud monitoring and observability platform.","https://www.datadoghq.com/","https://docs.datadoghq.com/"]]},
+{category:"Business Intelligence & Analytics",icon:"📈",desc:"Reporting, dashboards, analytics and data visualization tools.",items:[
+["Microsoft Power BI","Business intelligence and analytics platform.","https://powerbi.microsoft.com/","https://learn.microsoft.com/power-bi/"],
+["Tableau","Data visualization and analytics platform.","https://www.tableau.com/","https://help.tableau.com/"],
+["Looker","Google Cloud business intelligence platform.","https://cloud.google.com/looker","https://cloud.google.com/looker/docs"],
+["Apache Superset","Open-source data exploration and visualization.","https://superset.apache.org/","https://superset.apache.org/docs/"],
+["Metabase","Open-source business intelligence tool.","https://www.metabase.com/","https://www.metabase.com/docs/"]]},
+{category:"Embedded, IoT & Hardware Platforms",icon:"🔧",desc:"Microcontrollers, embedded development and connected-device platforms.",items:[
+["Arduino","Open-source electronics platform.","https://www.arduino.cc/","https://docs.arduino.cc/"],
+["Raspberry Pi","Single-board computers and embedded platform.","https://www.raspberrypi.com/","https://www.raspberrypi.com/documentation/"],
+["ESP32","Wi-Fi and Bluetooth microcontroller platform by Espressif.","https://www.espressif.com/en/products/socs/esp32","https://docs.espressif.com/"],
+["Zephyr RTOS","Open-source real-time operating system for embedded devices.","https://www.zephyrproject.org/","https://docs.zephyrproject.org/"],
+["FreeRTOS","Real-time operating system for microcontrollers.","https://www.freertos.org/","https://docs.freertos.org/"],
+["PlatformIO","Embedded development ecosystem.","https://platformio.org/","https://docs.platformio.org/"]]}
+];
+
+const catalogue=document.getElementById('catalogue'), filters=document.getElementById('filters'), search=document.getElementById('search');
+let active='All';
+const total=data.reduce((n,c)=>n+c.items.length,0);
+document.getElementById('techCount').textContent=total+' technologies';
+document.getElementById('categoryCount').textContent=data.length+' categories';
+function safe(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+function makeFilters(){
+ const names=['All',...data.map(c=>c.category)];
+ filters.innerHTML=names.map(n=>`<button type="button" class="filter ${n===active?'active':''}" data-category="${safe(n)}">${safe(n)}</button>`).join('');
+ filters.querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>{active=b.dataset.category;makeFilters();render();}));
+}
+function render(){
+ const q=search.value.trim().toLowerCase(); let shown=0,sections=0;
+ catalogue.innerHTML=data.map(c=>{
+  if(active!=='All'&&active!==c.category)return '';
+  const items=c.items.filter(i=>(i.join(' ')+' '+c.category+' '+c.desc).toLowerCase().includes(q));
+  if(!items.length)return ''; shown+=items.length;sections++;
+  return `<section class="category"><div class="categoryhead"><div class="categoryicon">${c.icon}</div><div><h2>${safe(c.category)}</h2><p>${safe(c.desc)}</p></div></div><div class="grid">${items.map(i=>{
+   const name=i[0],desc=i[1],site=i[2],docs=i[3];
+   return `<article class="tech"><h3>${safe(name)}</h3><p>${safe(desc)}</p><div class="links"><a href="${safe(site)}" target="_blank" rel="noopener noreferrer">Official website ↗</a>${docs?`<a href="${safe(docs)}" target="_blank" rel="noopener noreferrer">Documentation ↗</a>`:''}</div></article>`;
+  }).join('')}</div></section>`;
+ }).join('');
+ document.getElementById('resultCount').textContent=`Showing ${shown} of ${total} technologies across ${sections} ${sections===1?'category':'categories'}.`;
+ document.getElementById('empty').style.display=shown?'none':'block';
+}
+search.addEventListener('input',render);
+document.getElementById('clearBtn').addEventListener('click',()=>{search.value='';active='All';makeFilters();render();search.focus();});
+makeFilters();render();
+</script>
+</body>
+</html>
