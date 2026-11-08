@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Knowledge Base</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#f0f9ff',
+                            100: '#e0f2fe',
+                            500: '#0ea5e9',
+                            600: '#0284c7',
+                            700: '#0369a1',
+                            900: '#0c4a6e',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                        mono: ['Fira Code', 'monospace']
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google Fonts & FontAwesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PWYCGS4LYK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PWYCGS4LYK');
+</script>
+
+
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        /* Custom scrollbar */
+        ::-webkit-scrollbar { width: 5px; height: 5px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: rgba(156, 163, 175, 0.4); border-radius: 9999px; }
+        ::-webkit-scrollbar-thumb:hover { background: rgba(107, 114, 128, 0.7); }
+    </style>
+</head>
+<body class="h-full bg-slate-50 dark:bg-slate-900 text-slate-800 dark:text-slate-100">
+    <div class="flex h-screen overflow-hidden">
+        
+        <!-- LEFT SIDEBAR WITH SIMPLE HREF LINKS -->
+        <aside id="sidebar" class="w-80 bg-white dark:bg-slate-800 border-r border-slate-200 dark:border-slate-700 flex flex-col transition-all duration-300 z-20 absolute md:relative -translate-x-full md:translate-x-0 h-full shrink-0">
+            <!-- Sidebar Header -->
+            <div class="p-4 border-b border-slate-200 dark:border-slate-700 flex items-center justify-between">
+                <div class="flex items-center gap-3">
+                    <div class="w-9 h-9 rounded-lg bg-brand-600 flex items-center justify-center text-white font-bold text-lg shadow-md">
+                        <i class="fa-solid fa-book-bookmark"></i>
+                    </div>
+                    <div>
+                        <h1 class="font-bold text-slate-900 dark:text-white leading-tight">Tech Knowledge Base</h1>
+                        <p class="text-xs text-slate-500 dark:text-slate-400">HTML Navigation Hub</p>
+                    </div>
+                </div>
+                <button id="closeSidebarMobile" class="md:hidden p-2 text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-white rounded-lg">
+                    <i class="fa-solid fa-xmark text-lg"></i>
+                </button>
+            </div>
+
+            <!-- Direct Href Links List -->
+            <nav class="flex-1 overflow-y-auto p-3 space-y-1" id="navList">
+                
+                <a href="Technology_Stack_Directory.html" target="content-frame" class="kb-link active w-full block px-3 py-2.5 rounded-lg text-sm font-mono transition-all border-l-2 flex items-center justify-between bg-brand-50 dark:bg-slate-700 text-brand-700 dark:text-brand-300 font-bold border-brand-500 shadow-sm">
+                    <span class="truncate">Technology_Stack_Directory.html</span>
+                    <i class="fa-solid fa-chevron-right text-xs opacity-60"></i>
+                </a>
+
+                <a href="software_testing_guide.html" target="content-frame" class="kb-link w-full block px-3 py-2.5 rounded-lg text-sm font-mono transition-all border-l-2 flex items-center justify-between text-slate-600 dark:text-slate-400 border-transparent hover:bg-slate-100 dark:hover:bg-slate-700/50 hover:text-slate-900 dark:hover:text-slate-200">
+                    <span class="truncate">software_testing_guide.html</span>
+                    <i class="fa-solid fa-chevron-right text-xs opacity-60"></i>
+                </a>
+
+                <a href="Post_Production_Trouble_Shooting.html" target="content-frame" class="kb-link w-full block px-3 py-2.5 rounded-lg text-sm font-mono transition-all border-l-2 flex items-center justify-between text-slate-600 dark:text-slate-400 border-transparent hover:bg-slate-100 dark:hover:bg-slate-700/50 hover:text-slate-900 dark:hover:text-slate-200">
+                    <span class="truncate">Post_Production_Trouble_Shooting.html</span>
+                    <i class="fa-solid fa-chevron-right text-xs opacity-60"></i>
+                </a>
+
+                <a href="java_code_review.html" target="content-frame" class="kb-link w-full block px-3 py-2.5 rounded-lg text-sm font-mono transition-all border-l-2 flex items-center justify-between text-slate-600 dark:text-slate-400 border-transparent hover:bg-slate-100 dark:hover:bg-slate-700/50 hover:text-slate-900 dark:hover:text-slate-200">
+                    <span class="truncate">java_code_review.html</span>
+                    <i class="fa-solid fa-chevron-right text-xs opacity-60"></i>
+                </a>
+
+                <a href="java_sdlc_tool_matrix.html" target="content-frame" class="kb-link w-full block px-3 py-2.5 rounded-lg text-sm font-mono transition-all border-l-2 flex items-center justify-between text-slate-600 dark:text-slate-400 border-transparent hover:bg-slate-100 dark:hover:bg-slate-700/50 hover:text-slate-900 dark:hover:text-slate-200">
+                    <span class="truncate">java_sdlc_tool_matrix.html</span>
+                    <i class="fa-solid fa-chevron-right text-xs opacity-60"></i>
+                </a>
+
+            </nav>
+
+            <!-- Footer info -->
+            <div class="p-3 border-t border-slate-200 dark:border-slate-700 text-xs text-slate-500 dark:text-slate-400 bg-slate-50/50 dark:bg-slate-800/50 flex items-center justify-between">
+                <span>Target: content-frame</span>
+                <button id="themeToggleBtn" class="p-1.5 rounded hover:bg-slate-200 dark:hover:bg-slate-700">
+                    <i class="fa-solid fa-moon dark:hidden"></i>
+                    <i class="fa-solid fa-sun hidden dark:block text-amber-400"></i>
+                </button>
+            </div>
+        </aside>
+
+        <!-- RIGHT SIDE IFRAME CONTAINER -->
+        <div class="flex-1 flex flex-col h-full overflow-hidden min-w-0">
+            <!-- Mobile Header Bar -->
+            <div class="md:hidden h-14 bg-white dark:bg-slate-800 border-b border-slate-200 dark:border-slate-700 flex items-center justify-between px-4">
+                <button id="openSidebarMobile" class="p-2 text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 rounded-lg">
+                    <i class="fa-solid fa-bars text-lg"></i>
+                </button>
+                <span class="font-bold text-sm">Technical Knowledge Base</span>
+            </div>
+
+            <!-- Pure HTML iFrame Target -->
+            <main class="flex-1 bg-white dark:bg-slate-900">
+                <iframe 
+                    name="content-frame" 
+                    id="contentFrame"
+                    src="Technology_Stack_Directory.html"
+                    class="w-full h-full border-none">
+                </iframe>
+            </main>
+        </div>
+    </div>
+
+    <!-- Active tab visual highlight logic -->
+    <script>
+        const links = document.querySelectorAll('.kb-link');
+        const activeClasses = ['bg-brand-50', 'dark:bg-slate-700', 'text-brand-700', 'dark:text-brand-300', 'font-bold', 'border-brand-500', 'shadow-sm'];
+        const inactiveClasses = ['text-slate-600', 'dark:text-slate-400', 'border-transparent', 'hover:bg-slate-100', 'dark:hover:bg-slate-700/50', 'hover:text-slate-900', 'dark:hover:text-slate-200'];
+
+        links.forEach(link => {
+            link.addEventListener('click', function() {
+                // Remove active class from all links
+                links.forEach(l => {
+                    l.classList.remove(...activeClasses);
+                    l.classList.add(...inactiveClasses);
+                });
+
+                // Highlight clicked link
+                this.classList.remove(...inactiveClasses);
+                this.classList.add(...activeClasses);
+
+                // Close mobile sidebar if open
+                document.getElementById('sidebar').classList.add('-translate-x-full');
+            });
+        });
+
+        // Mobile drawer handlers
+        document.getElementById('openSidebarMobile').addEventListener('click', () => {
+            document.getElementById('sidebar').classList.remove('-translate-x-full');
+        });
+        document.getElementById('closeSidebarMobile').addEventListener('click', () => {
+            document.getElementById('sidebar').classList.add('-translate-x-full');
+        });
+
+        // Dark theme toggle handler
+        document.getElementById('themeToggleBtn').addEventListener('click', () => {
+            document.documentElement.classList.toggle('dark');
+        });
+    </script>
+</body>
+</html>

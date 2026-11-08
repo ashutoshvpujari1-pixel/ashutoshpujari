@@ -1,0 +1,1047 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java SDLC Tools & Ecosystem Dashboard</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#eff6ff',
+                            100: '#dbeafe',
+                            500: '#3b82f6',
+                            600: '#2563eb',
+                            700: '#1d4ed8',
+                            900: '#1e3a8a',
+                        },
+                        java: '#e76f51',
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PWYCGS4LYK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PWYCGS4LYK');
+</script>
+
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        /* Custom scrollbars */
+        ::-webkit-scrollbar { width: 8px; height: 8px; }
+        ::-webkit-scrollbar-track { background: rgba(0, 0, 0, 0.05); }
+        .dark ::-webkit-scrollbar-track { background: rgba(255, 255, 255, 0.05); }
+        ::-webkit-scrollbar-thumb { background: rgba(156, 163, 175, 0.5); border-radius: 4px; }
+        .dark ::-webkit-scrollbar-thumb { background: rgba(75, 85, 99, 0.5); border-radius: 4px; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-gray-100 min-h-screen transition-colors duration-200 flex flex-col">
+
+    <!-- Header Navigation -->
+    <header class="sticky top-0 z-30 bg-white/90 dark:bg-gray-800/90 backdrop-blur border-b border-gray-200 dark:border-gray-700 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3.5 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="bg-orange-500 text-white p-2.5 rounded-xl shadow-md">
+                    <i class="fa-brands fa-java text-2xl"></i>
+                </div>
+                <div>
+                    <h1 class="text-xl font-bold tracking-tight">Java SDLC Ecosystem Matrix</h1>
+                    <p class="text-xs text-gray-500 dark:text-gray-400">Complete guide to tools across the Java software life cycle</p>
+                </div>
+            </div>
+
+            <!-- Action Controls -->
+            <div class="flex items-center space-x-3">
+                <!-- Theme Toggle Button -->
+                <button id="themeToggleBtn" onclick="toggleTheme()" class="p-2.5 rounded-lg bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 transition" title="Toggle Light/Dark Theme">
+                    <i id="themeIcon" class="fas fa-moon"></i>
+                </button>
+
+                <!-- Export Options -->
+                <div class="relative inline-block text-left">
+                    <button onclick="toggleExportMenu()" class="flex items-center space-x-2 bg-brand-600 hover:bg-brand-700 text-white px-3.5 py-2 rounded-lg text-sm font-medium shadow-sm transition">
+                        <i class="fas fa-download"></i>
+                        <span>Export Matrix</span>
+                        <i class="fas fa-chevron-down text-xs ml-1"></i>
+                    </button>
+                    <div id="exportMenu" class="hidden absolute right-0 mt-2 w-44 rounded-lg bg-white dark:bg-gray-800 shadow-xl border border-gray-200 dark:border-gray-700 z-50 py-1">
+                        <button onclick="exportData('csv')" class="w-full text-left px-4 py-2 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 flex items-center space-x-2">
+                            <i class="fas fa-file-csv text-green-500"></i>
+                            <span>Export as CSV</span>
+                        </button>
+                        <button onclick="exportData('json')" class="w-full text-left px-4 py-2 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 flex items-center space-x-2">
+                            <i class="fas fa-file-code text-blue-500"></i>
+                            <span>Export as JSON</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex-grow w-full space-y-6">
+
+        <!-- Controls Section: Search & Quick Filters -->
+        <section class="space-y-4">
+            <!-- Search & Count Bar -->
+            <div class="flex flex-col md:flex-row gap-4 justify-between items-stretch md:items-center">
+                <!-- Search Input -->
+                <div class="relative flex-1">
+                    <i class="fas fa-search absolute left-3.5 top-1/2 -translate-y-1/2 text-gray-400"></i>
+                    <input type="text" id="searchInput" oninput="renderTable()" placeholder="Search by tool name, purpose, phase, or keywords (e.g. Maven, Profiler, Kubernetes, APM)..." 
+                           class="w-full pl-10 pr-4 py-2.5 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 rounded-xl shadow-sm text-sm focus:outline-none focus:ring-2 focus:ring-brand-500 transition">
+                </div>
+
+                <!-- License Filter & Stats -->
+                <div class="flex items-center space-x-3">
+                    <select id="licenseFilter" onchange="renderTable()" class="bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 rounded-xl px-3.5 py-2.5 text-sm shadow-sm focus:outline-none focus:ring-2 focus:ring-brand-500">
+                        <option value="ALL">All License Types</option>
+                        <option value="Open Source">Open Source</option>
+                        <option value="Freemium / Commercial">Freemium / Commercial</option>
+                        <option value="Commercial">Commercial</option>
+                    </select>
+
+                    <div class="text-xs px-3 py-2.5 rounded-xl bg-gray-200 dark:bg-gray-800 font-semibold text-gray-600 dark:text-gray-300 shadow-inner whitespace-nowrap">
+                        Total Tools: <span id="toolCount" class="text-brand-600 dark:text-brand-400">0</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Phase Quick Selector Pills -->
+            <div class="flex flex-wrap gap-2 pt-1" id="phasePills">
+                <!-- Injected dynamic pill filters -->
+            </div>
+        </section>
+
+        <!-- SDLC Tool Table -->
+        <section class="bg-white dark:bg-gray-800 rounded-2xl shadow-sm border border-gray-200 dark:border-gray-700 overflow-hidden">
+            <div class="overflow-x-auto">
+                <table class="w-full text-left text-sm">
+                    <thead class="bg-gray-100/80 dark:bg-gray-700/60 uppercase text-xs font-semibold tracking-wider border-b border-gray-200 dark:border-gray-700">
+                        <tr>
+                            <th scope="col" class="py-3.5 px-4">SDLC Phase</th>
+                            <th scope="col" class="py-3.5 px-4">Tool Name</th>
+                            <th scope="col" class="py-3.5 px-4 hidden md:table-cell">Category</th>
+                            <th scope="col" class="py-3.5 px-4">Primary Purpose & Features</th>
+                            <th scope="col" class="py-3.5 px-4 hidden lg:table-cell">Key Java SDLC Use Case</th>
+                            <th scope="col" class="py-3.5 px-4">Type</th>
+                            <th scope="col" class="py-3.5 px-4 text-right">Details</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableBody" class="divide-y divide-gray-200 dark:divide-gray-700">
+                        <!-- Table Rows Injected Here via JS -->
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Empty State -->
+            <div id="emptyState" class="hidden text-center py-12 px-4">
+                <i class="fas fa-search-minus text-4xl text-gray-400 mb-3"></i>
+                <h3 class="text-base font-semibold text-gray-700 dark:text-gray-300">No tools matched your criteria</h3>
+                <p class="text-xs text-gray-500 dark:text-gray-400 mt-1">Try resetting search parameters or selecting "All SDLC Phases"</p>
+                <button onclick="resetFilters()" class="mt-4 px-4 py-2 text-xs font-medium bg-brand-600 text-white rounded-lg hover:bg-brand-700 transition">
+                    Reset All Filters
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="mt-auto border-t border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-800 py-4">
+        <div class="max-w-7xl mx-auto px-4 text-center text-xs text-gray-500 dark:text-gray-400 flex flex-col sm:flex-row justify-between items-center gap-2">
+            <span>Java Enterprise SDLC Architecture Reference & Matrix</span>
+            <span class="flex items-center space-x-1">
+                <span>Built for Java Developers & Architects</span>
+                <i class="fa-brands fa-java text-orange-500 ml-1"></i>
+            </span>
+        </div>
+    </footer>
+
+    <!-- Interactive Tool Details Modal -->
+    <div id="toolModal" class="hidden fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm p-4 overflow-y-auto">
+        <div class="bg-white dark:bg-gray-800 w-full max-w-3xl rounded-2xl shadow-2xl border border-gray-200 dark:border-gray-700 overflow-hidden flex flex-col max-h-[90vh] transition-all">
+            <!-- Modal Header -->
+            <div class="p-5 border-b border-gray-200 dark:border-gray-700 flex justify-between items-start bg-gray-50 dark:bg-gray-700/50">
+                <div class="flex items-center space-x-3">
+                    <div id="modalIconContainer" class="p-3 rounded-xl bg-brand-500 text-white font-bold text-xl flex items-center justify-center w-12 h-12 shadow">
+                        <i id="modalIcon" class="fas fa-cube"></i>
+                    </div>
+                    <div>
+                        <div class="flex items-center space-x-2">
+                            <h2 id="modalToolName" class="text-xl font-bold">Tool Name</h2>
+                            <span id="modalLicenseBadge" class="text-xs px-2.5 py-0.5 rounded-full font-semibold">License</span>
+                        </div>
+                        <p id="modalPhaseTag" class="text-xs text-brand-600 dark:text-brand-400 font-medium mt-0.5">SDLC Phase</p>
+                    </div>
+                </div>
+                <button onclick="closeModal()" class="text-gray-400 hover:text-gray-600 dark:hover:text-gray-200 p-2 rounded-lg text-lg">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+
+            <!-- Modal Content Body -->
+            <div class="p-6 space-y-5 overflow-y-auto flex-grow text-sm">
+                <!-- Description -->
+                <div>
+                    <h4 class="text-xs uppercase tracking-wider text-gray-500 dark:text-gray-400 font-semibold mb-1">Overview & Key Capabilities</h4>
+                    <p id="modalDescription" class="text-gray-700 dark:text-gray-300 leading-relaxed"></p>
+                </div>
+
+                <!-- Java SDLC Integration Context -->
+                <div class="bg-blue-50 dark:bg-blue-950/40 border border-blue-200 dark:border-blue-900 rounded-xl p-4">
+                    <h4 class="text-xs font-bold text-blue-700 dark:text-blue-300 uppercase tracking-wider mb-1 flex items-center">
+                        <i class="fas fa-lightbulb mr-1.5"></i> Key Java SDLC Integration
+                    </h4>
+                    <p id="modalUseCase" class="text-blue-900 dark:text-blue-200 font-medium"></p>
+                </div>
+
+                <!-- Pros & Cons Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div class="bg-emerald-50 dark:bg-emerald-950/30 border border-emerald-200 dark:border-emerald-900/50 rounded-xl p-3.5">
+                        <h5 class="text-xs font-bold text-emerald-700 dark:text-emerald-400 uppercase mb-2 flex items-center">
+                            <i class="fas fa-check-circle mr-1.5"></i> Advantages / Strengths
+                        </h5>
+                        <ul id="modalPros" class="list-disc list-inside text-xs text-emerald-900 dark:text-emerald-200 space-y-1"></ul>
+                    </div>
+                    <div class="bg-amber-50 dark:bg-amber-950/30 border border-amber-200 dark:border-amber-900/50 rounded-xl p-3.5">
+                        <h5 class="text-xs font-bold text-amber-700 dark:text-amber-400 uppercase mb-2 flex items-center">
+                            <i class="fas fa-exclamation-triangle mr-1.5"></i> Trade-offs / Considerations
+                        </h5>
+                        <ul id="modalCons" class="list-disc list-inside text-xs text-amber-900 dark:text-amber-200 space-y-1"></ul>
+                    </div>
+                </div>
+
+                <!-- Code / Snippet Container -->
+                <div>
+                    <div class="flex justify-between items-center mb-1.5">
+                        <h4 class="text-xs uppercase tracking-wider text-gray-500 dark:text-gray-400 font-semibold">Typical Code / Config Snippet</h4>
+                        <button onclick="copySnippet()" class="text-xs text-brand-600 dark:text-brand-400 hover:underline flex items-center space-x-1">
+                            <i class="fas fa-copy"></i>
+                            <span id="copyText">Copy Code</span>
+                        </button>
+                    </div>
+                    <pre class="bg-gray-900 text-gray-100 p-4 rounded-xl font-mono text-xs overflow-x-auto border border-gray-800"><code id="modalSnippet"></code></pre>
+                </div>
+            </div>
+
+            <!-- Modal Footer -->
+            <div class="p-4 border-t border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-700/30 flex justify-end">
+                <button onclick="closeModal()" class="px-4 py-2 bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 text-gray-800 dark:text-gray-200 font-medium rounded-lg text-xs transition">
+                    Close Window
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript Data and Application Logic -->
+    <script>
+        // Data Store covering complete SDLC for Java projects
+        const sdlcTools = [
+            // 1. Requirements & Project Management
+            {
+                id: 'jira',
+                phase: 'Requirements & PM',
+                category: 'Issue & Project Tracking',
+                name: 'Jira Software',
+                icon: 'fa-tasks',
+                purpose: 'Agile enterprise project management, sprint planning, and bug tracking.',
+                useCase: 'Managing Java epic development, sprint backlogs, linking GitHub/GitLab commits to issue IDs.',
+                type: 'Freemium / Commercial',
+                pros: ['Seamless GitHub/Jenkins integration', 'Highly customizable workflows', 'Industry standard'],
+                cons: ['Can feel complex/heavy', 'High licensing costs at scale'],
+                snippet: `// Agile Jira Ticket Reference in Java Commit Message:
+// GIT COMMIT: "PROJ-1024: Fix Heap Leak in Payment Spring Service"
+@Service
+public class PaymentService {
+    // Ticket linked to code changes automatically in CI pipelines
+}`
+            },
+            {
+                id: 'confluence',
+                phase: 'Requirements & PM',
+                category: 'Knowledge Base & Docs',
+                name: 'Confluence',
+                icon: 'fa-book',
+                purpose: 'Team collaboration, architectural blueprints, requirements documentation, and runbooks.',
+                useCase: 'Documenting Microservices OpenAPI specs, onboarding setup guides for Java devs, incident runbooks.',
+                type: 'Freemium / Commercial',
+                pros: ['Native Jira integration', 'Rich macro templates', 'Real-time collaborative editing'],
+                cons: ['Search functionality can be sluggish', 'Requires disciplined maintenance'],
+                snippet: `# Java Microservice Technical Specification
+- Architecture: Spring Boot 3.x + JDK 21 (Virtual Threads)
+- DB: PostgreSQL via Spring Data JPA
+- Messaging: Apache Kafka
+- Runbook URL: https://confluence.company.org/display/DEV/PaymentService+Runbook`
+            },
+
+            // 2. Architecture & Design
+            {
+                id: 'plantuml',
+                phase: 'Architecture & Design',
+                category: 'UML & Diagrams as Code',
+                name: 'PlantUML',
+                icon: 'fa-project-diagram',
+                purpose: 'Generate class, sequence, and component diagrams from plain text syntax.',
+                useCase: 'Rendering Java class diagrams, sequence flows for Spring security authentication directly in IDE/Git.',
+                type: 'Open Source',
+                pros: ['Version-controllable (Text-based)', 'Integrates with IntelliJ IDEA & Maven plugins', 'Free & lightweight'],
+                cons: ['Layout control can be rigid', 'Learning curve for syntax'],
+                snippet: `@startuml
+package "Order Service" {
+  [OrderController] -> [OrderService]
+  [OrderService] --> [OrderRepository] : JPA
+}
+database "PostgreSQL" {
+  [OrderRepository] --> (Orders DB)
+}
+@enduml`
+            },
+            {
+                id: 'drawio',
+                phase: 'Architecture & Design',
+                category: 'Visual Diagramming',
+                name: 'Draw.io / diagrams.net',
+                icon: 'fa-diagram-project',
+                purpose: 'Free, interactive visual diagramming for cloud topologies and system architecture.',
+                useCase: 'Mapping Java Spring Cloud microservice topologies and Kubernetes deployment diagrams.',
+                type: 'Open Source',
+                pros: ['No login required', 'Stores files directly in GitHub/Drive', 'Zero cost'],
+                cons: ['Manual diagram update needed when code changes'],
+                snippet: `<!-- Saved as architecture.drawio in Git Repository -->
+<!-- Embedded in README.md as SVG rendering -->
+![Java Microservices Layout](./docs/architecture.drawio.svg)`
+            },
+
+            // 3. IDEs & Code Editing
+            {
+                id: 'intellij',
+                phase: 'IDEs & Development',
+                category: 'Integrated Development Environment',
+                name: 'IntelliJ IDEA',
+                icon: 'fa-code',
+                purpose: 'The premier Java IDE offering deep code intelligence, refactoring, and framework support.',
+                useCase: 'Primary Java/Kotlin development, Spring Boot auto-configuration inspection, profiling, debugging.',
+                type: 'Freemium / Commercial',
+                pros: ['Best-in-class Java code analysis', 'Built-in database tooling & profiler', 'Rich plugin ecosystem'],
+                cons: ['High memory footprint', 'Ultimate edition requires paid license'],
+                snippet: `// IntelliJ IDEA Live Template: 'psvm' or 'sout'
+public static void main(String[] args) {
+    System.out.println("Accelerating Java coding with smart shortcuts!");
+}`
+            },
+            {
+                id: 'eclipse',
+                phase: 'IDEs & Development',
+                category: 'IDE & Platform',
+                name: 'Eclipse IDE',
+                icon: 'fa-laptop-code',
+                purpose: 'Open-source legacy and modern Java IDE with extensive plugin framework.',
+                useCase: 'Enterprise Java (Jakarta EE), OSGi plugin development, large legacy codebases.',
+                type: 'Open Source',
+                pros: ['100% Free and open source', 'Extensive plugin ecosystem', 'Low hardware cost'],
+                cons: ['Interface feels outdated compared to IntelliJ', 'Plugin conflicts can occur'],
+                snippet: `// Eclipse Workspace settings (.classpath & .project)
+// Integrated with Maven via m2e plugin automatically.`
+            },
+
+            // 4. Build Tools & Dependency Management
+            {
+                id: 'maven',
+                phase: 'Build Tools',
+                category: 'Build & Dependency Manager',
+                name: 'Apache Maven',
+                icon: 'fa-cubes',
+                purpose: 'Declarative build tool based on XML (POM) managing build cycles and dependencies.',
+                useCase: 'Standard build lifecycle (compile, test, package, deploy) for enterprise Java projects.',
+                type: 'Open Source',
+                pros: ['Convention over configuration', 'Ubiquitous in Java industry', 'Strict plugin ecosystem'],
+                cons: ['Verbose XML configuration', 'Rigid lifecycle customizability'],
+                snippet: `<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-web</artifactId>
+    <version>3.2.0</version>
+</dependency>`
+            },
+            {
+                id: 'gradle',
+                phase: 'Build Tools',
+                category: 'Build Automation',
+                name: 'Gradle',
+                icon: 'fa-gears',
+                purpose: 'High-performance build tool using Groovy/Kotlin DSLs with incremental build caching.',
+                useCase: 'Modern Spring Boot applications, multi-project Java builds, Android projects.',
+                type: 'Open Source',
+                pros: ['Blazing fast incremental builds & build cache', 'Flexible DSL', 'Great multi-module support'],
+                cons: ['Flexibility allows complex build scripts', 'Steeper learning curve'],
+                snippet: `plugins {
+    id 'java'
+    id 'org.springframework.boot' version '3.2.0'
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}`
+            },
+
+            // 5. Code Quality & Static Analysis
+            {
+                id: 'sonarqube',
+                phase: 'Code Quality & Security',
+                category: 'Continuous Inspection / SAST',
+                name: 'SonarQube',
+                icon: 'fa-shield-halved',
+                purpose: 'Automatic code review to detect bugs, code smells, vulnerabilities, and coverage.',
+                useCase: 'Enforcing quality gates in CI/CD pipelines before merging Java PRs.',
+                type: 'Freemium / Commercial',
+                pros: ['Comprehensive security & bug rules', 'Tracks tech debt over time', 'Supports Quality Gates'],
+                cons: ['Self-hosting server required (unless SonarCloud used)'],
+                snippet: `# SonarQube Maven CLI Execution
+mvn clean verify sonar:sonar \
+  -Dsonar.projectKey=payment-service \
+  -Dsonar.host.url=http://localhost:9000 \
+  -Dsonar.token=sqp_1234567890`
+            },
+            {
+                id: 'spotbugs',
+                phase: 'Code Quality & Security',
+                category: 'Static Bytecode Analysis',
+                name: 'SpotBugs / Checkstyle',
+                icon: 'fa-bug-slash',
+                purpose: 'Inspects Java bytecode to discover potential null pointers, concurrency issues, and formatting.',
+                useCase: 'Failing Java local builds if code formatting or potential NPE bugs are present.',
+                type: 'Open Source',
+                pros: ['Analyzes actual compiled bytecode', 'Fast plugin execution', 'Extensible rules'],
+                cons: ['Occasional false positives'],
+                snippet: `<!-- SpotBugs Maven Plugin -->
+<plugin>
+    <groupId>com.github.spotbugs</groupId>
+    <artifactId>spotbugs-maven-plugin</artifactId>
+    <version>4.8.2.0</version>
+</plugin>`
+            },
+
+            // 6. Unit & Integration Testing
+            {
+                id: 'junit',
+                phase: 'Testing & QA',
+                category: 'Unit Testing Framework',
+                name: 'JUnit 5 (Jupiter)',
+                icon: 'fa-vial',
+                purpose: 'De-facto standard framework for writing automated unit and integration tests in Java.',
+                useCase: 'Writing unit tests with assertions, parameterized tests, and lifecycle hooks.',
+                type: 'Open Source',
+                pros: ['Rich annotation set', 'Extensible via JUnit Extensions', 'Native support in all IDEs'],
+                cons: ['Requires Mockito/libraries for complex mocks'],
+                snippet: `@Test
+@DisplayName("Should process payment successfully")
+void testPaymentSuccess() {
+    PaymentResult result = paymentService.process(new PaymentRequest(100.0, "USD"));
+    assertEquals(PaymentStatus.SUCCESS, result.getStatus());
+}`
+            },
+            {
+                id: 'mockito',
+                phase: 'Testing & QA',
+                category: 'Mocking Framework',
+                name: 'Mockito',
+                icon: 'fa-ghost',
+                purpose: 'Mocking framework that allows creation of test double objects in Java.',
+                useCase: 'Mocking Database repositories, HTTP Clients, and external APIs during unit tests.',
+                type: 'Open Source',
+                pros: ['Clean fluent syntax', 'Prevents actual DB/network calls in unit tests'],
+                cons: ['Cannot mock static methods easily without mockito-inline/powermock'],
+                snippet: `@ExtendWith(MockitoExtension.class)
+class OrderServiceTest {
+    @Mock private PaymentGateway paymentGateway;
+    @InjectMocks private OrderService orderService;
+
+    @Test void testExecuteOrder() {
+        when(paymentGateway.charge(anyDouble())).thenReturn(true);
+        assertTrue(orderService.checkout(50.0));
+    }
+}`
+            },
+            {
+                id: 'testcontainers',
+                phase: 'Testing & QA',
+                category: 'Integration Testing',
+                name: 'Testcontainers',
+                icon: 'fa-box-open',
+                purpose: 'Provides lightweight throwaway instances of databases, Kafka, or LocalStack inside Docker.',
+                useCase: 'Real integration testing against actual PostgreSQL/Kafka containers in Java JUnit tests.',
+                type: 'Open Source',
+                pros: ['No need for embedded/H2 DBs', 'Ensures dev-production parity', 'Auto-cleanup'],
+                cons: ['Requires Docker daemon running on local host & CI'],
+                snippet: `@Testcontainers
+class IntegrationTest {
+    @Container
+    static PostgreSQLContainer<?> postgres = new PostgreSQLContainer<>("postgres:16-alpine");
+
+    @Test void testRealDatabaseConnection() {
+        String jdbcUrl = postgres.getJdbcUrl();
+        // Execute real SQL queries against Dockerized Postgres
+    }
+}`
+            },
+
+            // 7. Performance & Load Testing
+            {
+                id: 'jmeter',
+                phase: 'Performance Testing',
+                category: 'Load & Stress Testing',
+                name: 'Apache JMeter',
+                icon: 'fa-gauge-high',
+                purpose: 'Open-source application designed to load test functional behavior and measure performance.',
+                useCase: 'Simulating 10,000 concurrent HTTP REST requests to a Java Spring Boot REST API.',
+                type: 'Open Source',
+                pros: ['GUI and CLI execution', 'Supports HTTP, gRPC, JDBC, JMS', 'Extensive plugins'],
+                cons: ['GUI consumes high RAM under heavy load (use CLI mode)'],
+                snippet: `# Run JMeter test plan headlessly in CI pipeline:
+jmeter -n -t springboot_loadtest.jmx -l results.jtl -e -o ./output-report`
+            },
+            {
+                id: 'gatling',
+                phase: 'Performance Testing',
+                category: 'Developer-First Load Testing',
+                name: 'Gatling',
+                icon: 'fa-bolt',
+                purpose: 'High performance load testing framework based on Akka/Netty with Scala/Java/Kotlin DSL.',
+                useCase: 'Asynchronous load testing for high-throughput Java WebFlux or reactive services.',
+                type: 'Freemium / Commercial',
+                pros: ['Code-as-test approach', 'Generates beautiful HTML reports', 'Handles thousands of VUsers efficiently'],
+                cons: ['Enterprise features require paid subscription'],
+                snippet: `public class BasicSimulation extends Simulation {
+  HttpProtocolBuilder httpProtocol = http.baseUrl("http://localhost:8080");
+
+  ScenarioBuilder scn = scenario("Java Endpoint Test")
+    .exec(http("Get Orders").get("/api/v1/orders"))
+    .pause(1);
+
+  {
+    setUp(scn.injectOpen(atOnceUsers(500))).protocols(httpProtocol);
+  }
+}`
+            },
+
+            // 8. Version Control & Code Review
+            {
+                id: 'git',
+                phase: 'Version Control',
+                category: 'Source Code Management',
+                name: 'Git (GitHub / GitLab / Bitbucket)',
+                icon: 'fa-code-branch',
+                purpose: 'Distributed version control system to track changes and collaborate on source code.',
+                useCase: 'Branching strategy (GitFlow/Trunk-based), Pull Requests, code review for Java apps.',
+                type: 'Open Source',
+                pros: ['Fast branching and merging', 'Industry standard', 'Integrates with all CI/CD systems'],
+                cons: ['Large binary file handling requires Git LFS'],
+                snippet: `# Standard Java Release Branching
+git checkout -b feature/JAVA-101-virtual-threads
+git commit -m "feat: migrate executor service to Java 21 virtual threads"
+git push origin feature/JAVA-101-virtual-threads`
+            },
+
+            // 9. CI/CD & Automation
+            {
+                id: 'jenkins',
+                phase: 'CI/CD & Automation',
+                category: 'Continuous Integration Server',
+                name: 'Jenkins',
+                icon: 'fa-server',
+                purpose: 'Extensible open-source automation server for building, testing, and deploying software.',
+                useCase: 'Automating Java compilation, running Maven tests, building Docker images, and deploying to K8s.',
+                type: 'Open Source',
+                pros: ['1000+ Plugins', 'Highly configurable', 'Self-hostable'],
+                cons: ['Groovy pipeline maintenance overhead', 'UI feels dated'],
+                snippet: `pipeline {
+    agent { docker { image 'maven:3.9-eclipse-temurin-21' } }
+    stages {
+        stage('Build & Test') {
+            steps {
+                sh 'mvn clean verify'
+            }
+        }
+    }
+}`
+            },
+            {
+                id: 'github-actions',
+                phase: 'CI/CD & Automation',
+                category: 'Cloud CI/CD Workflow',
+                name: 'GitHub Actions',
+                icon: 'fa-play-circle',
+                purpose: 'Automate, customize, and execute software development workflows right in GitHub repositories.',
+                useCase: 'Building Java apps with setup-java action, caching Maven/Gradle dependencies, publishing artifacts.',
+                type: 'Freemium / Commercial',
+                pros: ['Zero infrastructure setup', 'Native to GitHub repo', 'Huge marketplace'],
+                cons: ['Vendor lock-in if heavily customized'],
+                snippet: `name: Java CI with Maven
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-java@v3
+      with:
+        java-version: '21'
+        distribution: 'temurin'
+    - run: mvn -B package`
+            },
+            {
+                id: 'argocd',
+                phase: 'CI/CD & Automation',
+                category: 'GitOps Continuous Delivery',
+                name: 'Argo CD',
+                icon: 'fa-arrows-rotate',
+                purpose: 'Declarative, GitOps continuous delivery tool for Kubernetes.',
+                useCase: 'Automatically syncing updated Spring Boot Docker container manifests into Kubernetes clusters.',
+                type: 'Open Source',
+                pros: ['Declarative GitOps', 'Real-time state monitoring', 'Automated rollback'],
+                cons: ['Kubernetes specific'],
+                snippet: `apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: spring-boot-app
+spec:
+  destination:
+    namespace: prod
+    server: https://kubernetes.default.svc
+  source:
+    repoURL: https://github.com/org/java-k8s-manifests.git
+    path: overlays/production`
+            },
+
+            // 10. Containerization & Orchestration
+            {
+                id: 'docker',
+                phase: 'Deployment & Containerization',
+                category: 'Application Containerization',
+                name: 'Docker',
+                icon: 'fa-docker',
+                purpose: 'Package applications and their dependencies into lightweight, portable container images.',
+                useCase: 'Packaging Java JAR file with Java Runtime Environment (JRE) into a uniform container container.',
+                type: 'Freemium / Commercial',
+                pros: ['Solves "works on my machine"', 'Standard runtime artifact', 'Multi-stage build optimization'],
+                cons: ['Container sizing can be large without Alpine/Distroless images'],
+                snippet: `# Multi-stage Dockerfile for Java 21 App
+FROM maven:3.9-eclipse-temurin-21 AS builder
+WORKDIR /app
+COPY . .
+RUN mvn package -DskipTests
+
+FROM eclipse-temurin:21-jre-alpine
+COPY --from=builder /app/target/app.jar app.jar
+ENTRYPOINT ["java", "-jar", "/app.jar"]`
+            },
+            {
+                id: 'kubernetes',
+                phase: 'Deployment & Orchestration',
+                category: 'Container Orchestration',
+                name: 'Kubernetes (K8s)',
+                icon: 'fa-network-wired',
+                purpose: 'Automating deployment, scaling, and management of containerized applications.',
+                useCase: 'Auto-scaling Spring Boot pods based on CPU/Memory load, managing zero-downtime rolling updates.',
+                type: 'Open Source',
+                pros: ['Self-healing pods', 'Horizontal Pod Autoscaling (HPA)', 'Industry standard cloud runtime'],
+                cons: ['High complexity and operational maintenance'],
+                snippet: `apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: java-payment-api
+spec:
+  replicas: 3
+  template:
+    spec:
+      containers:
+      - name: java-api
+        image: registry.company.com/payment-api:v1.2.0
+        ports:
+        - containerPort: 8080`
+            },
+
+            // 11. Observability & Post-Production Troubleshooting
+            {
+                id: 'prometheus-grafana',
+                phase: 'Post-Prod & Observability',
+                category: 'Metrics & Visualization',
+                name: 'Prometheus & Grafana',
+                icon: 'fa-chart-line',
+                purpose: 'Time-series metrics collection and dashboard visualization.',
+                useCase: 'Scraping Spring Boot Actuator Micrometer metrics (JVM Garbage Collection, CPU, HTTP throughput).',
+                type: 'Open Source',
+                pros: ['Industry standard for microservices', 'Micrometer handles native integration', 'Rich community dashboards'],
+                cons: ['Requires storage management for long-term data retention'],
+                snippet: `// Spring Boot application.properties for Prometheus
+management.endpoints.web.exposure.include=health,info,prometheus
+management.metrics.tags.application=PaymentService`
+            },
+            {
+                id: 'elk-stack',
+                phase: 'Post-Prod & Observability',
+                category: 'Log Aggregation & Search',
+                name: 'ELK Stack / OpenSearch',
+                icon: 'fa-list-ol',
+                purpose: 'Elasticsearch, Logstash, and Kibana for centralized log gathering and analytics.',
+                useCase: 'Searching across distributed Java application logs using trace IDs (Logback + SLF4J JSON appender).',
+                type: 'Open Source / Commercial',
+                pros: ['Blazing fast full-text search', 'Centralized error troubleshooting across 100+ pods'],
+                cons: ['Memory intensive cluster management'],
+                snippet: `<!-- Logback JSON encoder configuration for ELK -->
+<appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder class="net.logstash.logback.encoder.LogstashEncoder" />
+</appender>`
+            },
+            {
+                id: 'datadog-apm',
+                phase: 'Post-Prod & Observability',
+                category: 'Application Performance Monitoring',
+                name: 'Datadog / Dynatrace / New Relic',
+                icon: 'fa-eye',
+                purpose: 'Full-stack APM, distributed tracing, database query monitoring, and AI anomaly detection.',
+                useCase: 'Auto-instrumenting Java applications using JavaAgent to trace requests from frontend to DB SQL query.',
+                type: 'Commercial',
+                pros: ['Turnkey setup via javaagent', 'Distributed context propagation out of the box'],
+                cons: ['Can become very expensive at high data ingestion rates'],
+                snippet: `# Starting Spring Boot app with Datadog APM Agent:
+java -javaagent:/path/to/dd-java-agent.jar \
+     -Ddd.service=order-service \
+     -Ddd.env=production \
+     -jar app.jar`
+            },
+            {
+                id: 'arthas',
+                phase: 'Post-Prod & Observability',
+                category: 'Live Production Troubleshooting',
+                name: 'Apache Arthas',
+                icon: 'fa-terminal',
+                purpose: 'Java diagnostic tool allowing developers to inspect live production JVMs without restarting.',
+                useCase: 'Debugging live production issues, inspecting method call parameters, hot-swapping bytecode on running JVM.',
+                type: 'Open Source',
+                pros: ['No code modification required', 'Inspect live variables without thread pause', 'Extremely powerful'],
+                cons: ['Requires command line access to prod container; must be used with care'],
+                snippet: `# Attach Arthas CLI to running Java PID
+java -jar arthas-boot.jar
+
+# Watch method execution parameters and return values in real-time
+watch com.example.service.UserService getUserById "{params,returnObj}" -x 2`
+            },
+            {
+                id: 'async-profiler',
+                phase: 'Post-Prod & Observability',
+                category: 'JVM Profiling & Flamegraphs',
+                name: 'Async-Profiler / VisualVM',
+                icon: 'fa-fire',
+                purpose: 'Low-overhead sampling profiler for Java that avoids the Safepoint bias problem.',
+                useCase: 'Generating CPU & Memory FlameGraphs to identify hot methods causing high CPU in Java services.',
+                type: 'Open Source',
+                pros: ['Ultra-low overhead (safe in production)', 'Generates visual SVG FlameGraphs directly'],
+                cons: ['Requires Linux/macOS specific profiling library binaries'],
+                snippet: `# Profile running Java PID for 30 seconds and output FlameGraph SVG
+./asprof -d 30 -f flamegraph.svg <JAVA_PID>`
+            },
+
+            // 12. Security & DAST/SAST
+            {
+                id: 'dependency-check',
+                phase: 'Security & Compliance',
+                category: 'SCA (Software Composition Analysis)',
+                name: 'OWASP Dependency-Check / Snyk',
+                icon: 'fa-user-shield',
+                purpose: 'Detects publicly disclosed vulnerabilities (CVEs) contained within Java project dependencies.',
+                useCase: 'Failing CI/CD builds if vulnerable JAR files (e.g. old Log4j versions) are imported.',
+                type: 'Open Source / Commercial',
+                pros: ['Direct integration with Maven/Gradle plugins', 'Prevents supply-chain attacks'],
+                cons: ['Requires frequent database updates to avoid false alarms'],
+                snippet: `<!-- Maven Dependency Check Plugin -->
+<plugin>
+    <groupId>org.owasp</groupId>
+    <artifactId>dependency-check-maven</artifactId>
+    <version>9.0.9</version>
+    <executions>
+        <execution>
+            <goals><goal>check</goal></goals>
+        </execution>
+    </executions>
+</plugin>`
+            }
+        ];
+
+        // Unique SDLC Phases list for pill filters
+        const sdlcPhases = [
+            "ALL",
+            "Requirements & PM",
+            "Architecture & Design",
+            "IDEs & Development",
+            "Build Tools",
+            "Code Quality & Security",
+            "Testing & QA",
+            "Performance Testing",
+            "Version Control",
+            "CI/CD & Automation",
+            "Deployment & Containerization",
+            "Post-Prod & Observability",
+            "Security & Compliance"
+        ];
+
+        let selectedPhase = "ALL";
+        let activeSnippet = "";
+
+        // Initialization
+        document.addEventListener('DOMContentLoaded', () => {
+            renderPhasePills();
+            renderTable();
+        });
+
+        // Theme Toggle Logic
+        function toggleTheme() {
+            const html = document.documentElement;
+            const icon = document.getElementById('themeIcon');
+            if (html.classList.contains('dark')) {
+                html.classList.remove('dark');
+                icon.className = 'fas fa-sun';
+            } else {
+                html.classList.add('dark');
+                icon.className = 'fas fa-moon';
+            }
+        }
+
+        // Render Phase Pill Buttons
+        function renderPhasePills() {
+            const container = document.getElementById('phasePills');
+            container.innerHTML = sdlcPhases.map(phase => {
+                const isActive = phase === selectedPhase;
+                const activeClass = isActive 
+                    ? 'bg-brand-600 text-white shadow-md' 
+                    : 'bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 border border-gray-200 dark:border-gray-700';
+                
+                return `
+                    <button onclick="selectPhase('${phase}')" class="px-3 py-1.5 rounded-xl text-xs font-medium transition duration-150 ${activeClass}">
+                        ${phase === 'ALL' ? '🚀 All SDLC Phases' : phase}
+                    </button>
+                `;
+            }).join('');
+        }
+
+        function selectPhase(phase) {
+            selectedPhase = phase;
+            renderPhasePills();
+            renderTable();
+        }
+
+        // Render Data Table
+        function renderTable() {
+            const searchQuery = document.getElementById('searchInput').value.toLowerCase();
+            const licenseFilter = document.getElementById('licenseFilter').value;
+            const tbody = document.getElementById('tableBody');
+            const emptyState = document.getElementById('emptyState');
+
+            const filteredTools = sdlcTools.filter(tool => {
+                const matchesPhase = (selectedPhase === 'ALL') || (tool.phase === selectedPhase);
+                const matchesLicense = (licenseFilter === 'ALL') || (tool.type.toLowerCase().includes(licenseFilter.toLowerCase()));
+                
+                const matchesSearch = 
+                    tool.name.toLowerCase().includes(searchQuery) ||
+                    tool.purpose.toLowerCase().includes(searchQuery) ||
+                    tool.useCase.toLowerCase().includes(searchQuery) ||
+                    tool.category.toLowerCase().includes(searchQuery) ||
+                    tool.phase.toLowerCase().includes(searchQuery);
+
+                return matchesPhase && matchesLicense && matchesSearch;
+            });
+
+            document.getElementById('toolCount').innerText = filteredTools.length;
+
+            if (filteredTools.length === 0) {
+                tbody.innerHTML = '';
+                emptyState.classList.remove('hidden');
+                return;
+            }
+
+            emptyState.classList.add('hidden');
+
+            tbody.innerHTML = filteredTools.map(tool => {
+                // License badge colors
+                let licenseBadgeClass = "bg-emerald-100 text-emerald-800 dark:bg-emerald-950 dark:text-emerald-300 border-emerald-300";
+                if(tool.type.includes('Commercial') && !tool.type.includes('Freemium')) {
+                    licenseBadgeClass = "bg-purple-100 text-purple-800 dark:bg-purple-950 dark:text-purple-300 border-purple-300";
+                } else if(tool.type.includes('Freemium')) {
+                    licenseBadgeClass = "bg-blue-100 text-blue-800 dark:bg-blue-950 dark:text-blue-300 border-blue-300";
+                }
+
+                return `
+                    <tr class="hover:bg-gray-50/80 dark:hover:bg-gray-750/50 transition duration-150 group cursor-pointer" onclick="openModal('${tool.id}')">
+                        <!-- Phase -->
+                        <td class="py-3.5 px-4 font-semibold text-xs text-brand-600 dark:text-brand-400 whitespace-nowrap">
+                            ${tool.phase}
+                        </td>
+
+                        <!-- Tool Name -->
+                        <td class="py-3.5 px-4 font-bold text-gray-900 dark:text-white flex items-center space-x-2.5">
+                            <div class="p-2 bg-gray-100 dark:bg-gray-700 rounded-lg text-brand-600 dark:text-brand-400 group-hover:scale-110 transition">
+                                <i class="fas ${tool.icon}"></i>
+                            </div>
+                            <span class="group-hover:text-brand-600 dark:group-hover:text-brand-400 transition">${tool.name}</span>
+                        </td>
+
+                        <!-- Category -->
+                        <td class="py-3.5 px-4 text-xs text-gray-500 dark:text-gray-400 hidden md:table-cell">
+                            ${tool.category}
+                        </td>
+
+                        <!-- Primary Purpose -->
+                        <td class="py-3.5 px-4 text-xs text-gray-600 dark:text-gray-300 max-w-xs leading-relaxed">
+                            ${tool.purpose}
+                        </td>
+
+                        <!-- Key Java Use Case -->
+                        <td class="py-3.5 px-4 text-xs text-gray-500 dark:text-gray-400 hidden lg:table-cell max-w-xs">
+                            ${tool.useCase}
+                        </td>
+
+                        <!-- Type/License -->
+                        <td class="py-3.5 px-4 whitespace-nowrap">
+                            <span class="px-2.5 py-1 text-[11px] rounded-full border font-medium ${licenseBadgeClass}">
+                                ${tool.type}
+                            </span>
+                        </td>
+
+                        <!-- Action Button -->
+                        <td class="py-3.5 px-4 text-right whitespace-nowrap">
+                            <button onclick="event.stopPropagation(); openModal('${tool.id}')" class="p-1.5 rounded-lg bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-brand-600 hover:text-white transition">
+                                <i class="fas fa-arrow-right text-xs"></i>
+                            </button>
+                        </td>
+                    </tr>
+                `;
+            }).join('');
+        }
+
+        // Filter Reset
+        function resetFilters() {
+            document.getElementById('searchInput').value = '';
+            document.getElementById('licenseFilter').value = 'ALL';
+            selectedPhase = 'ALL';
+            renderPhasePills();
+            renderTable();
+        }
+
+        // Modal Handlers
+        function openModal(toolId) {
+            const tool = sdlcTools.find(t => t.id === toolId);
+            if (!tool) return;
+
+            document.getElementById('modalToolName').innerText = tool.name;
+            document.getElementById('modalPhaseTag').innerText = `${tool.phase} • ${tool.category}`;
+            document.getElementById('modalLicenseBadge').innerText = tool.type;
+            document.getElementById('modalDescription').innerText = tool.purpose;
+            document.getElementById('modalUseCase').innerText = tool.useCase;
+            document.getElementById('modalIcon').className = `fas ${tool.icon}`;
+
+            // Snippet
+            activeSnippet = tool.snippet || "// No code snippet provided.";
+            document.getElementById('modalSnippet').innerText = activeSnippet;
+
+            // Pros & Cons
+            const prosList = document.getElementById('modalPros');
+            prosList.innerHTML = tool.pros.map(p => `<li>${p}</li>`).join('');
+
+            const consList = document.getElementById('modalCons');
+            consList.innerHTML = tool.cons.map(c => `<li>${c}</li>`).join('');
+
+            // Reset copy status button
+            document.getElementById('copyText').innerText = 'Copy Code';
+
+            document.getElementById('toolModal').classList.remove('hidden');
+        }
+
+        function closeModal() {
+            document.getElementById('toolModal').classList.add('hidden');
+        }
+
+        // Copy Code Snippet
+        function copySnippet() {
+            const textArea = document.createElement("textarea");
+            textArea.value = activeSnippet;
+            document.body.appendChild(textArea);
+            textArea.select();
+            try {
+                document.execCommand('copy');
+                document.getElementById('copyText').innerText = 'Copied!';
+                setTimeout(() => {
+                    document.getElementById('copyText').innerText = 'Copy Code';
+                }, 2000);
+            } catch (err) {
+                console.error('Copy failed', err);
+            }
+            document.body.removeChild(textArea);
+        }
+
+        // Export Actions Menu Toggle
+        function toggleExportMenu() {
+            const menu = document.getElementById('exportMenu');
+            menu.classList.toggle('hidden');
+        }
+
+        // Close menu on click outside
+        window.onclick = function(event) {
+            if (!event.target.closest('.relative')) {
+                const menu = document.getElementById('exportMenu');
+                if (menu && !menu.classList.contains('hidden')) {
+                    menu.classList.add('hidden');
+                }
+            }
+        }
+
+        // Export Data to CSV / JSON
+        function exportData(format) {
+            if (format === 'json') {
+                const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(sdlcTools, null, 2));
+                const downloadAnchor = document.createElement('a');
+                downloadAnchor.setAttribute("href", dataStr);
+                downloadAnchor.setAttribute("download", "java_sdlc_tools_matrix.json");
+                document.body.appendChild(downloadAnchor);
+                downloadAnchor.click();
+                downloadAnchor.remove();
+            } else if (format === 'csv') {
+                const headers = ["SDLC Phase", "Category", "Tool Name", "Primary Purpose", "Key Java Use Case", "Type"];
+                const rows = sdlcTools.map(t => [
+                    `"${t.phase}"`,
+                    `"${t.category}"`,
+                    `"${t.name}"`,
+                    `"${t.purpose.replace(/"/g, '""')}"`,
+                    `"${t.useCase.replace(/"/g, '""')}"`,
+                    `"${t.type}"`
+                ]);
+                
+                const csvContent = "data:text/csv;charset=utf-8," + [headers.join(","), ...rows.map(e => e.join(","))].join("\n");
+                const encodedUri = encodeURI(csvContent);
+                const link = document.createElement("a");
+                link.setAttribute("href", encodedUri);
+                link.setAttribute("download", "java_sdlc_tools_matrix.csv");
+                document.body.appendChild(link);
+                link.click();
+                link.remove();
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Code Review Checklist</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PWYCGS4LYK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PWYCGS4LYK');
+</script>
+
+</head>
+<body class="bg-gray-100 min-h-screen text-gray-800 flex flex-col font-sans">
+
+    <!-- Header -->
+    <header class="bg-slate-900 text-white shadow-md">
+        <div class="max-w-7xl mx-auto px-4 py-5 flex flex-col md:flex-row justify-between items-center gap-4">
+            <div>
+                <h1 class="text-2xl font-bold flex items-center gap-3">
+                    <i class="fa-brands fa-java text-orange-500 text-3xl"></i>
+                    Java Code Review Auditor
+                </h1>
+                <p class="text-xs text-gray-400 mt-1">Comprehensive Code Quality, Performance, Security & Architecture Checklist</p>
+            </div>
+            <div class="flex items-center gap-3 bg-slate-800 px-4 py-2 rounded-lg border border-slate-700">
+                <i class="fa-solid fa-chart-line text-emerald-400"></i>
+                <span class="text-sm font-semibold">Review Progress:</span>
+                <span id="progressPercentage" class="text-sm font-bold text-emerald-400">0%</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="max-w-7xl mx-auto px-4 py-6 flex-grow w-full grid grid-cols-1 lg:grid-cols-4 gap-6">
+
+        <!-- Sidebar / Navigation Controls -->
+        <aside class="lg:col-span-1 space-y-4">
+            
+            <!-- Quick Actions -->
+            <div class="bg-white p-4 rounded-xl shadow-sm border border-gray-200">
+                <h2 class="text-xs font-bold text-gray-400 uppercase tracking-wider mb-3">Controls</h2>
+                <div class="space-y-2">
+                    <button onclick="selectAll()" class="w-full bg-slate-100 hover:bg-slate-200 text-slate-700 font-medium py-2 px-3 rounded text-sm transition flex items-center justify-between">
+                        <span>Check All</span>
+                        <i class="fa-solid fa-check-double text-slate-500"></i>
+                    </button>
+                    <button onclick="clearAll()" class="w-full bg-slate-100 hover:bg-slate-200 text-slate-700 font-medium py-2 px-3 rounded text-sm transition flex items-center justify-between">
+                        <span>Reset All</span>
+                        <i class="fa-solid fa-rotate-right text-slate-500"></i>
+                    </button>
+                    <button onclick="generateReport()" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-2 px-3 rounded text-sm transition flex items-center justify-between shadow">
+                        <span>Generate Summary</span>
+                        <i class="fa-solid fa-file-invoice"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Category Navigation -->
+            <div class="bg-white p-4 rounded-xl shadow-sm border border-gray-200">
+                <h2 class="text-xs font-bold text-gray-400 uppercase tracking-wider mb-3">Categories</h2>
+                <nav id="categoryNav" class="space-y-1 text-sm font-medium">
+                    <!-- Nav items injected by JS -->
+                </nav>
+            </div>
+        </aside>
+
+        <!-- Checklist Content Area -->
+        <section class="lg:col-span-3 space-y-6">
+            
+            <!-- Search & Filter Bar -->
+            <div class="bg-white p-4 rounded-xl shadow-sm border border-gray-200 flex flex-col sm:flex-row gap-4 justify-between items-center">
+                <div class="relative w-full sm:w-96">
+                    <i class="fa-solid fa-magnifying-glass absolute left-3 top-3 text-gray-400"></i>
+                    <input type="text" id="searchInput" onkeyup="filterItems()" placeholder="Search review items..." class="w-full pl-9 pr-4 py-2 border rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 border-gray-300">
+                </div>
+                <div class="flex items-center gap-2 text-sm text-gray-500 w-full sm:w-auto justify-end">
+                    <span id="checkedCounter">0 / 0</span> items verified
+                </div>
+            </div>
+
+            <!-- Review Items Container -->
+            <div id="checklistContainer" class="space-y-6">
+                <!-- Checklist groups injected dynamically via JS -->
+            </div>
+
+            <!-- Audit Report Modal Area -->
+            <div id="reportContainer" class="hidden bg-white p-6 rounded-xl shadow-md border border-slate-300 space-y-4">
+                <div class="flex justify-between items-center border-b pb-3">
+                    <h3 class="text-lg font-bold text-slate-800 flex items-center gap-2">
+                        <i class="fa-solid fa-clipboard-check text-indigo-600"></i>
+                        Code Review Audit Report
+                    </h3>
+                    <button onclick="hideReport()" class="text-gray-400 hover:text-gray-600">
+                        <i class="fa-solid fa-xmark text-lg"></i>
+                    </button>
+                </div>
+                <textarea id="reportText" readonly class="w-full h-48 p-3 font-mono text-xs bg-slate-50 border rounded-lg focus:outline-none text-slate-700"></textarea>
+                <div class="flex justify-end gap-2">
+                    <button onclick="copyReport()" class="bg-slate-800 hover:bg-slate-900 text-white text-xs font-semibold px-4 py-2 rounded transition flex items-center gap-2">
+                        <i class="fa-solid fa-copy"></i> Copy to Clipboard
+                    </button>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="bg-slate-900 text-slate-400 text-xs py-4 text-center border-t border-slate-800 mt-auto">
+        <p>Standard Java Code Review Checklist &bull; Enterprise Coding Standards &amp; Guidelines</p>
+    </footer>
+
+    <script>
+        const reviewData = [
+            {
+                id: "code-structure",
+                title: "1. Code Structure & Clean Code (SOLID)",
+                icon: "fa-cubes",
+                items: [
+                    { id: "cs1", text: "SRP Check: Does each class/method have a single, well-defined responsibility?" },
+                    { id: "cs2", text: "OCP & DIP: Are interfaces and abstractions used properly to allow extension without modification?" },
+                    { id: "cs3", text: "DRY Principle: Is duplicate business logic refactored into reusable helper/utility methods?" },
+                    { id: "cs4", text: "Method Length: Are methods concise (preferably < 30 lines) and highly readable?" },
+                    { id: "cs5", text: "Dead Code: Is all unused code, dead variables, and commented-out legacy code removed?" },
+                    { id: "cs6", text: "Magic Values: Are string literals and numeric constants declared as `public static final` or Enums?" }
+                ]
+            },
+            {
+                id: "naming-conventions",
+                title: "2. Naming Conventions & Code Style",
+                icon: "fa-font",
+                items: [
+                    { id: "nc1", text: "Standard Formatting: Follows CamelCase for methods/variables, PascalCase for classes, and UPPER_CASE for constants." },
+                    { id: "nc2", text: "Meaningful Names: Names describe intent clearly (e.g., `calculateTotalOrderAmount()` vs `calc()`)." },
+                    { id: "nc3", text: "Boolean Names: Boolean variables/methods use prefixes like `is`, `has`, `can`, or `should`." },
+                    { id: "nc4", text: "Package Naming: Packages use lowercase, domain-first hierarchy (e.g., `com.company.project.module`)." },
+                    { id: "nc5", text: "Standard Comments: Includes Javadoc for public APIs, complex algorithmic steps, or non-obvious business logic." }
+                ]
+            },
+            {
+                id: "error-handling",
+                title: "3. Exception & Error Handling",
+                icon: "fa-triangle-exclamation",
+                items: [
+                    { id: "eh1", text: "No Empty Catch Blocks: Exceptions are caught and handled or rethrown, never ignored silently." },
+                    { id: "eh2", text: "Specific Exceptions: Catches specific exception types (`IOException`) instead of generic `Exception` or `Throwable`." },
+                    { id: "eh3", text: "Custom Exceptions: Business logic failures wrap standard errors inside domain-specific runtime exceptions." },
+                    { id: "eh4", text: "Resource Cleanup: Utilizes try-with-resources for standard streams, readers, DB connections, and sockets." },
+                    { id: "eh5", text: "Preserved Stack Traces: When rethrowing custom exceptions, the original cause (`ex`) is passed in constructor." }
+                ]
+            },
+            {
+                id: "logging",
+                title: "4. Logging Standards (SLF4J / Log4j)",
+                icon: "fa-file-lines",
+                items: [
+                    { id: "lg1", text: "Framework Check: Uses SLF4J abstraction instead of direct `System.out.println()` or `e.printStackTrace()`." },
+                    { id: "lg2", text: "Correct Log Levels: Employs ERROR for failures, WARN for degraded states, INFO for key flows, DEBUG/TRACE for details." },
+                    { id: "lg3", text: "Parameterized Logging: Uses parameterized placeholders (`log.info(\"User {}\", id)`) instead of string concatenation." },
+                    { id: "lg4", text: "Sensitive Data Masking: Ensures PII, passwords, JWT tokens, credit card details, and secret keys are never logged." }
+                ]
+            },
+            {
+                id: "concurrency",
+                title: "5. Concurrency, Multithreading & Memory",
+                icon: "fa-microchip",
+                items: [
+                    { id: "cc1", text: "Thread Safety: Shared mutable state is guarded using synchronization, locks, or `Atomic` wrappers." },
+                    { id: "cc2", text: "Thread Pools: Uses `ExecutorService` thread pools instead of creating raw `new Thread()` instances." },
+                    { id: "cc3", text: "Immutability: Classes are made immutable where possible (`final` fields, defensive copying for collections/dates)." },
+                    { id: "cc4", text: "ThreadLocal Usage: Ensures `ThreadLocal` storage is cleaned up using `.remove()` inside a `finally` block." },
+                    { id: "cc5", text: "Memory Leaks: Ensures collection references, static listeners, and inner classes do not retain unneeded heap objects." }
+                ]
+            },
+            {
+                id: "performance",
+                title: "6. Performance Optimization & Data Structures",
+                icon: "fa-gauge-high",
+                items: [
+                    { id: "pf1", text: "Collection Choice: Uses correct collections (`ArrayList` vs `LinkedList`, `HashMap` vs `TreeMap`)." },
+                    { id: "pf2", text: "Collection Sizing: Initial capacities set for maps/lists when size can be reasonably estimated." },
+                    { id: "pf3", text: "String Concatenation: Uses `StringBuilder` inside loops instead of string addition operators (`+`)." },
+                    { id: "pf4", text: "Stream API Abuse: Streams are used where clean; legacy loops are preferred if performance/readability demands it." },
+                    { id: "pf5", text: "Lazy Evaluation: Heavy calculations or costly operations are postponed until needed." }
+                ]
+            },
+            {
+                id: "security",
+                title: "7. Security & Input Validation",
+                icon: "fa-shield-halved",
+                items: [
+                    { id: "sc1", text: "Injection Prevention: SQL/JPQL queries use parameterized statements (`PreparedStatement`) to prevent SQL Injection." },
+                    { id: "sc2", text: "Input Sanitization: User input is validated and sanitized against XSS, path traversal, and malicious payloads." },
+                    { id: "sc3", text: "Credentials & Secrets: Passwords, API keys, and certificates are fetched from environment/vaults, not hardcoded." },
+                    { id: "sc4", text: "Secure Serialization: Avoids vulnerable Java native Object Serialization; uses modern JSON/Protobuf implementations." }
+                ]
+            },
+            {
+                id: "unit-testing",
+                title: "8. Unit Testing, Mocking & Coverage",
+                icon: "fa-vial",
+                items: [
+                    { id: "ut1", text: "Test Isolation: Unit tests use Mockito/JUnit and run independently without external infrastructure dependencies." },
+                    { id: "ut2", text: "Edge Cases & Exceptions: Tests cover null inputs, boundary values, empty collections, and expected exceptions." },
+                    { id: "ut3", text: "Meaningful Assertions: Uses precise assertions (`assertEquals`, `assertThat`) with helpful failure messages." },
+                    { id: "ut4", text: "Test Naming: Tests use descriptive names indicating scenario and outcome (`shouldReturnUser_WhenIdIsValid()`)." }
+                ]
+            }
+        ];
+
+        // Initialize state from local storage or defaults
+        let checkedState = JSON.parse(localStorage.getItem('java_review_state')) || {};
+
+        function renderChecklist() {
+            const container = document.getElementById('checklistContainer');
+            const nav = document.getElementById('categoryNav');
+            container.innerHTML = '';
+            nav.innerHTML = '';
+
+            reviewData.forEach((group) => {
+                // Render Nav Link
+                const navLink = document.createElement('a');
+                navLink.href = `#${group.id}`;
+                navLink.className = "block px-3 py-2 rounded text-slate-600 hover:bg-slate-100 transition flex items-center gap-2";
+                navLink.innerHTML = `<i class="fa-solid ${group.icon} text-slate-400 text-xs"></i> <span>${group.title.split('.')[1]}</span>`;
+                nav.appendChild(navLink);
+
+                // Render Checklist Group Card
+                const card = document.createElement('div');
+                card.id = group.id;
+                card.className = "bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden category-card";
+
+                let itemsHtml = group.items.map(item => {
+                    const isChecked = checkedState[item.id] ? 'checked' : '';
+                    return `
+                        <label class="flex items-start gap-3 p-3.5 hover:bg-slate-50 border-b border-gray-100 last:border-none cursor-pointer transition item-label">
+                            <input type="checkbox" id="${item.id}" ${isChecked} onchange="toggleItem('${item.id}')" class="mt-1 h-4 w-4 text-indigo-600 rounded border-gray-300 focus:ring-indigo-500">
+                            <span class="text-sm text-gray-700 leading-relaxed">${item.text}</span>
+                        </label>
+                    `;
+                }).join('');
+
+                card.innerHTML = `
+                    <div class="bg-slate-50 border-b border-gray-200 px-4 py-3 flex items-center justify-between">
+                        <h3 class="font-semibold text-slate-800 text-sm flex items-center gap-2">
+                            <i class="fa-solid ${group.icon} text-indigo-600"></i>
+                            ${group.title}
+                        </h3>
+                    </div>
+                    <div>${itemsHtml}</div>
+                `;
+
+                container.appendChild(card);
+            });
+
+            updateProgress();
+        }
+
+        function toggleItem(id) {
+            const checkbox = document.getElementById(id);
+            checkedState[id] = checkbox.checked;
+            localStorage.setItem('java_review_state', JSON.stringify(checkedState));
+            updateProgress();
+        }
+
+        function selectAll() {
+            reviewData.forEach(group => {
+                group.items.forEach(item => {
+                    checkedState[item.id] = true;
+                    const el = document.getElementById(item.id);
+                    if (el) el.checked = true;
+                });
+            });
+            localStorage.setItem('java_review_state', JSON.stringify(checkedState));
+            updateProgress();
+        }
+
+        function clearAll() {
+            checkedState = {};
+            localStorage.removeItem('java_review_state');
+            reviewData.forEach(group => {
+                group.items.forEach(item => {
+                    const el = document.getElementById(item.id);
+                    if (el) el.checked = false;
+                });
+            });
+            updateProgress();
+            hideReport();
+        }
+
+        function updateProgress() {
+            let total = 0;
+            let checked = 0;
+
+            reviewData.forEach(group => {
+                group.items.forEach(item => {
+                    total++;
+                    if (checkedState[item.id]) checked++;
+                });
+            });
+
+            const percent = total === 0 ? 0 : Math.round((checked / total) * 100);
+            document.getElementById('progressPercentage').innerText = `${percent}%`;
+            document.getElementById('checkedCounter').innerText = `${checked} / ${total}`;
+        }
+
+        function filterItems() {
+            const query = document.getElementById('searchInput').value.toLowerCase();
+            const cards = document.querySelectorAll('.category-card');
+
+            cards.forEach(card => {
+                const labels = card.querySelectorAll('.item-label');
+                let hasVisibleItem = false;
+
+                labels.forEach(label => {
+                    const text = label.textContent.toLowerCase();
+                    if (text.includes(query)) {
+                        label.style.display = "flex";
+                        hasVisibleItem = true;
+                    } else {
+                        label.style.display = "none";
+                    }
+                });
+
+                card.style.display = hasVisibleItem ? "block" : "none";
+            });
+        }
+
+        function generateReport() {
+            let report = "JAVA CODE REVIEW SUMMARY REPORT\n";
+            report += "=================================\n\n";
+
+            reviewData.forEach(group => {
+                report += `${group.title}\n`;
+                group.items.forEach(item => {
+                    const status = checkedState[item.id] ? "[PASSED]" : "[PENDING / ACTION REQUIRED]";
+                    report += `  ${status} ${item.text}\n`;
+                });
+                report += "\n";
+            });
+
+            document.getElementById('reportText').value = report;
+            document.getElementById('reportContainer').classList.remove('hidden');
+            document.getElementById('reportContainer').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function hideReport() {
+            document.getElementById('reportContainer').classList.add('hidden');
+        }
+
+        function copyReport() {
+            const reportText = document.getElementById('reportText');
+            reportText.select();
+            navigator.clipboard.writeText(reportText.value);
+            alert("Review report copied to clipboard!");
+        }
+
+        // Initialize application on page load
+        document.addEventListener('DOMContentLoaded', renderChecklist);
+    </script>
+</body>
+</html>
