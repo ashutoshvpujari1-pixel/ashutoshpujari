@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post-Production Troubleshooting Guide & Toolkit</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: { 50: '#eff6ff', 500: '#3b82f6', 600: '#2563eb', 700: '#1d4ed8', 900: '#1e3a8a' }
+                    }
+                }
+            }
+        }
+    </script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PWYCGS4LYK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PWYCGS4LYK');
+</script>
+
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased min-h-screen flex flex-col">
+
+    <!-- Header -->
+    <header class="bg-slate-900 text-white shadow-md border-b border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:px-8 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+            <div>
+                <span class="text-xs uppercase tracking-wider text-blue-400 font-semibold">Live Operations & Support</span>
+                <h1 class="text-2xl sm:text-3xl font-bold tracking-tight">Post-Production Troubleshooting Dashboard</h1>
+            </div>
+            <div class="flex items-center gap-3">
+                <button onclick="filterContent('all')" class="px-3 py-1.5 text-xs font-medium rounded bg-blue-600 text-white hover:bg-blue-700 transition">All Views</button>
+                <button onclick="filterContent('steps')" class="px-3 py-1.5 text-xs font-medium rounded bg-slate-800 text-slate-300 hover:bg-slate-700 transition">Steps</button>
+                <button onclick="filterContent('tools')" class="px-3 py-1.5 text-xs font-medium rounded bg-slate-800 text-slate-300 hover:bg-slate-700 transition">Tools</button>
+                <button onclick="filterContent('examples')" class="px-3 py-1.5 text-xs font-medium rounded bg-slate-800 text-slate-300 hover:bg-slate-700 transition">Scenarios</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="max-w-7xl mx-auto px-4 py-8 sm:px-6 lg:px-8 flex-grow space-y-12 w-full">
+
+        <!-- SECTION 1: TROUBLESHOOTING STEPS -->
+        <section id="section-steps" class="space-y-6">
+            <div class="border-b border-slate-200 pb-3">
+                <h2 class="text-xl font-bold text-slate-900 flex items-center gap-2">
+                    <span class="w-3 h-3 rounded-full bg-blue-600"></span>
+                    1. Step-by-Step Post-Production Incident Lifecycle
+                </h2>
+                <p class="text-sm text-slate-600 mt-1">Structured workflow from initial alert to post-mortem analysis.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Step 1 -->
+                <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-6 flex flex-col justify-between hover:shadow-md transition">
+                    <div>
+                        <div class="text-xs font-bold text-blue-600 uppercase tracking-wide">Phase 1</div>
+                        <h3 class="text-lg font-semibold text-slate-900 mt-1">Triage & Impact Assessment</h3>
+                        <p class="text-sm text-slate-600 mt-2">Acknowledge automated alerts, assess business impact, establish a dedicated bridge/war room, and assign Incident Commander roles.</p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-slate-100 text-xs font-medium text-slate-500">
+                        Goal: Determine severity & containment strategy.
+                    </div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-6 flex flex-col justify-between hover:shadow-md transition">
+                    <div>
+                        <div class="text-xs font-bold text-blue-600 uppercase tracking-wide">Phase 2</div>
+                        <h3 class="text-lg font-semibold text-slate-900 mt-1">Telemetry & Log Analysis</h3>
+                        <p class="text-sm text-slate-600 mt-2">Inspect APM dashboards for error spikes, latency degradation, and inspect server log streams for stack traces and exception patterns.</p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-slate-100 text-xs font-medium text-slate-500">
+                        Goal: Isolate the failing component or service.
+                    </div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-6 flex flex-col justify-between hover:shadow-md transition">
+                    <div>
+                        <div class="text-xs font-bold text-blue-600 uppercase tracking-wide">Phase 3</div>
+                        <h3 class="text-lg font-semibold text-slate-900 mt-1">Deep Technical Investigation</h3>
+                        <p class="text-sm text-slate-600 mt-2">For Java/Enterprise apps: capture thread dumps (`jstack`), heap dumps (`jmap`), analyze connection pools, and verify external API dependencies.</p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-slate-100 text-xs font-medium text-slate-500">
+                        Goal: Identify exact root cause in code/infra.
+                    </div>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-6 flex flex-col justify-between hover:shadow-md transition">
+                    <div>
+                        <div class="text-xs font-bold text-blue-600 uppercase tracking-wide">Phase 4</div>
+                        <h3 class="text-lg font-semibold text-slate-900 mt-1">Hotfix & Patch Deployment</h3>
+                        <p class="text-sm text-slate-600 mt-2">Develop a targeted code fix or configuration adjustment, perform rapid peer review, validate in staging/pre-prod, and deploy via fast-track pipeline.</p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-slate-100 text-xs font-medium text-slate-500">
+                        Goal: Restore system health safely.
+                    </div>
+                </div>
+
+                <!-- Step 5 -->
+                <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-6 flex flex-col justify-between hover:shadow-md transition">
+                    <div>
+                        <div class="text-xs font-bold text-blue-600 uppercase tracking-wide">Phase 5</div>
+                        <h3 class="text-lg font-semibold text-slate-900 mt-1">Verification & Smoke Testing</h3>
+                        <p class="text-sm text-slate-600 mt-2">Execute targeted smoke tests, monitor real-time error rates, ensure CPU/Memory metrics stabilize, and confirm customer transactions succeed.</p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-slate-100 text-xs font-medium text-slate-500">
+                        Goal: Validate resolution in production.
+                    </div>
+                </div>
+
+                <!-- Step 6 -->
+                <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-6 flex flex-col justify-between hover:shadow-md transition">
+                    <div>
+                        <div class="text-xs font-bold text-blue-600 uppercase tracking-wide">Phase 6</div>
+                        <h3 class="text-lg font-semibold text-slate-900 mt-1">Post-Mortem & Prevention</h3>
+                        <p class="text-sm text-slate-600 mt-2">Conduct blameless post-mortem, document timeline, perform 5-Whys analysis, and create technical backlog tickets to prevent recurrence.</p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-slate-100 text-xs font-medium text-slate-500">
+                        Goal: Continuous system resilience.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 2: ESSENTIAL TOOLS -->
+        <section id="section-tools" class="space-y-6">
+            <div class="border-b border-slate-200 pb-3">
+                <h2 class="text-xl font-bold text-slate-900 flex items-center gap-2">
+                    <span class="w-3 h-3 rounded-full bg-blue-600"></span>
+                    2. Essential Troubleshooting Tool Stack
+                </h2>
+                <p class="text-sm text-slate-600 mt-1">Industry-standard tools categorized by diagnostic function.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- APM & Monitoring -->
+                <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-5 space-y-3">
+                    <h3 class="font-semibold text-slate-900 text-base">APM & Monitoring</h3>
+                    <ul class="text-sm text-slate-600 space-y-2">
+                        <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-blue-500"></span> Datadog / New Relic</li>
+                        <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-blue-500"></span> Dynatrace</li>
+                        <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-blue-500"></span> Prometheus & Grafana</li>
+                    </ul>
+                </div>
+
+                <!-- Logging & Aggregation -->
+                <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-5 space-y-3">
+                    <h3 class="font-semibold text-slate-900 text-base">Logging & Aggregation</h3>
+                    <ul class="text-sm text-slate-600 space-y-2">
+                        <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-blue-500"></span> ELK Stack (Elasticsearch, Kibana)</li>
+                        <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-blue-500"></span> Splunk</li>
+                        <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-blue-500"></span> Log4j2 & SLF4J Frameworks</li>
+                    </ul>
+                </div>
+
+                <!-- JVM & Code Diagnostics -->
+                <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-5 space-y-3">
+                    <h3 class="font-semibold text-slate-900 text-base">JVM & Diagnostics</h3>
+                    <ul class="text-sm text-slate-600 space-y-2">
+                        <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-blue-500"></span> `jstack` & `jmap` (JDK Utils)</li>
+                        <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-blue-500"></span> Eclipse Memory Analyzer (MAT)</li>
+                        <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-blue-500"></span> VisualVM / JConsole</li>
+                    </ul>
+                </div>
+
+                <!-- Database & Network -->
+                <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-5 space-y-3">
+                    <h3 class="font-semibold text-slate-900 text-base">Database & Network</h3>
+                    <ul class="text-sm text-slate-600 space-y-2">
+                        <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-blue-500"></span> DBeaver / pgAdmin</li>
+                        <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-blue-500"></span> Postman / cURL</li>
+                        <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-blue-500"></span> Wireshark / tcpdump</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: PRACTICAL SCENARIOS & COMMANDS -->
+        <section id="section-examples" class="space-y-6">
+            <div class="border-b border-slate-200 pb-3">
+                <h2 class="text-xl font-bold text-slate-900 flex items-center gap-2">
+                    <span class="w-3 h-3 rounded-full bg-blue-600"></span>
+                    3. Practical Examples & Diagnostic Commands
+                </h2>
+                <p class="text-sm text-slate-600 mt-1">Real-world enterprise troubleshooting scenarios with remediation paths.</p>
+            </div>
+
+            <div class="space-y-4">
+                <!-- Scenario 1 -->
+                <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-6 space-y-4">
+                    <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2">
+                        <h3 class="text-lg font-semibold text-slate-900">Scenario A: Java OutOfMemoryError (Heap Space)</h3>
+                        <span class="px-2.5 py-1 text-xs font-semibold bg-red-100 text-red-700 rounded-full">Critical Severity</span>
+                    </div>
+                    <p class="text-sm text-slate-600">Production JVM crashes unexpectedly with `java.lang.OutOfMemoryError: Java heap space` during peak batch reporting jobs.</p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
+                        <div class="bg-slate-50 p-4 rounded-lg border border-slate-200 space-y-2">
+                            <h4 class="text-xs font-bold text-slate-700 uppercase">Diagnostic Command</h4>
+                            <div class="relative bg-slate-900 text-slate-200 p-3 rounded font-mono text-xs overflow-x-auto">
+                                <button onclick="copyCode(this)" class="absolute top-2 right-2 px-2 py-1 bg-slate-800 text-slate-300 rounded hover:bg-slate-700 text-[10px]">Copy</button>
+                                <code>jmap -dump:live,format=b,file=heap_dump.hprof &lt;pid&gt;</code>
+                            </div>
+                        </div>
+                        <div class="bg-slate-50 p-4 rounded-lg border border-slate-200 space-y-2">
+                            <h4 class="text-xs font-bold text-slate-700 uppercase">Resolution & Prevention</h4>
+                            <p class="text-xs text-slate-600 leading-relaxed">Analyze `.hprof` using Eclipse MAT to identify leaking object retention trees. Implement pagination or streaming (`Cursor` / `Stream`) for large result sets instead of loading entire tables into memory.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Scenario 2 -->
+                <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-6 space-y-4">
+                    <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2">
+                        <h3 class="text-lg font-semibold text-slate-900">Scenario B: Database Connection Pool Exhaustion (HikariCP)</h3>
+                        <span class="px-2.5 py-1 text-xs font-semibold bg-amber-100 text-amber-700 rounded-full">High Severity</span>
+                    </div>
+                    <p class="text-sm text-slate-600">API endpoints return HTTP 500 errors with `HikariPool - Connection is not available, request timed out after 30000ms`.</p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
+                        <div class="bg-slate-50 p-4 rounded-lg border border-slate-200 space-y-2">
+                            <h4 class="text-xs font-bold text-slate-700 uppercase">Diagnostic Command / Query</h4>
+                            <div class="relative bg-slate-900 text-slate-200 p-3 rounded font-mono text-xs overflow-x-auto">
+                                <button onclick="copyCode(this)" class="absolute top-2 right-2 px-2 py-1 bg-slate-800 text-slate-300 rounded hover:bg-slate-700 text-[10px]">Copy</button>
+                                <code>SELECT pid, usename, query, state, age(clock_timestamp(), query_start) FROM pg_stat_activity WHERE state != 'idle';</code>
+                            </div>
+                        </div>
+                        <div class="bg-slate-50 p-4 rounded-lg border border-slate-200 space-y-2">
+                            <h4 class="text-xs font-bold text-slate-700 uppercase">Resolution & Prevention</h4>
+                            <p class="text-xs text-slate-600 leading-relaxed">Check for unclosed connections or missing `try-with-resources` blocks in DAO layers. Tune pool size (`maximumPoolSize`) matching database server max connections and query timeout limits.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-slate-200 mt-16 py-6 text-center text-xs text-slate-500">
+        Post-Production Troubleshooting Assistant &bull; Built for Enterprise Software Operations
+    </footer>
+
+    <!-- JavaScript Interactions -->
+    <script>
+        function filterContent(view) {
+            const stepsSec = document.getElementById('section-steps');
+            const toolsSec = document.getElementById('section-tools');
+            const examplesSec = document.getElementById('section-examples');
+
+            if (view === 'all') {
+                stepsSec.style.display = 'block';
+                toolsSec.style.display = 'block';
+                examplesSec.style.display = 'block';
+            } else if (view === 'steps') {
+                stepsSec.style.display = 'block';
+                toolsSec.style.display = 'none';
+                examplesSec.style.display = 'none';
+            } else if (view === 'tools') {
+                stepsSec.style.display = 'none';
+                toolsSec.style.display = 'block';
+                examplesSec.style.display = 'none';
+            } else if (view === 'examples') {
+                stepsSec.style.display = 'none';
+                toolsSec.style.display = 'none';
+                examplesSec.style.display = 'block';
+            }
+        }
+
+        function copyCode(btn) {
+            const codeEl = btn.nextElementSibling;
+            navigator.clipboard.writeText(codeEl.innerText).then(() => {
+                const originalText = btn.innerText;
+                btn.innerText = 'Copied!';
+                setTimeout(() => {
+                    btn.innerText = originalText;
+                }, 2000);
+            });
+        }
+    </script>
+</body>
+</html>
