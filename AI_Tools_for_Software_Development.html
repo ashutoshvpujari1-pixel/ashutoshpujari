@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Curated directory of AI tools for software development, coding, debugging, testing, code review, DevOps and documentation.">
+<meta name="keywords" content="AI coding tools, AI developer tools, code assistants, AI debugging, software development AI">
+<meta property="og:title" content="AI Tools for Software Development">
+<meta property="og:description" content="Explore AI tools used across the software development lifecycle.">
+<meta property="og:type" content="website">
+<title>AI Tools for Software Development | Developer Directory</title>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PWYCGS4LYK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PWYCGS4LYK');
+</script>
+
+
+
+<style>
+:root{--bg:#f5f7fb;--panel:#fff;--text:#172033;--muted:#65718a;--line:#e2e8f0;--brand:#315efb;--brand2:#7248e8;--chip:#edf2ff;--shadow:0 12px 35px rgba(25,40,75,.08)}
+[data-theme="dark"]{--bg:#101522;--panel:#192235;--text:#edf2ff;--muted:#a9b4c9;--line:#2d3a52;--brand:#8ba4ff;--brand2:#b59aff;--chip:#263451;--shadow:0 12px 35px rgba(0,0,0,.22)}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.55 Inter,Segoe UI,Arial,sans-serif}
+header{background:linear-gradient(120deg,#172554,#334fc5 58%,#7248e8);color:white;padding:44px 20px 36px}
+.hero{max-width:1180px;margin:auto}.eyebrow{text-transform:uppercase;letter-spacing:.14em;font-size:12px;font-weight:800;opacity:.8}
+h1{font-size:clamp(30px,5vw,48px);line-height:1.1;margin:12px 0}.hero p{max-width:760px;color:#e1e8ff;margin:0}
+main{max-width:1180px;margin:24px auto;padding:0 18px 55px}
+.toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;background:var(--panel);padding:14px;border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow);position:sticky;top:8px;z-index:5}
+input,select,button{font:inherit;border-radius:10px;border:1px solid var(--line);padding:11px 13px;background:var(--panel);color:var(--text)}
+input{flex:1;min-width:190px}select{min-width:180px}button{cursor:pointer;font-weight:700}button.primary{background:var(--brand);color:white;border-color:var(--brand)}button:hover,.tool a:hover{filter:brightness(.95)}
+.stats{display:flex;gap:12px;flex-wrap:wrap;margin:20px 0}.stat{background:var(--panel);border:1px solid var(--line);padding:10px 14px;border-radius:12px;color:var(--muted)}.stat b{color:var(--text);font-size:20px;margin-right:5px}
+.section-head{display:flex;justify-content:space-between;align-items:end;gap:12px;margin:28px 0 12px}.section-head h2{margin:0;font-size:23px}.section-head p{margin:3px 0 0;color:var(--muted);font-size:14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px}
+.tool{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:17px;box-shadow:var(--shadow);display:flex;flex-direction:column;min-height:225px}
+.tool-top{display:flex;justify-content:space-between;gap:10px;align-items:start}.logo{width:42px;height:42px;border-radius:12px;background:var(--chip);display:grid;place-items:center;font-size:21px;font-weight:800;color:var(--brand)}
+.tool h3{margin:12px 0 5px;font-size:18px}.tool p{margin:0;color:var(--muted);font-size:14px;flex:1}.tag{font-size:11px;background:var(--chip);color:var(--brand);padding:4px 8px;border-radius:30px;white-space:nowrap}
+.tool-foot{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-top:15px}.tool a{color:var(--brand);font-weight:750;text-decoration:none}.tool small{color:var(--muted)}
+.empty{padding:40px;text-align:center;color:var(--muted);background:var(--panel);border:1px dashed var(--line);border-radius:16px;display:none}
+.note{margin-top:25px;padding:17px;border:1px solid var(--line);border-radius:14px;background:var(--panel);color:var(--muted);font-size:13px}
+footer{text-align:center;color:var(--muted);padding:22px;border-top:1px solid var(--line);font-size:13px}
+@media(max-width:650px){header{padding:34px 18px}.toolbar{position:static}.toolbar>*{width:100%}.section-head{display:block}}
+</style>
+</head>
+<body>
+<header><div class="hero"><div class="eyebrow">Developer productivity • AI directory</div><h1>AI Tools for Software Development</h1><p>A practical directory of AI-powered tools that help developers plan, write, understand, debug, test, review, document and deploy software. Search by product or filter by development activity.</p></div></header>
+<main>
+<div class="toolbar">
+<input id="search" type="search" placeholder="Search tools, features or keywords…" aria-label="Search tools">
+<select id="category" aria-label="Filter by category"><option value="all">All categories</option></select>
+<select id="sort" aria-label="Sort tools"><option value="name">Sort: A–Z</option><option value="category">Sort: Category</option></select>
+<button id="reset">Reset</button><button id="theme" class="primary">Dark mode</button>
+</div>
+<div class="stats"><div class="stat"><b id="count">0</b> tools listed</div><div class="stat"><b id="categories">0</b> categories</div><div class="stat">Official product links</div></div>
+<div class="section-head"><div><h2>Explore developer AI tools</h2><p id="resultText">Browse the directory.</p></div></div>
+<div id="grid" class="grid"></div><div id="empty" class="empty">No tools match your search. Try another keyword or category.</div>
+<div class="note"><b>Selection guidance:</b> These products have different strengths, pricing and deployment models. Some are IDE extensions, some are standalone editors or cloud platforms, and others focus on testing, security or operations. Verify current plans, data-retention terms, supported languages and enterprise controls before adopting a tool for proprietary code. This directory is a starting point, not an endorsement or ranking.</div>
+</main>
+<footer>AI Tools for Software Development • Curated directory • Links open official product websites</footer>
+<script>
+const tools = [
+{name:"GitHub Copilot",cat:"AI coding assistants",desc:"AI pair programmer for code completion, chat, edits, agentic workflows and pull-request assistance across supported IDEs.",url:"https://github.com/features/copilot",tags:"autocomplete pair programming github ide"},
+{name:"Cursor",cat:"AI code editors",desc:"AI-first code editor with codebase understanding, chat, multi-file edits and agent workflows.",url:"https://cursor.com/",tags:"editor ide agent codebase"},
+{name:"Windsurf",cat:"AI code editors",desc:"AI-powered development environment with Cascade agentic assistance and contextual code editing.",url:"https://windsurf.com/",tags:"editor ide agent cascade"},
+{name:"Claude",cat:"AI coding assistants",desc:"General-purpose AI assistant used for code generation, explanation, refactoring, debugging and architecture discussions.",url:"https://claude.ai/",tags:"anthropic reasoning coding"},
+{name:"ChatGPT",cat:"AI coding assistants",desc:"AI assistant for generating and explaining code, debugging, design discussions, test ideas and technical documentation.",url:"https://chatgpt.com/",tags:"openai code explain debug"},
+{name:"Gemini Code Assist",cat:"AI coding assistants",desc:"Google's coding assistant for IDE-based code completion, chat, generation and help with development tasks.",url:"https://codeassist.google/",tags:"google ide cloud"},
+{name:"Amazon Q Developer",cat:"AI coding assistants",desc:"AWS-focused developer assistant for code suggestions, transformation, troubleshooting and cloud development.",url:"https://aws.amazon.com/q/developer/",tags:"aws cloud code"},
+{name:"JetBrains AI Assistant",cat:"AI coding assistants",desc:"AI features integrated into JetBrains IDEs for code generation, explanations, tests and documentation.",url:"https://www.jetbrains.com/ai/",tags:"intellij idea pycharm ide"},
+{name:"Tabnine",cat:"AI coding assistants",desc:"AI code assistant with code completion and enterprise-oriented privacy and deployment options.",url:"https://www.tabnine.com/",tags:"autocomplete enterprise privacy"},
+{name:"Sourcegraph Cody",cat:"AI coding assistants",desc:"AI coding assistant designed to use codebase context to answer questions and help implement changes.",url:"https://sourcegraph.com/cody",tags:"codebase context search"},
+{name:"Continue",cat:"AI coding assistants",desc:"Open-source AI code assistant framework for IDEs, configurable with different models and providers.",url:"https://www.continue.dev/",tags:"open source vscode jetbrains models"},
+{name:"Aider",cat:"AI coding assistants",desc:"Terminal-based AI pair programming tool that works with a local Git repository and edits code through chat.",url:"https://aider.chat/",tags:"terminal git pair programming"},
+{name:"Cline",cat:"AI coding assistants",desc:"Open-source autonomous coding agent extension for VS Code that can inspect files and execute development tasks with approval.",url:"https://cline.bot/",tags:"vscode agent open source"},
+{name:"Roo Code",cat:"AI coding assistants",desc:"VS Code coding agent for planning, coding, debugging and tool-assisted development workflows.",url:"https://roocode.com/",tags:"vscode agent"},
+{name:"Replit Agent",cat:"AI app builders",desc:"Build and iterate on applications using natural-language instructions in Replit's hosted development environment.",url:"https://replit.com/ai",tags:"app builder cloud prototype"},
+{name:"Bolt.new",cat:"AI app builders",desc:"Browser-based AI builder for creating and iterating on full-stack web applications from prompts.",url:"https://bolt.new/",tags:"stackblitz web app full stack"},
+{name:"Lovable",cat:"AI app builders",desc:"Prompt-driven platform for building web applications, with code and integrations for product prototyping.",url:"https://lovable.dev/",tags:"web app prototype"},
+{name:"v0",cat:"AI app builders",desc:"AI interface and application generator, especially useful for producing React and frontend UI starting points.",url:"https://v0.app/",tags:"vercel frontend react ui"},
+{name:"Figma Make",cat:"AI app builders",desc:"AI-assisted way to turn ideas and designs into interactive prototypes and web experiences within Figma.",url:"https://www.figma.com/make/",tags:"figma prototype design"},
+{name:"Devin",cat:"AI software engineering agents",desc:"AI software engineering agent intended to take on multi-step coding tasks in a managed environment.",url:"https://devin.ai/",tags:"agent autonomous engineering"},
+{name:"OpenAI Codex",cat:"AI software engineering agents",desc:"Cloud-based coding agent for delegating software engineering tasks and reviewing generated changes.",url:"https://openai.com/codex/",tags:"agent openai coding"},
+{name:"Google Jules",cat:"AI software engineering agents",desc:"Asynchronous AI coding agent that can work on repository tasks and propose code changes.",url:"https://jules.google/",tags:"google agent github"},
+{name:"SWE-agent",cat:"AI software engineering agents",desc:"Open-source research agent that attempts software engineering tasks by interacting with repositories and tools.",url:"https://swe-agent.com/",tags:"open source research github"},
+{name:"Qodo",cat:"Code review and quality",desc:"AI-driven code review and quality platform for understanding changes, identifying issues and improving code reliability.",url:"https://www.qodo.ai/",tags:"code review quality"},
+{name:"CodeRabbit",cat:"Code review and quality",desc:"AI code review assistant that provides contextual feedback on pull requests and proposed changes.",url:"https://www.coderabbit.ai/",tags:"pull request github review"},
+{name:"Greptile",cat:"Code review and quality",desc:"AI code review and codebase understanding platform for reviewing pull requests with repository context.",url:"https://www.greptile.com/",tags:"review codebase"},
+{name:"SonarQube",cat:"Code review and quality",desc:"Static analysis platform for detecting bugs, vulnerabilities and maintainability issues; includes AI-related code quality capabilities.",url:"https://www.sonarsource.com/products/sonarqube/",tags:"static analysis quality security"},
+{name:"Snyk",cat:"Security and vulnerability analysis",desc:"Developer security platform for finding and fixing vulnerabilities in code, open-source dependencies, containers and infrastructure.",url:"https://snyk.io/",tags:"security dependency vulnerability"},
+{name:"GitHub Advanced Security",cat:"Security and vulnerability analysis",desc:"Code security capabilities including code scanning, secret scanning and dependency review in GitHub workflows.",url:"https://github.com/security/advanced-security",tags:"github secret scanning sast"},
+{name:"Semgrep",cat:"Security and vulnerability analysis",desc:"Static analysis and application security tooling with rules and AI-assisted security workflows.",url:"https://semgrep.dev/",tags:"sast security scan"},
+{name:"Amazon Inspector",cat:"Security and vulnerability analysis",desc:"AWS vulnerability management service for workloads and software dependencies in AWS environments.",url:"https://aws.amazon.com/inspector/",tags:"aws vulnerability cloud"},
+{name:"Diffblue Cover",cat:"Testing and test generation",desc:"AI-powered Java unit-test generation tool designed to help increase automated test coverage.",url:"https://www.diffblue.com/",tags:"java junit unit test"},
+{name:"Qodo",cat:"Testing and test generation",desc:"Includes AI-assisted test generation and quality workflows to help developers create and maintain tests.",url:"https://www.qodo.ai/",tags:"test generation unit tests"},
+{name:"Mabl",cat:"Testing and test generation",desc:"AI-native test automation platform for web applications, API testing and end-to-end quality workflows.",url:"https://www.mabl.com/",tags:"test automation end to end api"},
+{name:"Testim",cat:"Testing and test generation",desc:"AI-assisted test automation for creating and maintaining reliable web and mobile tests.",url:"https://www.testim.io/",tags:"automation web mobile"},
+{name:"Postman",cat:"API development and testing",desc:"API platform with AI capabilities to help create, document, test and collaborate on APIs.",url:"https://www.postman.com/",tags:"api rest testing documentation"},
+{name:"Swagger / SwaggerHub",cat:"API development and testing",desc:"API design and documentation tooling; useful alongside AI assistants for OpenAPI specification workflows.",url:"https://swagger.io/",tags:"openapi rest api"},
+{name:"Mintlify",cat:"Documentation and knowledge",desc:"Documentation platform with AI-assisted documentation authoring and an AI assistant for developer docs.",url:"https://mintlify.com/",tags:"docs developer documentation"},
+{name:"Swimm",cat:"Documentation and knowledge",desc:"Code-coupled documentation platform with AI assistance to help create and maintain technical knowledge.",url:"https://swimm.io/",tags:"code documentation knowledge"},
+{name:"Pieces",cat:"Documentation and knowledge",desc:"Developer productivity workspace that captures, organizes and uses context from code snippets and workflows.",url:"https://pieces.app/",tags:"snippets context productivity"},
+{name:"Warp",cat:"Terminal and command-line",desc:"Modern terminal with AI command assistance, command explanations and developer workflow features.",url:"https://www.warp.dev/",tags:"terminal cli shell"},
+{name:"Fig",cat:"Terminal and command-line",desc:"Terminal autocomplete and command-line productivity project; check current product status and supported environments.",url:"https://fig.io/",tags:"autocomplete terminal cli"},
+{name:"Mint",cat:"DevOps and infrastructure",desc:"AI-assisted infrastructure-as-code and cloud workflow tooling; useful for exploring and managing infrastructure definitions.",url:"https://www.mint.dev/",tags:"infrastructure cloud iac"},
+{name:"Pulumi AI",cat:"DevOps and infrastructure",desc:"AI assistance for generating and understanding infrastructure-as-code with Pulumi.",url:"https://www.pulumi.com/ai/",tags:"iac cloud devops"},
+{name:"Datadog Bits AI",cat:"Monitoring and operations",desc:"AI assistant capabilities for investigating telemetry, incidents and operational questions in Datadog.",url:"https://www.datadoghq.com/product/bits-ai/",tags:"observability monitoring incident"},
+{name:"Dynatrace Davis AI",cat:"Monitoring and operations",desc:"AI-powered observability and automation capabilities for analyzing application and infrastructure operations.",url:"https://www.dynatrace.com/platform/davis-ai/",tags:"observability AIOps monitoring"},
+{name:"New Relic AI",cat:"Monitoring and operations",desc:"AI capabilities for querying telemetry, troubleshooting and understanding application performance.",url:"https://newrelic.com/platform/ai",tags:"apm observability"},
+{name:"LangChain",cat:"AI application development",desc:"Framework ecosystem for building applications and agents powered by language models and connected tools.",url:"https://www.langchain.com/",tags:"llm agents rag framework"},
+{name:"LlamaIndex",cat:"AI application development",desc:"Framework for building context-augmented LLM applications, retrieval-augmented generation and data-connected agents.",url:"https://www.llamaindex.ai/",tags:"rag data agents"},
+{name:"Dify",cat:"AI application development",desc:"Open-source platform for building, deploying and operating LLM applications and agent workflows.",url:"https://dify.ai/",tags:"open source llm workflow"},
+{name:"n8n",cat:"AI application development",desc:"Workflow automation platform with AI and agent integrations for connecting developer tools and services.",url:"https://n8n.io/",tags:"automation agent workflow"},
+{name:"Ollama",cat:"AI models and infrastructure",desc:"Run supported open models locally and expose them through a local API for development and experimentation.",url:"https://ollama.com/",tags:"local llm models api"},
+{name:"Hugging Face",cat:"AI models and infrastructure",desc:"Platform for discovering models and datasets and building machine-learning applications and demos.",url:"https://huggingface.co/",tags:"models datasets transformers"},
+{name:"OpenAI API",cat:"AI models and infrastructure",desc:"API platform for integrating language, vision, audio and other model capabilities into software applications.",url:"https://platform.openai.com/",tags:"api models sdk"},
+{name:"Google AI Studio",cat:"AI models and infrastructure",desc:"Web-based environment for experimenting with Google's generative AI models and obtaining API access.",url:"https://aistudio.google.com/",tags:"gemini api prototyping"},
+{name:"Anthropic API",cat:"AI models and infrastructure",desc:"API platform for integrating Claude models into applications and developer workflows.",url:"https://console.anthropic.com/",tags:"claude api models"}
+];
+const $=s=>document.querySelector(s), grid=$("#grid"), category=$("#category");
+const cats=[...new Set(tools.map(t=>t.cat))].sort();
+cats.forEach(c=>{const o=document.createElement("option");o.value=c;o.textContent=c;category.append(o)});
+function render(){
+ const q=$("#search").value.toLowerCase().trim(), c=category.value, sort=$("#sort").value;
+ let list=tools.filter(t=>(c==="all"||t.cat===c)&&[t.name,t.cat,t.desc,t.tags].join(" ").toLowerCase().includes(q));
+ list.sort((a,b)=>sort==="category"?a.cat.localeCompare(b.cat)||a.name.localeCompare(b.name):a.name.localeCompare(b.name));
+ grid.innerHTML="";
+ list.forEach(t=>{
+  const card=document.createElement("article");card.className="tool";
+  const initial=t.name.replace(/[^A-Za-z0-9]/g,"").slice(0,1).toUpperCase();
+  card.innerHTML=`<div class="tool-top"><div class="logo" aria-hidden="true">${initial}</div><span class="tag"></span></div><h3></h3><p></p><div class="tool-foot"><a target="_blank" rel="noopener noreferrer">Official website ↗</a><small></small></div>`;
+  card.querySelector(".tag").textContent=t.cat;card.querySelector("h3").textContent=t.name;card.querySelector("p").textContent=t.desc;
+  const a=card.querySelector("a");a.href=t.url;card.querySelector("small").textContent="Product site";
+  grid.append(card);
+ });
+ $("#count").textContent=list.length;$("#categories").textContent=cats.length;
+ $("#resultText").textContent=`Showing ${list.length} of ${tools.length} tools across ${cats.length} categories.`;
+ $("#empty").style.display=list.length?"none":"block";
+}
+$("#search").addEventListener("input",render);category.addEventListener("change",render);$("#sort").addEventListener("change",render);
+$("#reset").addEventListener("click",()=>{$("#search").value="";category.value="all";$("#sort").value="name";render()});
+$("#theme").addEventListener("click",()=>{const dark=document.documentElement.dataset.theme!=="dark";document.documentElement.dataset.theme=dark?"dark":"light";$("#theme").textContent=dark?"Light mode":"Dark mode"});
+render();
+</script>
+</body></html>
